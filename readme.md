@@ -25,14 +25,14 @@
 This virtual pinball table started as a project in Dec 2025. Parts were first ordered then for the cabinet.
 
 ---
-## 2. Components
+# 2. Components
 
-### 3. Cabinet
+# 3. Cabinet
 The cabinet used for the build was a [Tukkari Widebody Virtual Pinball Cabinet](https://www.tukkari.com/p/widebody-virtual-pinball-cabinet-vpin-flat-pack-kit) flat pack.
 
 ![cabinet](images/Tukkari-widebody-cabinet.png)
 
-#### 4. Parts
+# 4. Parts
 | Date ordered | Part |
 |---|---|
 | Jan 3, 2026 | [Tukkari Widebody Virtual Pinball Cabinet with optional black-powder coated siderails and lockdown bar](https://www.tukkari.com/p/widebody-virtual-pinball-cabinet-vpin-flat-pack-kit) |
@@ -43,7 +43,7 @@ The cabinet used for the build was a [Tukkari Widebody Virtual Pinball Cabinet](
 |  Feb 12, 2026 | ['Snap-On Happy Sliders™ For Carpeting - Set of 4](https://www.pinballlife.com/snap-in-leg-leveler-slider.html) |
 |  Feb 12, 2026 | [Metal Cabinet Protectors (set of 4)](https://www.pinballlife.com/metal-cabinet-protectors-set-of-4.html) |
 
-### 5. Construction
+# 5. Construction
 
 | | | |
 | :---: | :---: | :---: |
@@ -132,7 +132,7 @@ The cabinet used for the build was a [Tukkari Widebody Virtual Pinball Cabinet](
 
 
 ---
-### 6. PC
+# 6. PC
 The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specification)) is a repurposed computer with a new high end graphics card and a higher-powered power supply added. The motherboard was removed from its PC case and put into an open chassis since the fans are installed into the pinball cabinet itself.
 - Operating System: Windows 11 Home 64-bit
 - CPU: Intel Core i7 8700 @ 3.20GHz, Coffee Lake 14nm Technology
@@ -149,7 +149,7 @@ The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specificat
 | Feb 21, 2026 | [AL01 Open Frame Computer case ](https://www.amazon.com/dp/B0C59W6JKD) |
 
 ---
-### 7. Cabinet electronics
+# 7. Cabinet electronics
 #### [Cleveland Software Designs Virtual Pinball Builders Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit)
 As the main controller, the Cleveland Software Designs PinOne is used along with its accessories. The virtual pinball builders kit includes this controller along with its accessories. It includes the following: 
 - [PinOne Controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/pinone-main-virtual-pinball-connection-board)
@@ -171,9 +171,10 @@ As the main controller, the Cleveland Software Designs PinOne is used along with
 |---|---|
 | Feb 20, 2026 | [Virtual Pinball Builders Kit (medium/large) from Cleveland Software Designs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
 
-### 8. Audio subsystem
+# 8. Audio subsystem
 
-For the audio subsystem, the [Cleveland Software Designs SSF Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-power-ssf-kit) is used. It includes the following: 
+ ## [Cleveland Software Designs SSF Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-power-ssf-kit) 
+ For the audio subsystem, the Cleveland Software Designs SSF Kit is used. It includes the following: 
 - [Amplifier](https://www.clevelandsoftwaredesign.com/pinball-parts/p/ssf-extra-amplifier)
 - [Bass shaker](https://www.clevelandsoftwaredesign.com/pinball-parts/p/bass-shaker-speaker)
 - [4x Exciter speakers](https://www.clevelandsoftwaredesign.com/pinball-parts/p/replacement-exciter-speaker)
@@ -182,73 +183,73 @@ For the audio subsystem, the [Cleveland Software Designs SSF Kit](https://www.cl
 |---|---|
 | Feb 20, 2026 | [Cleveland Software Designs SSF Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-power-ssf-kit) |
 
-#### Backbox speakers
+## Backbox speakers
 | Date ordered | Part |
 |---|---|
 | Feb 21, 2026 | [Pioneer TS-501M 5.25" 4-Way Coaxial Car Speakers](https://www.amazon.com/dp/B0DYLCVGQ7) |
 
-#### Subwoofer
+## Subwoofer
 | Date ordered | Part |
 |---|---|
 | Feb 27, 2026 | [Skar Audio EVL-65 D4 6.5" 400 Watt Max Power Dual 4 Ohm Car Subwoofer](https://www.amazon.com/dp/B019WYPLIA) |
 
-### 9. Video subsystem
+# 9. Video subsystem
 
-##### Playfield monitor
+## Playfield monitor
 | Date ordered | Part |
 |---|---|
 | Dec 13, 2025 | [LG 42-Inch Class 4K OLED C4 TV from Amazon](https://www.amazon.com/dp/B0CVRXN6XZ?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 | Dec 15, 2025 | [4K DisplayPort to HDMI Cable 6.6FT from Amazon](https://www.amazon.com/dp/B0B2PN4LRW?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 | Dec 25, 2025 | [Highwings 8K@60 HDMI Cable 10FT](https://www.amazon.com/dp/B08KSY32VR?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
-##### Backfield monitor
+## Backfield monitor
 | Date ordered | Part |
 |---|---|
 | Dec 18, 2025 | [Samsung 32-Inch Odyssey G3 (G30D) Series FHD Gaming Monitor](https://www.amazon.com/dp/B0D5Z565D5?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
-##### DMD monitor
+## DMD monitor
 | Date ordered | Part |
 |---|---|
 | Dec 18, 2025 | [KYY Portable Monitor 15.6" 1080P Computer Monitor](https://www.amazon.com/dp/B088D8JG3L?ref=ppx_yo2ov_dt_b_fed_asin_titlehttps://www.amazon.com/dp/B088D8JG3L?ref=ppx_yo2ov_dt_b_fed_asin_titlehttps://www.amazon.com/dp/B088D8JG3L?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
-### 10. Miscellaneous
-#### Knocker
+# 10. Miscellaneous
+## Knocker
 | Date ordered | Part |
 |---|---|
 | May 4, 2026 | [Cleveland Software Designs 12v to 24v knocker circuit conversion kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/12v-to-24v-knocker-circuit-conversion-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
 | July 2026 | Installed |
 
-#### Coin door adapter
+## Coin door adapter
 | Date ordered | Part |
 |---|---|
 | Feb 22, 2026 | [Cleveland Software Designs Williams Coin Door Adapter](https://www.clevelandsoftwaredesign.com/pinball-parts/p/williams-coin-door-adapter?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
 
-#### Chime box
+## Chime box
 | Date ordered | Part |
 |---|---|
 | Sep 15, 2026 | [Intense Arcade Three Note Chime box](https://intensearcade.com/three-note-chime-unit) |
 | Sep 2026 | Installed |
 
-#### 11. Addressable LEDs
+# 11. Addressable LEDs
 | Date ordered | Part |
 |---|---|
 | Jun 2, 2026 | [Cleveland Software Designs Addressable LEDs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit?utm_medium=email&utm_source=customer_notification) |
 | Jul 2026 | Installed |
 
 ---
-## 12. Wiring diagrams
+# 12. Wiring diagrams
 
-###  Inputs
+##  Inputs
 ![Inputs](./images/Pinball-cabinet-Inputs.png)
 
-###  Outputs
+##  Outputs
 ![Outputs](./images/Pinball-cabinet-Outputs.png)
 
-###  Audio/Video
+##  Audio/Video
 ![Audio/Video](./images/Pinball-cabinet-Audio-Video.png)
 
-###  Lights
+##  Lights
 ![Lights](./images/Pinball-cabinet-Lights.png)
 
 ---
-## 13. Software
+# 13. Software
