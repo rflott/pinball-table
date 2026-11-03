@@ -47,7 +47,7 @@ The cabinet used for the build was a [Tukkari Widebody Virtual Pinball Cabinet](
 #### Construction
 
 ---
-### [PC](https://www.msi.com/Motherboard/z370-a-pro/Specification)
+### [PC MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specification)
 The PC is a repurposed computer with a new high end graphics card and a higher-powered power supply added. The motherboard was removed from its PC case and put into an open chassis since the fans are installed into the pinball cabinet itself.
 - Operating System: Windows 11 Home 64-bit
 - CPU: Intel Core i7 8700 @ 3.20GHz, Coffee Lake 14nm Technology
@@ -56,7 +56,8 @@ The PC is a repurposed computer with a new high end graphics card and a higher-p
 - Graphics: Intel UHD Graphics 630 (MSI)
 - Storage: 232GB NVMe Samsung SSD 970
 - Audio: Realtek 7.1 High Definition Audio
- 
+- [Manual](diagrams/PC.pdf)
+
 - Dec 10, 2025 ordered: [GIGABYTE GeForce RTX 5070 Gaming OC 12G Graphics Card](https://www.amazon.com/dp/B0DTR3JK3Y?th=1)
 - Dec 10, 2025 ordered: [CORSAIR RM850x ATX 3.1 PCIe 5.1 750W Power Supply](https://www.amazon.com/dp/B0DJ1JL3MK)
 - Feb 21, 2026 ordered: [AL01 Open Frame Computer case ](https://www.amazon.com/dp/B0C59W6JKD)
@@ -109,22 +110,34 @@ For the audio subsystem, the [Cleveland Software Designs SSF Kit](https://www.cl
 
 ### Miscellaneous
 ##### Knocker
-- May 4, 2026 ordered: [12v to 24v knocker circuit conversion kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/12v-to-24v-knocker-circuit-conversion-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name)
+- May 4, 2026 ordered: [Cleveland Software Designs 12v to 24v knocker circuit conversion kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/12v-to-24v-knocker-circuit-conversion-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name)
 - July 2026 installed
 
 ##### Coin door adapter
-- Feb 22, 2026 ordered: [Williams Coin Door Adapter](https://www.clevelandsoftwaredesign.com/pinball-parts/p/williams-coin-door-adapter?utm_medium=order-summary&utm_source=order-status&utm_content=name)
+- Feb 22, 2026 ordered: [Cleveland Software Designs Williams Coin Door Adapter](https://www.clevelandsoftwaredesign.com/pinball-parts/p/williams-coin-door-adapter?utm_medium=order-summary&utm_source=order-status&utm_content=name)
 
 ##### Chime box
 - Sep 15, 2026 ordered: [Chime box](https://intensearcade.com/three-note-chime-unit) 
 - September 2026 installed
 
 ##### Addressable LEDs
-- Jun 2, 2026 ordered: [Addressable LEDs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit?utm_medium=email&utm_source=customer_notification)
+- Jun 2, 2026 ordered: [Cleveland Software Designs Addressable LEDs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit?utm_medium=email&utm_source=customer_notification)
 - July 2026 installed
 
 ---
 ## Wiring diagrams
+
+###  Inputs
+<iframe src="diagrams/Pinball-cabinet-Inputs.pdf" width="100%" height="600px"></iframe>
+
+###  Outputs
+<iframe src="diagrams/Pinball-cabinet-Outputs.pdf" width="100%" height="600px"></iframe>
+
+###  Audio/Video
+<iframe src="diagrams/Pinball-cabinet-Audio-Video.pdf" width="100%" height="600px"></iframe>
+
+###  Lights
+<iframe src="diagrams/Pinball-cabinet-Lights.pdf" width="100%" height="600px"></iframe>
 
 ---
 ## Software
