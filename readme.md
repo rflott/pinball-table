@@ -43,12 +43,104 @@ The cabinet used for the build was a [Tukkari Widebody Virtual Pinball Cabinet](
 
 #### Parts
 - Jan 3, 2026 ordered: [Tukkari Widebody Virtual Pinball Cabinet with optional black-powder coated siderails and lockdown bar](https://www.tukkari.com/p/widebody-virtual-pinball-cabinet-vpin-flat-pack-kit)
+-  Feb 12, 2026 ordered: [30.5" Premium Mirror Polished Chrome Ribbed Legs](https://www.pinballlife.com/jjpstern-premium-chrome-legs-set-of-4.html)
+-  Feb 12, 2026 ordered: [Williams/Bally Leg Bracket](https://www.pinballlife.com/williamsbally-leg-bracket.html)
+-  Feb 12, 2026 ordered: [Heavy Duty Leg Leveler With Nut](https://www.pinballlife.com/4INCH_LEG_LEVELER_HEAVY_DUTY?)
+-  Feb 12, 2026 ordered: [Extended Silver Leg Bolt - 2-3/4"](https://www.pinballlife.com/williamsbally-extended-chrome-leg-bolt-2-34.html)
+-  Feb 12, 2026 ordered: ['Snap-On Happy Sliders™ For Carpeting - Set of 4](https://www.pinballlife.com/snap-in-leg-leveler-slider.html)
+-  Feb 12, 2026 ordered: [Metal Cabinet Protectors (set of 4)](https://www.pinballlife.com/metal-cabinet-protectors-set-of-4.html)
 
-#### Construction
+### Construction
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Flat-pack-delivery-in-garage.jpg) | ![](images/Flat-pack-delivery-in-garage2.jpg) | ![](images/Unboxing-in-media-room.jpg) |
+| *Flat pack* | *Flat pack2* | *Unboxing* |
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Base-box-glued-together.jpg) | ![](images/Backbox-assembled.jpg) | ![](images/Legs-and-backbox-attached.jpg)
+| *Base box glued together* | *Backbox assembled* | *Legs and backbox attached*
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Fans-and-cable-raceways-installed.jpg) | ![](images/Fans-and-cable-raceways-installed2.jpg) | ![](images/Speakers-installed.jpg)
+| *Fans and cable raceways installed* | *Fans and cable raceways installed2* | *Speakers installed*
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Speaker-installed2.jpg) | ![](images/Coin-door-installed.jpg) | ![](images/Power-strips-pc-mount-installed.jpg)
+| *Speakers installed2* | *Coin door, power strips, backbox monitor installed* | *Power strips, PC mount installed*
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Power-strips-pc-mount-installed2.jpg) | ![](images/Power-switch-installed.jpg) | ![](images/Backbox-cover.jpg)
+| *Power strips, PC mount installed2* | *Power switch installed* | *Backbox cover*
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/DMD-monitor-installed.jpg) | ![](images/DMD-monitor-installed2.jpg) | ![](images/Coin-door-internals.jpg)
+| *DMD monitor installed* | *DMD monitor installed2* | *Coin door internals*
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Playfield-holder-and-cabinet-braces-installed.jpg) | ![](images/Flipper-buttons-and-plunger-installed.jpg) | ![](images/Flipper-buttons-and-plunger-installed2.jpg)
+| *Playfield holder, cabinet braces, flipper buttons and plunger installed* | *Flipper buttons and plunger installed* | *Flipper buttons and plunger installed2*
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Flipper-buttons-and-plunger-installed3.jpg) | ![](images/Subwoofer-bass-shaker-installed.jpg) | ![](images/Subwoofer-bass-shaker-installed3.jpg)
+| *Flipper buttons and plunger installed3* | *Subwoofer and bass shaker installed* | *Subwoofer and bass shaker installed3*
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Playfield-holder-up.jpg) | ![](images/Playfield-holder-up2.jpg) | ![](images/Subwoofer-bass-shaker-installed2.jpg)
+| *Playfield holder up* | *Playfield holder up2* | *Subwoofer and bass shaker installed2* 
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Internal-electronics-installed.jpg) | ![](images/Internal-electronics-installed2.jpg) | ![](images/Internal-electronics-installed3.jpg)
+| *Internal electronics installed* | *Internal electronics installed2* | *Internal electronics installed3* 
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Internal-electronics-installed4.jpg) | ![](images/Internal-electronics-installed5.jpg) | ![](images/Internal-electronics-installed6.jpg)
+| *Internal electronics installed4* | *Internal electronics installed5* | *Internal electronics installed6* 
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Internal-electronics-installed7.jpg) | ![](images/Internal-electronics-installed8.jpg) | ![](images/Internal-electronics-installed9.jpg)
+| *Internal electronics installed7* | *Internal electronics installed8* | *Internal electronics installed9* 
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Internal-electronics-installed10.jpg) | ![](images/Internal-electronics-installed11.jpg) | ![](images/Internal-electronics-installed12.jpg)
+| *Internal electronics installed10* | *Internal electronics installed11* | *Internal electronics installed12* 
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Internal-electronics-installed13.jpg) | ![](images/Internal-electronics-installed14.jpg) | ![](images/Internal-electronics-installed15.jpg)
+| *Internal electronics installed13* | *Internal electronics installed14* | *Internal electronics installed15* 
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Internal-electronics-installed16.jpg) | ![](images/Internal-electronics-installed17.jpg) | ![](images/Internal-electronics-installed18.jpg)
+| *Internal electronics installed16* | *Internal electronics installed17* | *Internal electronics installed18* 
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Backglass-monitor-mount.jpg) | ![](images/Backglass-dmd-connection.jpg) | ![](images/Rear-fans.jpg)
+| *Backglass monitor mount* | *Backglass dmd connection* | *Rear fans* 
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Addressable-RGB-LEDs-controller.jpg) 
+| *Addressable RGB LEDs controller on back of top of playfield angled board* 
+
 
 ---
-### [PC MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specification)
-The PC is a repurposed computer with a new high end graphics card and a higher-powered power supply added. The motherboard was removed from its PC case and put into an open chassis since the fans are installed into the pinball cabinet itself.
+### PC
+The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specification)) is a repurposed computer with a new high end graphics card and a higher-powered power supply added. The motherboard was removed from its PC case and put into an open chassis since the fans are installed into the pinball cabinet itself.
 - Operating System: Windows 11 Home 64-bit
 - CPU: Intel Core i7 8700 @ 3.20GHz, Coffee Lake 14nm Technology
 - RAM: 16GB Dual-Channel DDR4 @ 1333MHz (19-19-19-43)
@@ -117,7 +209,7 @@ For the audio subsystem, the [Cleveland Software Designs SSF Kit](https://www.cl
 - Feb 22, 2026 ordered: [Cleveland Software Designs Williams Coin Door Adapter](https://www.clevelandsoftwaredesign.com/pinball-parts/p/williams-coin-door-adapter?utm_medium=order-summary&utm_source=order-status&utm_content=name)
 
 ##### Chime box
-- Sep 15, 2026 ordered: [Chime box](https://intensearcade.com/three-note-chime-unit) 
+- Sep 15, 2026 ordered: [Intense Arcade Three Note Chime box](https://intensearcade.com/three-note-chime-unit) 
 - September 2026 installed
 
 ##### Addressable LEDs
