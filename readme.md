@@ -6,19 +6,19 @@
 
 ## Contents
 
-1. [Introduction](#Introduction)
-2. [Components](#Components)
-3. [Cabinet](#Cabinet)
-4. [Parts](#Parts)
-5. [Construction](#Construction)
-6. [PC](#PC)
-7. [Cabinet electronics](#Cabinet-electronics)
-8. [Audio subsystem](#Audio-subsystem)
-9. [Video subsystem](#Video-subsystem)
-10. [Miscellaneous](#Miscellaneous)
-11. [Addressable LEDs](#Addressable-LEDs)
-12. [Wiring](#Wiring)
-13. [Software](#Software)
+1. [Introduction](#1-introduction)
+2. [Components](#2-components)
+3. [Cabinet](#3-cabinet)
+4. [Parts](#4-parts)
+5. [Construction](#5-construction)
+6. [PC](#6-pc)
+7. [Cabinet electronics](#7-cabinet-electronics)
+8. [Audio subsystem](#8-audio-subsystem)
+9. [Video subsystem](#9-video-subsystem)
+10. [Miscellaneous](#10-miscellaneous)
+11. [Addressable LEDs](#11-addressable-leds)
+12. [Wiring](#12-wiring)
+13. [Software](#13-software)
 
 ---
 # 1. Introduction
