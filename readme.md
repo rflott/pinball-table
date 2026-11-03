@@ -128,16 +128,16 @@ For the audio subsystem, the [Cleveland Software Designs SSF Kit](https://www.cl
 ## Wiring diagrams
 
 ###  Inputs
-<iframe src="diagrams/Pinball-cabinet-Inputs.pdf" width="100%" height="600px"></iframe>
+![Inputs](./images/Pinball-cabinet-Inputs.png)
 
 ###  Outputs
-<iframe src="diagrams/Pinball-cabinet-Outputs.pdf" width="100%" height="600px"></iframe>
+![Outputs](./images/Pinball-cabinet-Outputs.png)
 
 ###  Audio/Video
-<iframe src="diagrams/Pinball-cabinet-Audio-Video.pdf" width="100%" height="600px"></iframe>
+![Audio/Video](./images/Pinball-cabinet-Audio-Video.png)
 
 ###  Lights
-<iframe src="diagrams/Pinball-cabinet-Lights.pdf" width="100%" height="600px"></iframe>
+![Lights](./images/Pinball-cabinet-Lights.png)
 
 ---
 ## Software
