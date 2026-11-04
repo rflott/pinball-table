@@ -453,16 +453,19 @@ TODO
 ### VPin Studio
 
 - Install/Manage/Remove tables
+
 [VPin Studio](https://github.com/syd711/vpin-studio) is used to intelligently manage the pinball table emulators, software, associated files and settings over the LAN. It is a client/server design where the pinball cabinet has a server running in background and my main PC has the client running that talks to that server. The client is also installed on the pinball cabinet itself so that you can use it there too with the wireless keypad/trackpad. I normally use it remotely since I can do that from my office and I have a better keyboard/mouse/monitor setup there.      
 
 - Backup/Restore tables
-It also will backup individual tables to my NAS over the LAN. This allows me to experiment with a new version of a table and, if needed, delete the table and restore it from a good backup on the NAS. It also allows me to experiment with a table to see if I want to keep it or not and I decide not to keep it, backup it up to see if I will miss it later and restore it.  
+
+It also will backup individual tables to my NAS over the LAN. This allows me to experiment with a new version of a table and, if needed, delete the table and restore it from a good backup on the NAS. It also allows me to experiment with a table to see if I want to keep it or not and if I decide not to keep it, it is backed up and I can restore it later.  
 
 ### HDP PC Agent
 [HDP PC Agent](https://www.qnap.com/en-us/software/hdp-pc-agent) is a background app that the QNAP NAS uses for backup. The entire cabinet software (including Windows) is periodically backed up in case of catastrophic storage failure. 
 
-- NVidia app settings?
-- MAME TODO
+NVidia app settings TODO
+
+MAME TODO
 
 ## Windows startup apps & scripts
 These apps and scripts are started by windows when it boots up.
@@ -475,5 +478,5 @@ These apps and scripts are started by windows when it boots up.
 - PinVol.exe
 
 ### Startup scripts
-- vpx-monitor-config.bat
+- [vpx-monitor-config.bat](scripts/vpx-monitor-config.bat)
 
