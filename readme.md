@@ -261,6 +261,8 @@ The knocker is used to make a loud "knock" noise when a player has won a game. I
 ### Shaker motor
 The [shaker motor](https://www.clevelandsoftwaredesign.com/pinball-parts/p/ultimate-pinball-shaker-motor) was bolted through the cabinet floor since it needs a very secure mount so that it doesn't shake itself apart and cause damage. It is connected to the CSD PinOne using the shaker connector.
 
+| Date ordered | Part |
+|---|---|
 | Feb 20, 2026 | [Virtual Pinball Builders Kit (medium/large) from Cleveland Software Designs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
 
 ### Coin door
