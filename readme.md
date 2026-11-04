@@ -347,7 +347,7 @@ A wireless game controller is used to play arcade games on the pinball table. Th
 | Mar 18, 2026 | [Logitech K400 Plus Wireless Touch TV Keyboard ](https://www.amazon.com/dp/B014EUQOGK?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### Cabinet button labels
-The under cabinet input buttons were labeled on the outside of the cabinet so the user knows which button to press. In addition buttons themselves were labeled on the inside using 1 1/2" circular cut printer paper. The buttons were disassembled and the circular paper placed inside. 
+The under cabinet input buttons were labeled on the outside of the cabinet so the user knows which button to press. In addition, buttons themselves were labeled on the inside using 1 1/2" circular cut regular printer paper. The buttons were disassembled and the circular paper placed inside and reassembled. 
 
 | Date ordered | Part |
 |---|---|
