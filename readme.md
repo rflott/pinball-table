@@ -463,3 +463,17 @@ It also will backup individual tables to my NAS over the LAN. This allows me to 
 
 - NVidia app settings?
 - MAME TODO
+
+## Windows startup apps & scripts
+These apps and scripts are started by windows when it boots up.
+
+### Startup apps (in background)
+- DOFLinx.exe
+- JoyToKey.exe
+- PinAffinity.exe
+- PinUpPopper.exe
+- PinVol.exe
+
+### Startup scripts
+- vpx-monitor-config.bat
+
