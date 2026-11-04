@@ -133,7 +133,7 @@ The cabinet used for the build was a [Tukkari Widebody Virtual Pinball Cabinet](
 
 ---
 ## 6. PC
-The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specification)) is a repurposed computer with a new high end graphics card and a higher-powered power supply added. The motherboard was removed from its PC case and put into an open chassis since the fans are installed into the pinball cabinet itself.
+The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specification)) is an old, repurposed computer with a new high end graphics card and a higher-powered power supply added. The motherboard was removed from its PC case and put into an open chassis since the fans are installed into the pinball cabinet itself.
 - Operating System: Windows 11 Home 64-bit
 - CPU: Intel Core i7 8700 @ 3.20GHz, Coffee Lake 14nm Technology
 - RAM: 16GB Dual-Channel DDR4 @ 1333MHz (19-19-19-43)
@@ -145,6 +145,7 @@ The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specificat
 
 | Date ordered | Part |
 |---|---|
+| Dec 10, 2025 | [GIGABYTE GeForce RTX 5070 Gaming OC 12G Graphics Card](https://www.amazon.com/dp/B0DTR3JK3Y?th=1) |
 | Dec 10, 2025 | [CORSAIR RM850x ATX 3.1 PCIe 5.1 750W Power Supply](https://www.amazon.com/dp/B0DJ1JL3MK) |
 | Feb 21, 2026 | [AL01 Open Frame Computer case ](https://www.amazon.com/dp/B0C59W6JKD) |
 
@@ -182,7 +183,7 @@ As the main controller, the Cleveland Software Designs PinOne is used along with
 ### Amplifier
 The CSD amplifier is set to 7.1 mode and is connected to the PC's 7.1 audio output jacks using 3 3.5mm multi-channel audio wires. 
 
-| PC audio output | CSD amplifer input |
+| PC audio output | CSD amplifier input |
 |---|---|
 | Green (Front L/R) | Speaker L/R In |
 | Black (Rear surround) | Back L/R In |
@@ -190,7 +191,7 @@ The CSD amplifier is set to 7.1 mode and is connected to the PC's 7.1 audio outp
 
 The PC Orange (Subwoofer and Center ) output is not used. The CSD amplifier creates its own subwoofer output from the other audio inputs.
 
-The volume is turned up to the max in the amplifier and the table volumes are managed through the windows and the [PinVol](http://mjrnet.org/pinscape/PinVol.html) app. The CSD surround sound card was not used.
+The amplifier's physical volume is turned up to the max and the table volumes are managed through the windows and the [PinVol](http://mjrnet.org/pinscape/PinVol.html) app. The CSD surround sound card is not used.
 | Date ordered | Part |
 |---|---|
 | Feb 20, 2026 | [Cleveland Software Designs SSF Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-power-ssf-kit) |
@@ -215,7 +216,7 @@ The backbox speakers are standard 5 1/4" car stereo speakers connected to the am
 | Feb 21, 2026 | [Pioneer TS-501M 5.25" 4-Way Coaxial Car Speakers](https://www.amazon.com/dp/B0DYLCVGQ7) |
 
 ### Subwoofer
-The subwoofer speaker is a standard 6 1/2" car stereo subwoofer and is connected to the amplifier on its Sub connector. 
+The subwoofer speaker is a standard 6 1/2" car stereo subwoofer and is connected to the amplifier on its Sub connector. It is mounted to the cabinet's floor in the subwoofer hole. A speaker grill is mounted on the outside bottom of the cabinet to protect the subwoofer.
 
 | Date ordered | Part |
 |---|---|
@@ -224,37 +225,65 @@ The subwoofer speaker is a standard 6 1/2" car stereo subwoofer and is connected
 ## 9. Video subsystem
 
 ### Playfield monitor
+The playfield monitor is set to 4K, 120Hz, 100% scaling and HDR in windows display settings. The monitor is mounted to the Tukkari playfield mount and angled down in the "classic" (not flat) position. A 4K certified cable was used to connect it to the GPU using an HDMI port. 
+
+!["Classic" lowered position"](images/Playfield-monitor-position.jpg)
+
 | Date ordered | Part |
 |---|---|
 | Dec 13, 2025 | [LG 42-Inch Class 4K OLED C4 TV from Amazon](https://www.amazon.com/dp/B0CVRXN6XZ?ref=ppx_yo2ov_dt_b_fed_asin_title) |
-| Dec 15, 2025 | [4K DisplayPort to HDMI Cable 6.6FT from Amazon](https://www.amazon.com/dp/B0B2PN4LRW?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 | Dec 25, 2025 | [Highwings 8K@60 HDMI Cable 10FT](https://www.amazon.com/dp/B08KSY32VR?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### Backfield monitor
+The backfield monitor is mounted in the backbox using the Tukkari mount and is set to 1080P, 60Hz and 100% scaling in windows display settings. The monitor has an unsually thick rear cover, so much so that it pushes the monitor forward and you are unable to use the Tukkari supplied plexiglass cover in front of the monitor. Someday I may try the trick of mounting the brackets backwards so that the monitor shift back and the plexiglass may be installed. It is connected to a Display Port on the GPU.
+
 | Date ordered | Part |
 |---|---|
 | Dec 18, 2025 | [Samsung 32-Inch Odyssey G3 (G30D) Series FHD Gaming Monitor](https://www.amazon.com/dp/B0D5Z565D5?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### DMD monitor
+The DMD monitor is set to 1080P 60Hz in windows and is mounted to the Tukkari metal speaker panel. Two pieces of aluminum strap were bent and tapped so that they can be used as mounting brackets. Two 90 degree angled adapters (one mini-HDMI and one USB-C) were used to provide power and signal to the monitor in the very tight space. It is connected to an HDMI port on the GPU.
+
 | Date ordered | Part |
 |---|---|
 | Dec 18, 2025 | [KYY Portable Monitor 15.6" 1080P Computer Monitor](https://www.amazon.com/dp/B088D8JG3L?ref=ppx_yo2ov_dt_b_fed_asin_titlehttps://www.amazon.com/dp/B088D8JG3L?ref=ppx_yo2ov_dt_b_fed_asin_titlehttps://www.amazon.com/dp/B088D8JG3L?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+| Feb 25, 2026 | [AreMe 90 Degree USB-C Male to Female Adapter 2 Pack](https://www.amazon.com/dp/B0B2NJ3P3L)
+| Feb 25, 2026 | [90 Degree Mini HDMI to HDMI Adapter 2 Pack](https://www.amazon.com/dp/B0DXP8G1M7)
 
 ## 10. Miscellaneous
 ### Knocker
+The knocker is used to make a loud "knock" noise when a player has won a game. It is mounted on the left inside wall of the backbox at the top (so it can have a loud knock). It is connected to the PinOne controller's Knocker terminals.  
+
 | Date ordered | Part |
 |---|---|
 | May 4, 2026 | [Cleveland Software Designs 12v to 24v knocker circuit conversion kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/12v-to-24v-knocker-circuit-conversion-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
 
+### Shaker motor
+The [shaker motor](https://www.clevelandsoftwaredesign.com/pinball-parts/p/ultimate-pinball-shaker-motor) was bolted through the cabinet floor since it needs a very secure mount so that it doesn't shake itself apart and cause damage. It is connected to the CSD PinOne using the shaker connector.
+
+| Feb 20, 2026 | [Virtual Pinball Builders Kit (medium/large) from Cleveland Software Designs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
+
+### Coin door
+This is a coin door used in real pinball Wililams-style tables. It mounts in the pre-cut hole in the front of the cabinet using supplied bolts. The coin insert slots are fully functional since the have switches connected to the coin door harness. In addition, micro-switches were epoxied glued to the *coin reject* buttons and wired in parallel with the coin insert switches in order to use the reject buttons as coin insert buttons.
+
+In addition another microswitch was mounted to the cabinet to be used as a custom coin door open (tilt) switch. 
+
+| Date ordered | Part |
+|---|---|
+| Feb 21, 2026 | [Williams/Bally Coin Door with wiring harness](https://www.pinballlife.com/williamsbally-coin-door.html?) |
+| Feb 21, 2026 | [1/4-20 x 1-1/4" Black Carriage Bolt](https://www.pinballlife.com/search.html?Search=231-5003-00)
+| Feb 21, 2026 | [1/4-20 Coin Door Whiz Flange Locknut](https://www.pinballlife.com/14-20-coin-door-whiz-flange-locknut.html?)
+| Mar  9, 2026 | [Micro Limit Switch 3 Pin SPDT 1NO 1NC Snap Action](https://www.amazon.com/dp/B09SWCJ8FF)
+
 ### Coin door adapter
-This allows you to use the service board connector on the CSD PinOne board to directly plug in a Williams coin door. This will map the slam tilt, both coin switches and the 4 service buttons to the inputs, and the 5v outputs will power the coin lights built into the door.
+This allows you to use the service board connector on the CSD PinOne board to directly plug into a Williams coin door. This will map the slam tilt, both coin switches and the 4 service buttons to the CSD inputs and the 5v outputs will power the coin lights built into the door.
 
 | Date ordered | Part |
 |---|---|
 | Feb 22, 2026 | [Cleveland Software Designs Williams Coin Door Adapter](https://www.clevelandsoftwaredesign.com/pinball-parts/p/williams-coin-door-adapter?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
 
 ### Chime box
-A 3-note chime box was added inside the pinball table box. Since the chime coils require a high current, high current controller outputs must be used. One of the tones uses the CSD PinOne controller high current output (since it was the last one) and the other two are interfaced to the PinOne through a [CSD Simple two output board](https://www.clevelandsoftwaredesign.com/pinball-parts/p/simple-two-output-board) to convert two CSD PinOne low current (signal) outputs to high current. Those two coils are powered by the PC's power supply (12V) not the CSD PinOne. This is done by attaching the PC power to the CSD Simple two output board.
+A 3-note chime box was added inside the pinball table box. Since the chime coils require a high current, high current controller outputs must be used. One of the note coils uses the CSD PinOne controller high current output (since it was the last one) and the other two are interfaced to the PinOne through a [CSD Simple two output board](https://www.clevelandsoftwaredesign.com/pinball-parts/p/simple-two-output-board) to convert two CSD PinOne low current (signal) outputs to high current. Those two coils are powered by the PC's power supply (12V) not the CSD PinOne. This is done by attaching the PC power to the CSD Simple two output board.
 
 In addition, 3 diodes are used across the coil terminals to keep the coil flyback voltage from damaging the controller circuits.
 
@@ -267,7 +296,7 @@ In addition, 3 diodes are used across the coil terminals to keep the coil flybac
 
 Addressable LEDs were added to three different parts of the table -
 - Playfield side lights (on both sides of the playfield display). It uses 137 LEDs for each side.
-- RGB maxtrix (at the top of the playfield display). 6-16x16 RGB panels were used for a total display matrix of 96x16 RGB LEDs.   
+- RGB maxtrix (at the top of the playfield display mounted on the backboard). 6-16x16 RGB panels were used for a total display matrix of 96x16 RGB LEDs.   
 - Speaker ring lights (left and right speakers in the backbox). It uses 57 LEDs for each speaker.
 
 The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-controller) connected with USB to the PC. The [DOF software](https://configtool.vpuniverse.com/app/home) uses this controller to manage the LEDs. The CSD PinOne controller is not used for the LEDs.
@@ -302,7 +331,10 @@ The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www
 - PinAffinity
 - FanControl
 - RustDesk
-- Vpin Studio
+- VPin Studio, backups to file server
 - HDP PC Agent (QNAP file server backup app)
 - Steam
 - DOF
+- Startup folder, scripts
+- How I find and add a table, downloads, adjustments
+- NVidia app settings?
