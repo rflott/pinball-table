@@ -7,32 +7,29 @@
 ## Contents
 
 1. [Introduction](#1-introduction)
-2. [Components](#2-components)
-3. [Cabinet](#3-cabinet)
-4. [Parts](#4-parts)
-5. [Construction](#5-construction)
-6. [PC](#6-pc)
-7. [Cabinet electronics](#7-cabinet-electronics)
-8. [Audio subsystem](#8-audio-subsystem)
-9. [Video subsystem](#9-video-subsystem)
-10. [Addressable LEDs](#10-addressable-leds)
-11. [Miscellaneous](#11-miscellaneous)
-12. [Wiring](#12-wiring)
-13. [Software](#13-software)
+2. [Cabinet](#2-cabinet)
+3. [Cabinet parts](#3-cabinet-parts)
+4. [Construction](#4-construction)
+5. [PC](#5-pc)
+6. [Cabinet electronics](#6-cabinet-electronics)
+7. [Audio subsystem](#7-audio-subsystem)
+8. [Video subsystem](#8-video-subsystem)
+9. [Addressable LEDs](#9-addressable-leds)
+10. [Miscellaneous](#10-miscellaneous)
+11. [Wiring](#11-wiring)
+12. [Software](#12-software)
 
----
 # 1. Introduction
 This virtual pinball table started as a project in Dec 2025. Parts were first ordered then for the cabinet.
 
----
-# 2. Components
+# 2. Cabinet
 
-## 3. Cabinet
 The cabinet used for the build was a [Tukkari Widebody Virtual Pinball Cabinet](https://www.tukkari.com/p/widebody-virtual-pinball-cabinet-vpin-flat-pack-kit) flat pack.
 
 ![cabinet](images/Tukkari-widebody-cabinet.png)
 
-### 4. Parts
+# 3. Cabinet Parts
+
 | Date ordered | Part |
 |---|---|
 | Jan 3, 2026 | [Tukkari Widebody Virtual Pinball Cabinet with optional black-powder coated siderails and lockdown bar](https://www.tukkari.com/p/widebody-virtual-pinball-cabinet-vpin-flat-pack-kit) |
@@ -47,9 +44,9 @@ The cabinet used for the build was a [Tukkari Widebody Virtual Pinball Cabinet](
 |  Feb 28, 2026 | [IRWIN Marples Forstner Bit, Wood Drilling, 1-1/8-Inch](https://www.amazon.com/dp/B01JIKAIY0?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 |  Feb 28, 2026 | [Iot Relay - Enclosed High-power Power Relay](https://www.amazon.com/dp/B00WV7GMA2?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
-### 5. Construction
-Notes:
+# 4. Construction
 
+Notes:
 The Tukkari cabinet assumes pinball buttons (1" (25.4 mm) diameter) while the CSD buttons are arcade buttons ( 1-1/8" (30 mm) diameter). A Forstner bit was purchased to drill out all of the button holes so the CSD buttons would fit.
 
 A T-moulding with a 3/32" barb had to be used with the Tukkari cabinet backbox. The 1/8" barb one didn't fit.
@@ -141,9 +138,8 @@ An IoT relay power strip was purchased so that when the PC is powered on, its US
 | ![](images/Addressable-RGB-LEDs-controller.jpg) 
 | *Addressable RGB LEDs controller on back of top of playfield angled board* 
 
+# 5. PC
 
----
-## 6. PC
 The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specification)) is an old, repurposed computer with a new high end graphics card and a higher-powered power supply added. The motherboard was removed from its PC case and put into an open chassis since the fans are installed into the pinball cabinet itself.
 - Operating System: Windows 11 Home 64-bit
 - CPU: Intel Core i7 8700 @ 3.20GHz, Coffee Lake 14nm Technology
@@ -161,9 +157,8 @@ The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specificat
 | Feb 21, 2026 | [AL01 Open Frame Computer case ](https://www.amazon.com/dp/B0C59W6JKD) |
 | Feb 21, 2026 | [USB 3.0 PCIE Card 5-Port] (https://www.amazon.com/dp/B09MFPGMH5?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
+# 6. Cabinet electronics
 
----
-## 7. Cabinet electronics
 #### [Cleveland Software Designs Virtual Pinball Builders Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit)
 As the main controller, the Cleveland Software Designs PinOne is used along with its accessories. The virtual pinball builders kit includes this controller along with its accessories. It includes the following: 
 - [PinOne Controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/pinone-main-virtual-pinball-connection-board)
@@ -185,7 +180,7 @@ As the main controller, the Cleveland Software Designs PinOne is used along with
 |---|---|
 | Feb 20, 2026 | [Virtual Pinball Builders Kit (medium/large) from Cleveland Software Designs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
 
-## 8. Audio subsystem
+# 7. Audio subsystem
 
  ### [Cleveland Software Designs SSF Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-power-ssf-kit) 
  For the audio subsystem, the Cleveland Software Designs SSF Kit is used. It includes the following: 
@@ -240,7 +235,7 @@ The subwoofer speaker is a standard 6 1/2" car stereo subwoofer and is connected
 | Feb 27, 2026 | [Skar Audio EVL-65 D4 6.5" 400 Watt Max Power Dual 4 Ohm Car Subwoofer](https://www.amazon.com/dp/B019WYPLIA) |
 | MAr  1, 2026 | [DS18 PRO-GRILL6MS/BK PRO 6.5" Slim Metal Mesh Speaker Grill](https://www.amazon.com/dp/B0CFYSX56H?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
-## 9. Video subsystem
+# 8. Video subsystem
 
 ### Playfield monitor
 The playfield monitor is set to 4K, 120Hz, 100% scaling and HDR in windows display settings. The monitor is mounted to the Tukkari playfield mount and angled down in the "classic" (not flat) position. A 4K certified cable was used to connect it to the GPU using an HDMI port. 
@@ -268,7 +263,7 @@ The DMD monitor is set to 1080P 60Hz in windows and is mounted to the Tukkari me
 | Feb 25, 2026 | [AreMe 90 Degree USB-C Male to Female Adapter 2 Pack](https://www.amazon.com/dp/B0B2NJ3P3L)
 | Feb 25, 2026 | [90 Degree Mini HDMI to HDMI Adapter 2 Pack](https://www.amazon.com/dp/B0DXP8G1M7)
 
-## 10. Addressable LEDs
+# 9. Addressable LEDs
 
 Addressable LEDs were added to three different parts of the table -
 - Playfield side lights (on both sides of the playfield display). It uses 137 LEDs for each side. The wires run out of the top of playfield to the controller. These LEDs were placed inside a smoke black LED strip panel to soften the lights.
@@ -284,7 +279,8 @@ The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www
 | Jun 12, 2026 | [BTF-LIGHTING WS2812B IC RGB LED Strip](https://www.amazon.com/dp/B01CDTEJR0) |
 | Jun 11, 2026 | [Muzata 6Pack 3.3FT Black LED Strip Channel with Smoky Cover](https://www.amazon.com/dp/B07KBYQ3JR) |
 
-## 11. Miscellaneous
+# 10. Miscellaneous
+
 ### Knocker
 The knocker is used to make a loud "knock" noise when a player has won a game. It is mounted on the left inside wall of the backbox at the top (so it can have a loud knock). It is connected to the PinOne controller's Knocker terminals.  
 
@@ -384,7 +380,7 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 
 ---
 
-## 12. Wiring diagrams
+# 11. Wiring diagrams
 
 ###  Inputs
 ![Inputs](./images/Pinball-cabinet-Inputs.png)
@@ -398,23 +394,74 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 ###  Lights
 ![Lights](./images/Pinball-cabinet-Lights.png)
 
----
-## 13. Software
-- Visual Pinball X (VPX) tables
-- Future Pinball tables
-- Pinball FX tables (from Steam)
-- Pinup Popper frontend
-- PinVol
-- JoyToKey
-- PinAffinity
-- FanControl
-- RustDesk
-- VPin Studio, backups to file server
-- HDP PC Agent (QNAP file server backup app)
-- Steam
-- DOF
-- DOFLinx
-- Startup folder, scripts
-- How I find and add a table, downloads, adjustments
+# 12. Software
+
+## Virtual pinball emulator apps (windows versions)
+
+### Visual Pinball X (VPX) emulator tables
+Mostly VPX 10.8.0 tables are used in this cabinet. They are downloaded from [VPUniverse](https://vpuniverse.com/) and [VPForums](https://www.vpforums.org/). I am experimenting with pre-releases of the new [VPX 10.8.1 emulator](https://github.com/vpinball/vpinball) using these tables. The current results look good.  
+
+#### TODO How I find and add a VPX table, make adjustments, add media, etc.
+
+### Future Pinball emulator tables
+In addition, some Future Pinball tables are used in this cabinet. They are also downloaded from [VPUniverse](https://vpuniverse.com/) and [VPForums](https://www.vpforums.org/). 
+
+### Pinball FX (Steam) emulator tables
+A few Steam Pinball FX emulator based tables were bought and are used in this cabinet. They are downloaded from [Pinball FX](https://www.pinballfx.com/). The steam emulator is installed and started upon windows boot.
+
+### Pinup Popper frontend
+[Pinup Popper](https://nailbuster.com/wikipinup/doku.php?id=start) is used as the frontend to select which table to load and run. It was installed and the cabinet software setup using [Baller Installer](https://nailbuster.com/wikipinup/doku.php?id=baller_installer).
+#### PinUpMenu.exe TODO
+#### PinUpMenuSetup.exe TODO
+#### TODO how are the buttons configured?
+#### TODO how are playlists managed?
+
+#### TODO How to select, add coins and start a table
+
+### DOF
+TODO
+
+### DOFLinx
+TODO
+
+### Steam
+TODO
+
+### Startup folder, scripts
+
+### PinVol
+[PinVol](http://mjrnet.org/pinscape/PinVol.html) is a windows background app that adjusts the volume of a table when it starts up (since tables tend to have different volume levels). It allows you to use the CSD buttons at the bottom of the cabinet to adjust the volume of a table and it will remember it for the next time the table is run. 
+
+### JoyToKey
+[JoyToKey](https://joytokey.net/en/) is a windows background app that is used to enhance the CSD button usage by doing - 
+
+| Button | Context | Action |
+|---|---|---|
+| CSD Start | Windows desktop | Start the Pinup Popper frontend |
+| CSD Pause | VPX emulator | Pause the table (enter the 'P' key) |
+| ??? | Pinball FX (Steam) emulator | ??? |
+
+### PinAffinity
+[PinAffinity](http://mjrnet.org/pinscape/PinAffinity.html) is a windows background app that adjusts the Windows process affinity executables to give the pinball emualtors higher priority (and other processes lower) hence making the emulator run smoother. 
+
+### FanControl
+[FanControl](https://getfancontrol.com/) is a windows background app that adjusts the fan speed better than the PC BIOS does, thus producing less fan noise while keeping the electronics cooler. 
+
+## Misc software
+
+### RustDesk
+[RustDesk](https://rustdesk.com/) is used as a remote desktop app so that I can use my PC to remotely control the cabinet (in Windows, in an emulator, etc.). It can remotely show all three displays (playfield, backglass, DMD). 
+
+### VPin Studio
+
+- Install/Manage/Remove tables
+[VPin Studio](https://github.com/syd711/vpin-studio) is used to intelligently manage the pinball table emulators, software, associated files and settings over the LAN. It is a client/server design where the pinball cabinet has a server running in background and my main PC has the client running that talks to that server. The client is also installed on the pinball cabinet itself so that you can use it there too with the wireless keypad/trackpad. I normally use it remotely since I can do that from my office and I have a better keyboard/mouse/monitor setup there.      
+
+- Backup/Restore tables
+It also will backup individual tables to my NAS over the LAN. This allows me to experiment with a new version of a table and, if needed, delete the table and restore it from a good backup on the NAS. It also allows me to experiment with a table to see if I want to keep it or not and I decide not to keep it, backup it up to see if I will miss it later and restore it.  
+
+### HDP PC Agent
+[HDP PC Agent](https://www.qnap.com/en-us/software/hdp-pc-agent) is a background app that the QNAP NAS uses for backup. The entire cabinet software (including Windows) is periodically backed up in case of catastrophic storage failure. 
+
 - NVidia app settings?
-- MAME
+- MAME TODO
