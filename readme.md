@@ -378,8 +378,6 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 | Feb 21, 2026 | [CORSAIR RS120 120mm PWM Fans ](https://www.amazon.com/dp/B0D49QX74S?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 | Mar 19, 2026 | [Black 2 Pack PC Fan Grill](https://www.amazon.com/dp/B0CYHB7J9H?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
----
-
 # 11. Wiring diagrams
 
 ###  Inputs
