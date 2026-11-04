@@ -15,8 +15,8 @@
 7. [Cabinet electronics](#7-cabinet-electronics)
 8. [Audio subsystem](#8-audio-subsystem)
 9. [Video subsystem](#9-video-subsystem)
-10. [Miscellaneous](#10-miscellaneous)
-11. [Addressable LEDs](#11-addressable-leds)
+10. [Addressable LEDs](#10-addressable-leds)
+11. [Miscellaneous](#11-miscellaneous)
 12. [Wiring](#12-wiring)
 13. [Software](#13-software)
 
@@ -42,8 +42,19 @@ The cabinet used for the build was a [Tukkari Widebody Virtual Pinball Cabinet](
 |  Feb 12, 2026 | [Extended Silver Leg Bolt - 2-3/4"](https://www.pinballlife.com/williamsbally-extended-chrome-leg-bolt-2-34.html) |
 |  Feb 12, 2026 | ['Snap-On Happy Sliders™ For Carpeting - Set of 4](https://www.pinballlife.com/snap-in-leg-leveler-slider.html) |
 |  Feb 12, 2026 | [Metal Cabinet Protectors (set of 4)](https://www.pinballlife.com/metal-cabinet-protectors-set-of-4.html) |
+|  Feb 21, 2026 | [Inlet Module Plug 3D Printer Arcade Power Switch](https://www.amazon.com/dp/B09DRLYD2Z?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+|  Feb 24, 2026 | [Outwater Industries 25 Foot Black 3/4 Inch Center Barb Tee Moulding](https://www.amazon.com/dp/B07M8DBTST?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) |
+|  Feb 28, 2026 | [IRWIN Marples Forstner Bit, Wood Drilling, 1-1/8-Inch](https://www.amazon.com/dp/B01JIKAIY0?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+|  Feb 28, 2026 | [Iot Relay - Enclosed High-power Power Relay](https://www.amazon.com/dp/B00WV7GMA2?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### 5. Construction
+Notes:
+
+The Tukkari cabinet assumes pinball buttons (1" (25.4 mm) diameter) while the CSD buttons are arcade buttons ( 1-1/8" (30 mm) diameter). A Forstner bit was purchased to drill out all of the button holes so the CSD buttons would fit.
+
+A T-moulding with a 3/32" barb had to be used with the Tukkari cabinet backbox. The 1/8" barb one didn't fit.
+
+An IoT relay power strip was purchased so that when the PC is powered on, its USB port signals this power strip to turn on other devices (or keep them powered at all times). It currently is not in use as it wasn't determined what to make switched/non-switched until it was too late to be able to reach in the back of the cabinet (the playfield monitor is in the way). Perhaps it will be used later.
 
 | | | |
 | :---: | :---: | :---: |
@@ -250,7 +261,23 @@ The DMD monitor is set to 1080P 60Hz in windows and is mounted to the Tukkari me
 | Feb 25, 2026 | [AreMe 90 Degree USB-C Male to Female Adapter 2 Pack](https://www.amazon.com/dp/B0B2NJ3P3L)
 | Feb 25, 2026 | [90 Degree Mini HDMI to HDMI Adapter 2 Pack](https://www.amazon.com/dp/B0DXP8G1M7)
 
-## 10. Miscellaneous
+## 10. Addressable LEDs
+
+Addressable LEDs were added to three different parts of the table -
+- Playfield side lights (on both sides of the playfield display). It uses 137 LEDs for each side. The wires run out of the top of playfield to the controller. These LEDs were placed inside a smoke black LED strip panel to soften the lights.
+- RGB matrix (at the top of the playfield display). 6-16x16 CSD RGB panels were used for a total display matrix of 96x16 RGB LEDs. A Matrix Display Board and Plexiglass was ordered but the slotted backing board part was not used. The Tukkari backboard was used instead to mount the matrix panels. The smoked plexiglass panel was used to cover the panels and soften the lights. The plexiglass panel uses velcro buttons to attach it so that it can be easily removed.
+- Speaker ring lights (left and right speakers in the backbox). It uses 57 LEDs for each speaker. The LEDs were mounted inside the pre-routed Tukkari slots around each speaker.
+
+The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-controller) connected with USB to the PC. This controller is mounted to the backside of the playfield backboard. A hole was drilled through the backboard to connect to the matrix panels on the other side. `The [DOF software](https://configtool.vpuniverse.com/app/home) uses this controller to manage the LEDs. The CSD PinOne controller is not used for the LEDs.
+
+| Date ordered | Part |
+|---|---|
+| Jun  2, 2026 | [Cleveland Software Designs Addressable LEDs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit?utm_medium=email&utm_source=customer_notification) |
+| Jun  2, 2026 | [Matrix Display Board and Plexi glass](https://pinballcabinet.com/products/matrix-display-board-and-plexi-glass?_pos=1&_psq=Matrix+Display+Board+and+Plexi+glass+%C3%97+1&_psid=175819946&_ss=e&_su_rec=_LF1zME-2TKjNRA2qCVkx76eoBRy1DQVqyRocdSSjbh_dNJZRK7G9QU9ZUUBw1F4msSCpbx28rpIwXdamk-ZNus4tzgtUHHnVmoETgvqy5kameCwqw4HYOEzQx-cde56WJhI68bPAgros-TAn5lOhsiW5g8r0wZiRcbyGf-VRXMd6J0vVkWpw1LuLyNKSjtfM2guT5dObopG7d4GNDChhwEFKnRBLqxAi_OsVz1cTjYo7X3Ee8b9WjaeitRhIZaNUis_QedeYdFG4ACb4vPgapZgnT1CqQ2btk_Wr73zGG-0QluqQKCTXzqo5_PxSfQg3lcIdR3r9vrNhpOtw6e0Q0xe-BsR58oK0wBqAIUFGKBGDnNFYHTF9i5wIH46tl0t4k5cv5PKz9lg_gB2DTdumGSie7tItcU&_su_rec_id=09b31051-c94a-442a-bfe6-7143a7d115ed-1793803758)
+| Jun 12, 2026 | [BTF-LIGHTING WS2812B IC RGB LED Strip](https://www.amazon.com/dp/B01CDTEJR0) |
+| Jun 11, 2026 | [Muzata 6Pack 3.3FT Black LED Strip Channel with Smoky Cover](https://www.amazon.com/dp/B07KBYQ3JR) |
+
+## 11. Miscellaneous
 ### Knocker
 The knocker is used to make a loud "knock" noise when a player has won a game. It is mounted on the left inside wall of the backbox at the top (so it can have a loud knock). It is connected to the PinOne controller's Knocker terminals.  
 
@@ -294,20 +321,54 @@ In addition, 3 diodes are used across the coil terminals to keep the coil flybac
 | Sep 15, 2026 | [Intense Arcade Three Note Chime box](https://intensearcade.com/three-note-chime-unit) |
 | Sep 15, 2026 | [CSD Simple two output board](https://www.clevelandsoftwaredesign.com/pinball-parts/p/simple-two-output-board) |
 
-## 11. Addressable LEDs
+### External HDMI & USB connector
+An external HDMI and USB connector was installed in the left rear hole of the bottom cabinet panel and plugged into the PC. This allows the user to connect a monitor and a keyboard physically to the PC in order to change BIOS settings (since wireless connections won't work with this PC's BIOS).
+| Date ordered | Part |
+|---|---|
+| Feb 28, 2026 | [USB 3.0 & HDMI Male to Female AUX Dash Car Flush Mount Cable 3ft](https://www.amazon.com/dp/B073HZ4STM) |
 
-Addressable LEDs were added to three different parts of the table -
-- Playfield side lights (on both sides of the playfield display). It uses 137 LEDs for each side.
-- RGB maxtrix (at the top of the playfield display mounted on the backboard). 6-16x16 RGB panels were used for a total display matrix of 96x16 RGB LEDs.   
-- Speaker ring lights (left and right speakers in the backbox). It uses 57 LEDs for each speaker.
+### External LAN connector
+An external LAN connector was installed in the right rear hole of the bottom cabinet panel and plugged into the PC's ethernet port. This allows the user to much higher LAN speeds when transferring files or backing up the PC.
+| Date ordered | Part |
+|---|---|
+| Jun 21, 2026 | [RJ45 CAT6 Panel Mount Adapter Female-Female Ethernet Pass-Through Connector](https://www.amazon.com/dp/B0CPZX5B3G) |
 
-The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-controller) connected with USB to the PC. The [DOF software](https://configtool.vpuniverse.com/app/home) uses this controller to manage the LEDs. The CSD PinOne controller is not used for the LEDs.
+### Wireless keyboard/trackpad
+A wireless keyboard/trackpad combo is used to configure the PC & pinball tables as needed. 
+| Date ordered | Part |
+|---|---|
+|  Mar 18, 2026 | [RJ45 CAT6 Panel Mount Adapter Female-Female Ethernet Pass-Through Connector](https://www.amazon.com/dp/B0CPZX5B3G) |
+
+### Wireless game controller
+A wireless game controller is used to play arcade games on the pinball table. The adapter is plugged into a PC USB port. The top keys were configured as F1-F12 functions keys since the pinball games use those quite extensively.
 
 | Date ordered | Part |
 |---|---|
-| Jun 2, 2026 | [Cleveland Software Designs Addressable LEDs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit?utm_medium=email&utm_source=customer_notification) |
+| Mar 18, 2026 | [Logitech K400 Plus Wireless Touch TV Keyboard ](https://www.amazon.com/dp/B014EUQOGK?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+
+### Cabinet button labels
+The under cabinet input buttons were labeled on the outside of the cabinet so the user knows which button to press. In addition buttons themselves were labeled on the inside using 1 1/2" circular cut printer paper. The buttons were disassembled and the circular paper placed inside. 
+
+| Date ordered | Part |
+|---|---|
+| Mar 10, 2026 | [15 Sheet Small Letter Stickers - 1/2 Inch White Vinyl Self Adhesive Alphabet Number Stickers](https://www.amazon.com/dp/B0CYTT6JTY?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+
+### Cable management
+Cables inside the cabinet were placed inside raceways to cover the cables and keep them neat.  
+
+| Date ordered | Part |
+|---|---|
+| Mar 5, 2026 | [Cable Raceway 77in Wire Covers Under Desk Cable Management 5-Pack](https://www.amazon.com/dp/B08R75RMQT?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+
+### Fans
+One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. The incoming fan was mounted on the bottom of the cabinet to bring in cool air and the outgoing fans were mounted on the back panel of the cabinet to exhaust hot air.
+
+| Date ordered | Part |
+|---|---|
+| Feb 21, 2026 | [CORSAIR RS120 120mm PWM Fans ](https://www.amazon.com/dp/B0D49QX74S?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ---
+
 ## 12. Wiring diagrams
 
 ###  Inputs
@@ -340,3 +401,4 @@ The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www
 - Startup folder, scripts
 - How I find and add a table, downloads, adjustments
 - NVidia app settings?
+- MAME
