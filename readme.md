@@ -159,6 +159,8 @@ The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specificat
 | Dec 10, 2025 | [GIGABYTE GeForce RTX 5070 Gaming OC 12G Graphics Card](https://www.amazon.com/dp/B0DTR3JK3Y?th=1) |
 | Dec 10, 2025 | [CORSAIR RM850x ATX 3.1 PCIe 5.1 750W Power Supply](https://www.amazon.com/dp/B0DJ1JL3MK) |
 | Feb 21, 2026 | [AL01 Open Frame Computer case ](https://www.amazon.com/dp/B0C59W6JKD) |
+| Feb 21, 2026 | [USB 3.0 PCIE Card 5-Port] (https://www.amazon.com/dp/B09MFPGMH5?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+
 
 ---
 ## 7. Cabinet electronics
@@ -202,6 +204,10 @@ The CSD amplifier is set to 7.1 mode and is connected to the PC's 7.1 audio outp
 
 The PC Orange (Subwoofer and Center ) output is not used. The CSD amplifier creates its own subwoofer output from the other audio inputs.
 
+| Date ordered | Part |
+|---|---|
+| Mar 24, 2026 | [AUX Cord for Car, 6 Pack 3.5mm Auxiliary Audio Cable](https://www.amazon.com/dp/B07N3YKBDY?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+
 The amplifier's physical volume is turned up to the max and the table volumes are managed through the windows and the [PinVol](http://mjrnet.org/pinscape/PinVol.html) app. The CSD surround sound card is not used.
 | Date ordered | Part |
 |---|---|
@@ -232,6 +238,7 @@ The subwoofer speaker is a standard 6 1/2" car stereo subwoofer and is connected
 | Date ordered | Part |
 |---|---|
 | Feb 27, 2026 | [Skar Audio EVL-65 D4 6.5" 400 Watt Max Power Dual 4 Ohm Car Subwoofer](https://www.amazon.com/dp/B019WYPLIA) |
+| MAr  1, 2026 | [DS18 PRO-GRILL6MS/BK PRO 6.5" Slim Metal Mesh Speaker Grill](https://www.amazon.com/dp/B0CFYSX56H?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ## 9. Video subsystem
 
@@ -346,6 +353,13 @@ A wireless game controller is used to play arcade games on the pinball table. Th
 |---|---|
 | Mar 18, 2026 | [Logitech K400 Plus Wireless Touch TV Keyboard ](https://www.amazon.com/dp/B014EUQOGK?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
+### Ground cable
+A flat braid cable was used to ground all of electronics and the exposed metal surfaces in case someone walked up to the cabinet and had a static discharge though an exposed metal surface.
+
+| Date ordered | Part |
+|---|---|
+| Feb 16, 2026 | [Tinned Flat Copper Braid Cable,4mm Flat Copper Braided Ground Strap Wire ](https://www.amazon.com/dp/B0CB3Z86HV?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+
 ### Cabinet button labels
 The under cabinet input buttons were labeled on the outside of the cabinet so the user knows which button to press. In addition, buttons themselves were labeled on the inside using 1 1/2" circular cut regular printer paper. The buttons were disassembled and the circular paper placed inside and reassembled. 
 
@@ -366,6 +380,7 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 | Date ordered | Part |
 |---|---|
 | Feb 21, 2026 | [CORSAIR RS120 120mm PWM Fans ](https://www.amazon.com/dp/B0D49QX74S?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+| Mar 19, 2026 | [Black 2 Pack PC Fan Grill](https://www.amazon.com/dp/B0CYHB7J9H?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ---
 
@@ -398,6 +413,7 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 - HDP PC Agent (QNAP file server backup app)
 - Steam
 - DOF
+- DOFLinx
 - Startup folder, scripts
 - How I find and add a table, downloads, adjustments
 - NVidia app settings?
