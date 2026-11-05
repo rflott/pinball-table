@@ -155,30 +155,33 @@ The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specificat
 | Dec 10, 2025 | [GIGABYTE GeForce RTX 5070 Gaming OC 12G Graphics Card](https://www.amazon.com/dp/B0DTR3JK3Y?th=1) |
 | Dec 10, 2025 | [CORSAIR RM850x ATX 3.1 PCIe 5.1 750W Power Supply](https://www.amazon.com/dp/B0DJ1JL3MK) |
 | Feb 21, 2026 | [AL01 Open Frame Computer case ](https://www.amazon.com/dp/B0C59W6JKD) |
-| Feb 21, 2026 | [USB 3.0 PCIE Card 5-Port] (https://www.amazon.com/dp/B09MFPGMH5?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+| Feb 21, 2026 | [USB 3.0 PCIE Card 5-Port](https://www.amazon.com/dp/B09MFPGMH5?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 # 6. Cabinet electronics
 
 #### [Cleveland Software Designs Virtual Pinball Builders Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit)
 As the main controller, the Cleveland Software Designs PinOne is used along with its accessories. The virtual pinball builders kit includes this controller along with its accessories. It includes the following: 
-- [PinOne Controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/pinone-main-virtual-pinball-connection-board)
-- [4x True Leaf Buttons](https://www.clevelandsoftwaredesign.com/pinball-parts/p/rgb-true-leaf-button) 
-- [RGB LED Button](https://www.clevelandsoftwaredesign.com/pinball-parts/p/rgb-leaf-button)
-- [2x Red LED Buttons](https://www.clevelandsoftwaredesign.com/pinball-parts/p/rgb-leaf-button-3hwee)
-- [2x Blue LED Buttons](https://www.clevelandsoftwaredesign.com/pinball-parts/p/rgb-leaf-button-3hwee)
-- [2x Green LED Buttons](https://www.clevelandsoftwaredesign.com/pinball-parts/p/rgb-leaf-button-3hwee)
-- [1x White LED Button](https://www.clevelandsoftwaredesign.com/pinball-parts/p/rgb-leaf-button-3hwee)
-- [10x Solenoids](https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-quality-solenoid)
-- [2x 2 Position Solenoid Life Extenders](https://www.clevelandsoftwaredesign.com/pinball-parts/p/style-01-j6jmp)
-- [2x 3 Position Solenoid Life Extenders](https://www.clevelandsoftwaredesign.com/pinball-parts/p/style-01-j6jmpv)
-- [Button Board and 2x Flipper Button Boards](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-button-hookup-kit)
-- [Williams Style Plunger](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-plunger-attachment)
-- [Service Board](https://www.clevelandsoftwaredesign.com/pinball-parts/p/expansion-breakout-board-zx5y6) 
-- [Shaker motor](https://www.clevelandsoftwaredesign.com/pinball-parts/p/ultimate-pinball-shaker-motor)
 
-The [CSD PinOne Configuration](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/) tool is installed on the cabinet desktop to make it easy eo configure the PinOne board (inputs, outputs, etc.). 
+| Part | Usage |
+|---|---|
+| [PinOne Controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/pinone-main-virtual-pinball-connection-board) | Main controller |
+| [4x True Leaf Buttons](https://www.clevelandsoftwaredesign.com/pinball-parts/p/rgb-true-leaf-button) | Flipper & Magna-save buttons |
+| [RGB LED Button](https://www.clevelandsoftwaredesign.com/pinball-parts/p/rgb-leaf-button) | Fire button |
+| [2x Red LED Buttons](https://www.clevelandsoftwaredesign.com/pinball-parts/p/rgb-leaf-button-3hwee) | Power and Pause buttons |
+| [2x Blue LED Buttons](https://www.clevelandsoftwaredesign.com/pinball-parts/p/rgb-leaf-button-3hwee) | Exit and Night Mode buttons |
+| [2x Green LED Buttons](https://www.clevelandsoftwaredesign.com/pinball-parts/p/rgb-leaf-button-3hwee) | Vol-/Vol+ buttons |
+| [1x White LED Button](https://www.clevelandsoftwaredesign.com/pinball-parts/p/rgb-leaf-button-3hwee) | Start button |
+| [10x Solenoids](https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-quality-solenoid) | 4 side solenoids, 3 middle bar and 3 back bar solenoids |
+| [2x 2 Position Solenoid Life Extenders](https://www.clevelandsoftwaredesign.com/pinball-parts/p/style-01-j6jmp) | for side solenoids |
+| [2x 3 Position Solenoid Life Extenders](https://www.clevelandsoftwaredesign.com/pinball-parts/p/style-01-j6jmpv) | for middle & back bar solenoids |
+| [Button Board and 2x Flipper Button Boards](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-button-hookup-kit) | button interface to PinOne |
+| [Williams Style Plunger](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-plunger-attachment) | |
+| [Service Board](https://www.clevelandsoftwaredesign.com/pinball-parts/p/expansion-breakout-board-zx5y6) | not used, the one in the real coin door is used instead |
+| [Shaker motor](https://www.clevelandsoftwaredesign.com/pinball-parts/p/ultimate-pinball-shaker-motor)
 
-The following inputs and outputs were configured for the controller.
+The various devices in the kit were connected based on this [CSD documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/category/builders-kits).
+
+The [CSD PinOne Configuration documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/) was used to configure the PinOne board and the devices (inputs, outputs, etc.). The [CSD PinOne Configuration app](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/) is left installed on the cabinet desktop to make it easy to reconfigure the PinOne board. 
 
 | Outputs | Port |
 |---|---|
@@ -241,6 +244,8 @@ Note: the power button is lit though a port but its input is sent to the PC powe
 | Fire red | 29 |
 | Fire green | 30 |
 | Fire blue | 31 |
+
+Plunger TODO
 
 | Date ordered | Part |
 |---|---|
@@ -514,8 +519,8 @@ TODO
 
 | Button | Context | Action |
 |---|---|---|
-| CSD Start | Windows desktop | Start the Pinup Popper frontend |
-| CSD Pause | VPX emulator | Pause the table (enter the 'P' key) |
+| Start | Windows desktop | Start the Pinup Popper frontend |
+| Pause | VPX emulator | Pause the table (enter the 'P' key) |
 | ??? | Pinball FX (Steam) emulator | ??? |
 
 ### PinAffinity
