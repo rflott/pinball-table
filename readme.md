@@ -24,7 +24,7 @@ This virtual pinball table started as a project in Dec 2025. Parts were first or
 
 The best resources I have found on how to build a virtual pinball table are -
 - [Pinscape build guide](http://mjrnet.org/pinscape/BuildGuideV2/BuildGuide.php?sid=architecture)
-- [Way of the Wrench youtube videos](https://www.youtube.com/@wayofthewrench). Especially the [Big Budget build videos](https://www.youtube.com/playlist?list=PLrqlHbqP7FINmGgJoszVvWOOyb8shdfUn) 
+- [Way of the Wrench youtube videos](https://www.youtube.com/@wayofthewrench). Especially the [Big Budget build videos](https://www.youtube.com/playlist?list=PLrqlHbqP7FINmGgJoszVvWOOyb8shdfUn). I used a different flat pack and a different controller but there are many similarities.  
 
 # 2. Cabinet
 
@@ -329,7 +329,7 @@ The playfield monitor is set to 4K, 120Hz, 100% scaling and HDR in windows displ
 | Dec 25, 2025 | [Highwings 8K@60 HDMI Cable 10FT](https://www.amazon.com/dp/B08KSY32VR?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### Backfield monitor
-The backfield monitor is mounted in the backbox using the Tukkari mount and is set to 1080P, 60Hz and 100% scaling in windows display settings. The monitor has an unsually thick rear cover, so much so that it pushes the monitor forward and you are unable to use the Tukkari supplied plexiglass cover in front of the monitor. Someday I may try the trick of mounting the brackets backwards so that the monitor shift back and the plexiglass may be installed. It is connected to a Display Port on the GPU.
+The backfield monitor is mounted in the backbox using the Tukkari mount and is set to 1080P, 60Hz and 100% scaling in windows display settings. The monitor has an unusually thick rear cover, so much so that it pushes the monitor forward and you are unable to use the Tukkari supplied plexiglass cover in front of the monitor. Someday I may try the trick of mounting the brackets backwards so that the monitor shift back and the plexiglass may be installed. It is connected to a Display Port on the GPU.
 
 | Date ordered | Part |
 |---|---|
@@ -382,7 +382,7 @@ The [shaker motor](https://www.clevelandsoftwaredesign.com/pinball-parts/p/ultim
 | Feb 20, 2026 | [Virtual Pinball Builders Kit (medium/large) from Cleveland Software Designs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
 
 ### Coin door
-This is a coin door used in real pinball Wililams-style tables. It mounts in the pre-cut hole in the front of the cabinet using supplied bolts. The coin insert slots are fully functional since the have switches connected to the coin door harness. In addition, micro-switches were epoxied glued to the *coin reject* buttons and wired in parallel with the coin insert switches in order to use the reject buttons as coin insert buttons.
+This is a coin door used in real pinball Williams-style tables. It mounts in the pre-cut hole in the front of the cabinet using supplied bolts. The coin insert slots are fully functional since the have switches connected to the coin door harness. In addition, micro-switches were epoxied glued to the *coin reject* buttons and wired in parallel with the coin insert switches in order to use the reject buttons as coin insert buttons.
 
 In addition another microswitch was mounted to the cabinet to be used as a custom coin door open (tilt) switch. 
 
@@ -507,13 +507,13 @@ A few Steam Pinball FX emulator based tables were bought and are used in this ca
 #### TODO how are playlists configured, managed?
 
 ## How I find and add a VPX/FP table, add Pinup Popper media, etc.
-1. Find a table on [Virtual Piinball Spreadsheet](https://virtualpinballspreadsheet.github.io/games)
+1. Find a table on [Virtual Pinball Spreadsheet](https://virtualpinballspreadsheet.github.io/games)
 2. Download the table xxx.vpx file (and perhaps others). Follow the directions.
 3. Download the backglass .directb2s file (I usually prefer the 3 Screen or FullDMD versions by authors such as HauntFreaks) 
-4. Download the rom xxx.zip file (if the table has a rom file). Usually late '70s/80s/90s/2000s tables have ROM files/ Older EM (electri-mechanical) tables do not (as they didn't have a microprocessor in them.) Also newer, original tables (not a recreation of a physical table) do not either. Leave the ROM file in .zip form.
-5. Run the Vpin Studio app on main PC (or Vpin table PC) and open the main Tables list window.
+4. Download the rom xxx.zip file (if the table has a rom file). Usually late '70s/80s/90s/2000s tables have ROM files/ Older EM (electromechanical) tables do not (as they didn't have a microprocessor in them.) Also newer, original tables (not a recreation of a physical table) do not either. Leave the ROM file in .zip form.
+5. Run the VPin Studio app on main PC (or Vpin table PC) and open the main Tables list window.
 6. Drag the xxx.vpx, xxx.directb2s and rom.zip files to the Table list. VPin studio will ask if you want to add a new table. Select yes and fill out any extra data as needed.    
-7.  Use Vpin Studio app on main PC (or Vpin table PC) to add Pinup Popper Table Media. I usually just select a Wheel icon, Playfield video, Backglass video, Apron/FullDMD graphic or video and Help graphic/video.
+7.  Use VPin Studio app on main PC (or VPin table PC) to add Pinup Popper Table Media. I usually just select a Wheel icon, Playfield video, Backglass video, Apron/FullDMD graphic or video and Help graphic/video.
 
 ## How to select, add coins, start play, and exit a table
 
@@ -560,7 +560,7 @@ TODO
 | ??? | Pinball FX (Steam) emulator | ??? |
 
 ### PinAffinity
-[PinAffinity](http://mjrnet.org/pinscape/PinAffinity.html) is a windows background app that adjusts the Windows process affinity executables to give the pinball emualtors higher priority (and other processes lower) hence making the emulator run smoother. 
+[PinAffinity](http://mjrnet.org/pinscape/PinAffinity.html) is a windows background app that adjusts the Windows process affinity executables to give the pinball emulators higher priority (and other processes lower) hence making the emulator run smoother. 
 
 ### FanControl
 [FanControl](https://getfancontrol.com/) is a windows background app that adjusts the fan speed better than the PC BIOS does, thus producing less fan noise while keeping the electronics cooler. 
