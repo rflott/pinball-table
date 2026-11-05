@@ -499,13 +499,13 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 
 # 12. Software
 
-The root of the virtual pinball software is located in *c:\vPinball\\*. 
-
 ### DOF
 
 *Installation folder: c:\DirectOutput\\*
 
 Direct Output Framework (DOF) controls the various toys (buttons, solenoids, shaker, coins, LEDs, etc.) for VPX tables and is installed and configured per [CSD DOF documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/DOF/). It uses the [Online DOF config tool](https://configtool.vpuniverse.com/app/home).
+
+[DOF Wiki](https://github.com/dekay/vpinball-wiki/wiki/DOF-%E2%80%90-The-Direct-Output-Framework)
 
 ### DOFLinx
 
@@ -514,6 +514,8 @@ Direct Output Framework (DOF) controls the various toys (buttons, solenoids, sha
 DOFLinx controls the various toys (buttons, solenoids, shaker, coins, LEDs, etc.) for non-VPX (i.e. FuturePinball, Steams's Pinball FX, etc) tables. It was installed and configured per [CSD DOFLink documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/DOFLinx/). 
 
 ## Virtual pinball emulator apps
+
+The root of the virtual pinball software is located in *c:\vPinball\\*. 
 
 ### Visual Pinball X emulator (VPX 10.8.0) and tables
 
