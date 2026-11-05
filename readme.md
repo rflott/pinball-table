@@ -58,6 +58,8 @@ A T-moulding with a 3/32" barb had to be used with the Tukkari cabinet backbox. 
 
 An IoT relay power strip was purchased so that when the PC is powered on, its USB port signals this power strip to turn on other devices (or keep them powered at all times). It currently is not in use as it wasn't determined what to make switched/non-switched until it was too late to be able to reach in the back of the cabinet (the playfield monitor is in the way). Perhaps it will be used later.
 
+- [ ] TODO disperse images to correct section? take new pics?
+
 | | | |
 | :---: | :---: | :---: |
 | ![](images/Flat-pack-delivery-in-garage.jpg) | ![](images/Flat-pack-delivery-in-garage2.jpg) | ![](images/Unboxing-in-media-room.jpg) |
@@ -250,7 +252,21 @@ Note: the power button is lit though a port but its input is sent to the PC powe
 | Fire green | 30 |
 | Fire blue | 31 |
 
-- [ ] TODO Add plunger configuration details
+The CSD plunger was installed and configured per the [documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/plunger). 
+
+| Plunger setting | Value |
+|---|---|
+| Average Readings | 10 |
+| Plunger Launch Button | 24 |
+| Plunger Min Position | 15 |
+| Plunger Max Position | 859 |
+| Plunger Resting Position | 166 |
+| Plunger Dead Zone | 255 |
+| Plunger Quick Release Delay | 150 |
+| Push Button On Min | off |
+| Push Button On Max | off |
+| Disable Plunger When Not Moving | off |
+| Disable Accelerometer On Plunger Move | on |
 
 | Date ordered | Part |
 |---|---|
@@ -288,7 +304,7 @@ The CSD Bass Shaker is connected to the amplifier on its Shaker connector. It is
 |---|---|
 | Feb 20, 2026 | [Cleveland Software Designs SSF Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-power-ssf-kit) |
 
-### 4x Exciter Speakers
+### Exciter Speakers
 Four CSD exciter speakers are connected to the amplifier on its Front Left/Front Right and Back Left/Back Right connectors. They are mounted on the side walls of the cabinet with the front exciters near the front of the cabinet and the back exciters nearer the middle/back of the cabinet.
 | Date ordered | Part |
 |---|---|
@@ -427,24 +443,24 @@ An external LAN connector was installed in the right rear hole of the bottom cab
 A wireless keyboard/trackpad combo is used to configure the PC & pinball tables as needed. 
 | Date ordered | Part |
 |---|---|
-|  Mar 18, 2026 | [RJ45 CAT6 Panel Mount Adapter Female-Female Ethernet Pass-Through Connector](https://www.amazon.com/dp/B0CPZX5B3G) |
+|  Mar 18, 2026 | [Logitech K400 Plus Wireless Touch TV Keyboard](https://www.amazon.com/dp/B014EUQOGK?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### Wireless game controller
-A wireless game controller is used to play arcade games on the pinball table. The adapter is plugged into a PC USB port. The top keys were configured as F1-F12 functions keys since the pinball games use those quite extensively.
+A wireless game controller is used to play arcade games on the pinball table. The controller's adapter is plugged into a PC USB port. 
 
 | Date ordered | Part |
 |---|---|
-| Mar 18, 2026 | [Logitech K400 Plus Wireless Touch TV Keyboard ](https://www.amazon.com/dp/B014EUQOGK?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+| Mar 18, 2026 | [AceGamer Aurora II 2.4G Wireless Bluetooth Controller for PC ](https://www.amazon.com/dp/B0FJRTNTHQ?th=1) |
 
 ### Ground strap
-A flat braid cable was used to ground all of electronics and the exposed metal surfaces in case someone walked up to the cabinet and had a static discharge though an exposed metal surface.
+A flat braid cable was wrapped around the inside of the cabinet and is used to ground all of electronics and the exposed metal surfaces in case someone walked up to the cabinet and had a static discharge though an exposed metal surface.
 
 | Date ordered | Part |
 |---|---|
 | Feb 16, 2026 | [Tinned Flat Copper Braid Cable,4mm Flat Copper Braided Ground Strap Wire ](https://www.amazon.com/dp/B0CB3Z86HV?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### Cabinet button labels
-The under cabinet input buttons were labeled on the outside of the cabinet so the user knows which button to press. In addition, buttons themselves were labeled on the inside using 1 1/2" circular cut regular printer paper. The buttons were disassembled and the circular paper placed inside and reassembled. 
+The under cabinet buttons were labeled on the outside front of the cabinet so the user knows which button to press. In addition, buttons themselves were labeled on the inside using 1 1/2" circular cut regular printer paper. The buttons were disassembled and the circular paper placed inside and reassembled. 
 
 | Date ordered | Part |
 |---|---|
@@ -483,26 +499,48 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 
 # 12. Software
 
+The root of the virtual pinball software is located in *c:\vPinball\\*. 
+
 ### DOF
-CSD 
-DOF 3.0 config tool
-- [ ] TODO Add details
+
+*Installation folder: c:\DirectOutput\\*
+
+Direct Output Framework (DOF) controls the various toys (buttons, solenoids, shaker, coins, LEDs, etc.) for VPX tables and is installed and configured per [CSD DOF documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/DOF/). It uses the [Online DOF config tool](https://configtool.vpuniverse.com/app/home).
 
 ### DOFLinx
-- [ ] TODO Add details
 
-## Virtual pinball emulator apps (windows versions)
+*Installation folder: c:\DOFLinx\\*
 
-### Visual Pinball X (VPX) emulator tables
-Mostly VPX 10.8.0 tables are used in this cabinet. They are downloaded from [VPUniverse](https://vpuniverse.com/) and [VPForums](https://www.vpforums.org/). I am experimenting with pre-releases of the new [VPX 10.8.1 emulator](https://github.com/vpinball/vpinball) using these tables. The current results look good.  
+DOFLinx controls the various toys (buttons, solenoids, shaker, coins, LEDs, etc.) for non-VPX (i.e. FuturePinball, Steams's Pinball FX, etc) tables. It was installed and configured per [CSD DOFLink documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/DOFLinx/). 
+
+## Virtual pinball emulator apps
+
+### Visual Pinball X emulator (VPX 10.8.0) and tables
+
+*Installation folder: c:\vPinball\VisualPinball\\*
+
+Mostly VPX 10.8.0 tables are used in this cabinet. They are downloaded from [VPUniverse](https://vpuniverse.com/) and [VPForums](https://www.vpforums.org/).   
+
+### Visual Pinball X (VPX 10.8.1) emulator
+
+*Installation folder: c:\vPinball\VPX10.8.1\\*
+
+I am experimenting with pre-releases of the new [VPX 10.8.1 emulator](https://github.com/vpinball/vpinball) using the VPX 10.8.0 tables. The current results look good.
 
 ### Future Pinball (FP) emulator tables
+
+*Installation folder: C:\vPinball\FuturePinball\\*
+
 In addition, some Future Pinball tables are used in this cabinet. They are also downloaded from [VPUniverse](https://vpuniverse.com/) and [VPForums](https://www.vpforums.org/). 
 
 ### Pinball FX (Steam) emulator tables
+
 A few Steam Pinball FX emulator based tables were bought and are used in this cabinet. They are downloaded from [Pinball FX](https://www.pinballfx.com/). The steam emulator is installed and started upon windows boot.
 
 ### Pinup Popper frontend
+
+*Installation folder: c:\vPinball\PinUPSystem\\*
+
 [Pinup Popper](https://nailbuster.com/wikipinup/doku.php?id=start) is used as the frontend to select which table to load and run. It was installed in the cabinet and setup using [Baller Installer](https://nailbuster.com/wikipinup/doku.php?id=baller_installer).
 - [ ] TODO Add PinUpMenu.exe, PinUpMenuSetup.exe details
 - [ ] TODO How are the buttons configured?
@@ -545,8 +583,8 @@ Exit
 1. Once the game is over, you can use the Exit button (located at the far left under the cabinet) to exit the game. This will take you back to the Pinup Popper scroll bar. 
 2. Repeat selecting and playing another table.
 
-### Steam
-- [ ] TODO how are steam games installed, configured and played 
+## Steam
+Steam (Pinball FX) tables are configured using the [CSD documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/steam). Pinball FX tables are purchased and downloaded from [here](https://store.steampowered.com/app/2328760/Pinball_FX/). I bought a few just to try them out.  
 
 ## Startup folder
 These apps were installed and they are launched from the Windows startup folder. 
@@ -576,6 +614,8 @@ These apps were installed and they are launched from the Windows startup folder.
 
 ### VPin Studio
 
+*Installation folder on cabinet: C:\vPinball\Vpin-Studio\\*
+
 - Install/Manage/Remove tables
 
 [VPin Studio](https://github.com/syd711/vpin-studio) is used to intelligently manage the pinball table emulators, software, associated files and settings over the LAN. It is a client/server design where the pinball cabinet has a server running in background and my main PC has the client running that talks to that server. The client is also installed on the pinball cabinet itself so that you can use it there too with the wireless keypad/trackpad. I normally use it remotely since I can do that from my office and I have a better keyboard/mouse/monitor setup there.      
@@ -585,13 +625,28 @@ These apps were installed and they are launched from the Windows startup folder.
 It also will backup individual tables to my NAS over the LAN. This allows me to experiment with a new version of a table and, if needed, delete the table and restore it from a good backup on the NAS. It also allows me to experiment with a table to see if I want to keep it or not and if I decide not to keep it, it is backed up and I can restore it later.  
 
 ### HDP PC Agent
-[HDP PC Agent](https://www.qnap.com/en-us/software/hdp-pc-agent) is a background app that the QNAP NAS uses for backup. The entire cabinet software (including Windows) is periodically backed up in case of catastrophic storage failure. 
 
-- [ ] TODO NVidia app settings details
+[HDP PC Agent](https://www.qnap.com/en-us/software/hdp-pc-agent) is a background app that the QNAP NAS uses for backup. The entire cabinet software (including Windows) is periodically backed up with this app in case of catastrophic storage failure. 
+
+### NVidia control panel 3d settings
+
+Individual pinball emulator Windows executables were configured to modify various NVidia GPU control panel 3D settings different than the global settings. 
+
+| Emulator app | Setting | Value |
+|---|---|---|
+| vpinballx64.exe (10.8.0) | Low Latency Mode | Ultra |
+|  | Max Frame Rate | Off |
+|  | Power management modeMax | Prefer maximum performance |
+|  | Vertical sync | Use the 3D application setting |
+| vpinballx_bgfx64.exe (10.8.1) | Low Latency Mode | Ultra |
+|  | Max Frame Rate | Off |
+|  | Power management modeMax | Prefer maximum performance |
+|  | Vertical sync | Use the 3D application setting |
 
 - [ ] TODO MAME add arcade game details
 
 - [ ] TODO vPinBackupManager add backing up FP tables details
+*Installation folder on cabinet: C:\vPinball\vPinBackupManager\\*
 
 ## Windows startup apps & scripts
 These apps and scripts are started in background by Windows when it boots up.
