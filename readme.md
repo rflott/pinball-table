@@ -22,9 +22,13 @@
 # 1. Introduction
 This virtual pinball table started as a project in Dec 2025. Parts were first ordered then for the cabinet.
 
+The best resources I have found on how to build a virtual pinball table are -
+- [Pinscape build guide](http://mjrnet.org/pinscape/BuildGuideV2/BuildGuide.php?sid=architecture)
+- [Way of the Wrench youtube videos](https://www.youtube.com/@wayofthewrench). Especially the [Big Budget build videos](https://www.youtube.com/playlist?list=PLrqlHbqP7FINmGgJoszVvWOOyb8shdfUn) 
+
 # 2. Cabinet
 
-The cabinet used for the build was a [Tukkari Widebody Virtual Pinball Cabinet](https://www.tukkari.com/p/widebody-virtual-pinball-cabinet-vpin-flat-pack-kit) flat pack.
+The cabinet used for the build was a [Tukkari Widebody Virtual Pinball Cabinet](https://www.tukkari.com/p/widebody-virtual-pinball-cabinet-vpin-flat-pack-kit) flat pack. Their [assembly guide](https://www.tukkari.com/advisor/assembly-guide-widebody-vpin-cabinet-premium-flat-pack) was used for construction.
 
 ![cabinet](images/Tukkari-widebody-cabinet.png)
 
@@ -476,14 +480,20 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 
 # 12. Software
 
+### DOF
+CSD 
+DOF 3.0 config tool
+TODO
+
+### DOFLinx
+TODO
+
 ## Virtual pinball emulator apps (windows versions)
 
 ### Visual Pinball X (VPX) emulator tables
 Mostly VPX 10.8.0 tables are used in this cabinet. They are downloaded from [VPUniverse](https://vpuniverse.com/) and [VPForums](https://www.vpforums.org/). I am experimenting with pre-releases of the new [VPX 10.8.1 emulator](https://github.com/vpinball/vpinball) using these tables. The current results look good.  
 
-#### TODO How I find and add a VPX table, make adjustments, add media, etc.
-
-### Future Pinball emulator tables
+### Future Pinball (FP) emulator tables
 In addition, some Future Pinball tables are used in this cabinet. They are also downloaded from [VPUniverse](https://vpuniverse.com/) and [VPForums](https://www.vpforums.org/). 
 
 ### Pinball FX (Steam) emulator tables
@@ -494,17 +504,43 @@ A few Steam Pinball FX emulator based tables were bought and are used in this ca
 #### PinUpMenu.exe TODO
 #### PinUpMenuSetup.exe TODO
 #### TODO how are the buttons configured?
-#### TODO how are playlists managed?
+#### TODO how are playlists configured, managed?
 
-#### TODO How to select, add coins and start a table
+## How I find and add a VPX/FP table, add Pinup Popper media, etc.
+1. Find a table on [Virtual Piinball Spreadsheet](https://virtualpinballspreadsheet.github.io/games)
+2. Download the table xxx.vpx file (and perhaps others). Follow the directions.
+3. Download the backglass .directb2s file (I usually prefer the 3 Screen or FullDMD versions by authors such as HauntFreaks) 
+4. Download the rom xxx.zip file (if the table has a rom file). Usually late '70s/80s/90s/2000s tables have ROM files/ Older EM (electri-mechanical) tables do not (as they didn't have a microprocessor in them.) Also newer, original tables (not a recreation of a physical table) do not either. Leave the ROM file in .zip form.
+5. Run the Vpin Studio app on main PC (or Vpin table PC) and open the main Tables list window.
+6. Drag the xxx.vpx, xxx.directb2s and rom.zip files to the Table list. VPin studio will ask if you want to add a new table. Select yes and fill out any extra data as needed.    
+7.  Use Vpin Studio app on main PC (or Vpin table PC) to add Pinup Popper Table Media. I usually just select a Wheel icon, Playfield video, Backglass video, Apron/FullDMD graphic or video and Help graphic/video.
 
-### DOF
-CSD 
-DOF 3.0 config tool
-TODO
+## How to select, add coins, start play, and exit a table
 
-### DOFLinx
-TODO
+Select
+---
+1. Start Pinup Popper by booting up the cabinet PC (autostarts after windows boots) or double-clicking the TODO shortcut.  
+2. Use the left/right flipper buttons to move left/right in the Pinup Popper scrolling menu.
+3. Use the right back (magna-save) flipper button to select (or go into) an icon
+4. Use the left back (magna-save) flipper button to exit (or go out of) a selection
+5. Once you have scrolled to the table you want to play, use the right back (magna-save) flipper button to select it and then again to play it. OR you can use the Start button to start it. 
+
+Start
+---
+1. Once the table is loaded, use the Coin Reject buttons to "Insert" coins. Both buttons work, but the right one simulates a single coin and always works. The left one simulates inserting a dollar/multiple coins which some games support and others do not (especially the older tables). You should hear the sound of coins dropping into the machine to determine if it is working or not.  
+2. Use the Start button to start playing the table 
+
+Play
+---
+1. Once a pinball has been loaded in front of the video plunger, either pull back and release the physical plunger or, if the Fire button is lit or blinking, hit the Fire button to launch the ball. It depends on the table. 
+2. Use the left/right flipper buttons to hit the ball. 
+3. Most newer tables have 3 balls/game. Older tables ('70s and earlier) have 5 balls/game.  
+4. Once the game is over you will need to use the Start button again to restart it. If you are out of credits, you will need to "insert" more coins and hit the Start button again. 
+
+Exit
+---
+1. Once the game is over, you can use the Exit button (located at the far left under the cabinet) to exit the game. This will take you back to the Pinup Popper scroll bar. 
+2. Repeat selecting and playing another table.
 
 ### Steam
 TODO
