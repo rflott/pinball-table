@@ -170,11 +170,77 @@ As the main controller, the Cleveland Software Designs PinOne is used along with
 - [1x White LED Button](https://www.clevelandsoftwaredesign.com/pinball-parts/p/rgb-leaf-button-3hwee)
 - [10x Solenoids](https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-quality-solenoid)
 - [2x 2 Position Solenoid Life Extenders](https://www.clevelandsoftwaredesign.com/pinball-parts/p/style-01-j6jmp)
-- [2x 2 Position Solenoid Life Extenders](https://www.clevelandsoftwaredesign.com/pinball-parts/p/style-01-j6jmpv)
+- [2x 3 Position Solenoid Life Extenders](https://www.clevelandsoftwaredesign.com/pinball-parts/p/style-01-j6jmpv)
 - [Button Board and 2x Flipper Button Boards](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-button-hookup-kit)
 - [Williams Style Plunger](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-plunger-attachment)
 - [Service Board](https://www.clevelandsoftwaredesign.com/pinball-parts/p/expansion-breakout-board-zx5y6) 
 - [Shaker motor](https://www.clevelandsoftwaredesign.com/pinball-parts/p/ultimate-pinball-shaker-motor)
+
+The [CSD PinOne Configuration](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/) tool is installed on the cabinet desktop to make it easy eo configure the PinOne board (inputs, outputs, etc.). 
+
+The following inputs and outputs were configured for the controller.
+
+| Outputs | Port |
+|---|---|
+| Solenoid front left | 1 |
+| Solenoid rear left | 2 |
+| Solenoid middle bar right | 3 |
+| Solenoid middle bar middle | 4|
+| Solenoid middle bar left | 5 |
+| Solenoid back right | 6|
+| Solenoid front right | 7 |
+| Solenoid back bar right | 8 |
+| Solenoid back bar middle | 9 |
+| Solenoid back bar left | 10 |
+| Chime low | 11 |
+| Shaker motor | 12 |
+| Knocker | 13 |
+| Chime high | 14 |
+| Chime middle | 15 |
+
+| Button inputs | Port |
+|---|---|
+| Flipper right | 1 |
+| Magna-save right | 2 |
+| Flipper left | 3 |
+| Magna-save left | 4 |
+| Night mode | 5 | 
+| Pause | 7 |
+| Fire | 9 |
+| Vol+ | 10 |
+| Vol- | 11 |
+| Exit | 12 |
+| Start | 13 |
+| Coin left | 17 |
+| Coin right | 18 |
+| Escape | 19 |
+| Test mode | 20 |
+| Function | 21 |
+| Enter | 22 |
+| Coin door tilt | 23 |
+| Plunger launch | 24 |
+
+Note: individual Magna-save buttons can be set to different colors (left vs right). The Fire button can also be set to any color. The left & right flippers must both be set to the same color. The other buttons are a static color (as defined by their plastic color) .
+
+Note: the power button is lit though a port but its input is sent to the PC power-on motherboard connector.
+
+| Button outputs (LEDs) | Port |
+|---|---|
+| Flippers red | 16 |
+| Flippers green | 17 |
+| Flippers blue | 18 |
+| Magna right red | 19 |
+| Magna right green | 20 |
+| Magna right blue | 21 |
+| Magna left red | 22 |
+| Magna left green | 23 |
+| Magna left blue | 24 |
+| Night Mode| 25 |
+| Power | 26 |
+| Pause | 27 |
+| Fire red | 29 |
+| Fire green | 30 |
+| Fire blue | 31 |
 
 | Date ordered | Part |
 |---|---|
@@ -189,7 +255,7 @@ As the main controller, the Cleveland Software Designs PinOne is used along with
 - [4x Exciter speakers](https://www.clevelandsoftwaredesign.com/pinball-parts/p/replacement-exciter-speaker)
 
 ### Amplifier
-The CSD amplifier is set to 7.1 mode and is connected to the PC's 7.1 audio output jacks using 3 3.5mm multi-channel audio wires. 
+The CSD amplifier is set to 7.1 mode and is connected to the PC's 7.1 audio output jacks using 3-3.5mm multi-channel audio wires. 
 
 | PC audio output | CSD amplifier input |
 |---|---|
@@ -199,14 +265,12 @@ The CSD amplifier is set to 7.1 mode and is connected to the PC's 7.1 audio outp
 
 The PC Orange (Subwoofer and Center ) output is not used. The CSD amplifier creates its own subwoofer output from the other audio inputs.
 
-| Date ordered | Part |
-|---|---|
-| Mar 24, 2026 | [AUX Cord for Car, 6 Pack 3.5mm Auxiliary Audio Cable](https://www.amazon.com/dp/B07N3YKBDY?ref=ppx_yo2ov_dt_b_fed_asin_title) |
-
 The amplifier's physical volume is turned up to the max and the table volumes are managed through the windows and the [PinVol](http://mjrnet.org/pinscape/PinVol.html) app. The CSD surround sound card is not used.
+
 | Date ordered | Part |
 |---|---|
 | Feb 20, 2026 | [Cleveland Software Designs SSF Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-power-ssf-kit) |
+| Mar 24, 2026 | [AUX Cord for Car, 6 Pack 3.5mm Auxiliary Audio Cable](https://www.amazon.com/dp/B07N3YKBDY?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### Bass Shaker
 The CSD Bass Shaker is connected to the amplifier on its Shaker connector. It is mounted to the floor of the cabinet so that it can shake the whole cabinet.
@@ -234,6 +298,14 @@ The subwoofer speaker is a standard 6 1/2" car stereo subwoofer and is connected
 |---|---|
 | Feb 27, 2026 | [Skar Audio EVL-65 D4 6.5" 400 Watt Max Power Dual 4 Ohm Car Subwoofer](https://www.amazon.com/dp/B019WYPLIA) |
 | MAr  1, 2026 | [DS18 PRO-GRILL6MS/BK PRO 6.5" Slim Metal Mesh Speaker Grill](https://www.amazon.com/dp/B0CFYSX56H?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+
+### Testing the audio subsystem 
+
+#### Testing 7.1 audio
+A VLC.exe file called "LPCM 7.1.wav" (on the desktop) is used to test the 7.1 audio subsystem. 
+
+#### Testing the subwoofer 
+A VLC.exe file called "40 Hz Tone.wav" (on the desktop) is used to test the subwoofer. 
 
 # 8. Video subsystem
 
@@ -270,7 +342,12 @@ Addressable LEDs were added to three different parts of the table -
 - RGB matrix (at the top of the playfield display). 6-16x16 CSD RGB panels were used for a total display matrix of 96x16 RGB LEDs. A Matrix Display Board and Plexiglass was ordered but the slotted backing board part was not used. The Tukkari backboard was used instead to mount the matrix panels. The smoked plexiglass panel was used to cover the panels and soften the lights. The plexiglass panel uses velcro buttons to attach it so that it can be easily removed.
 - Speaker ring lights (left and right speakers in the backbox). It uses 57 LEDs for each speaker. The LEDs were mounted inside the pre-routed Tukkari slots around each speaker.
 
-The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-controller) connected with USB to the PC. This controller is mounted to the backside of the playfield backboard. A hole was drilled through the backboard to connect to the matrix panels on the other side. `The [DOF software](https://configtool.vpuniverse.com/app/home) uses this controller to manage the LEDs. The CSD PinOne controller is not used for the LEDs.
+The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-controller) connected with USB (COM port 5) to the PC. This controller is mounted to the backside of the playfield backboard and is configured using this documentation [CSD Addressable LEDs configuration](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/). A hole was drilled through the backboard to connect to the matrix panels on the other side. `The [DOF software](https://configtool.vpuniverse.com/app/home) uses this controller to manage the LEDs. The CSD PinOne controller is not used for the LEDs.
+
+The [CSDAddressableControllerTool.exe app](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/configuring) was initially used to test the LEDs.
+
+The [CSD cabinet file generator](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator) was used to create the c:\DirectOutput\config.cabinet.xml file to configure the lights for the cabinet.
+
 
 | Date ordered | Part |
 |---|---|
@@ -349,7 +426,7 @@ A wireless game controller is used to play arcade games on the pinball table. Th
 |---|---|
 | Mar 18, 2026 | [Logitech K400 Plus Wireless Touch TV Keyboard ](https://www.amazon.com/dp/B014EUQOGK?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
-### Ground cable
+### Ground strap
 A flat braid cable was used to ground all of electronics and the exposed metal surfaces in case someone walked up to the cabinet and had a static discharge though an exposed metal surface.
 
 | Date ordered | Part |
@@ -417,6 +494,8 @@ A few Steam Pinball FX emulator based tables were bought and are used in this ca
 #### TODO How to select, add coins and start a table
 
 ### DOF
+CSD 
+DOF 3.0 config tool
 TODO
 
 ### DOFLinx
@@ -466,6 +545,8 @@ It also will backup individual tables to my NAS over the LAN. This allows me to 
 NVidia app settings TODO
 
 MAME TODO
+
+vPinBackupManager TODO
 
 ## Windows startup apps & scripts
 These apps and scripts are started by windows when it boots up.
