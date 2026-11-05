@@ -250,7 +250,7 @@ Note: the power button is lit though a port but its input is sent to the PC powe
 | Fire green | 30 |
 | Fire blue | 31 |
 
-Plunger TODO
+- [ ] TODO Add plunger configuration details
 
 | Date ordered | Part |
 |---|---|
@@ -465,7 +465,9 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 | Feb 21, 2026 | [CORSAIR RS120 120mm PWM Fans ](https://www.amazon.com/dp/B0D49QX74S?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 | Mar 19, 2026 | [Black 2 Pack PC Fan Grill](https://www.amazon.com/dp/B0CYHB7J9H?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
-# 11. Wiring diagrams
+# 11. Wiring diagrams 
+
+- [ ] TODO double check wiring diagrams with real cabinet
 
 ###  Inputs
 ![Inputs](./images/Pinball-cabinet-Inputs.png)
@@ -484,10 +486,10 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 ### DOF
 CSD 
 DOF 3.0 config tool
-TODO
+- [ ] TODO Add details
 
 ### DOFLinx
-TODO
+- [ ] TODO Add details
 
 ## Virtual pinball emulator apps (windows versions)
 
@@ -502,9 +504,8 @@ A few Steam Pinball FX emulator based tables were bought and are used in this ca
 
 ### Pinup Popper frontend
 [Pinup Popper](https://nailbuster.com/wikipinup/doku.php?id=start) is used as the frontend to select which table to load and run. It was installed in the cabinet and setup using [Baller Installer](https://nailbuster.com/wikipinup/doku.php?id=baller_installer).
-#### PinUpMenu.exe TODO
-#### PinUpMenuSetup.exe TODO
-#### TODO how are the buttons configured?
+- [ ] TODO Add PinUpMenu.exe, PinUpMenuSetup.exe details
+- [ ] TODO How are the buttons configured?
 
 ## How I find and add a VPX/FP table, add Pinup Popper media, etc.
 1. Find a table on [Virtual Pinball Spreadsheet](https://virtualpinballspreadsheet.github.io/games)
@@ -515,7 +516,7 @@ A few Steam Pinball FX emulator based tables were bought and are used in this ca
 6. Drag the xxx.vpx, xxx.directb2s and rom.zip files to the Table list. VPin studio will ask if you want to add a new table. Select yes and fill out any extra data as needed.    
 7.  Use VPin Studio app on main PC (or VPin table PC) to add Pinup Popper Table Media. I usually just select a Wheel icon, Playfield video, Backglass video, Apron/FullDMD graphic or video and Help graphic/video.
 
-### TODO how are playlists configured, managed?
+- [ ] TODO how are playlists configured, managed?
 
 ## How to select, add coins, start play, and exit a table
 
@@ -537,7 +538,7 @@ Play
 1. Once a pinball has been loaded in front of the video plunger, either pull back and release the physical plunger or, if the Fire button is lit or blinking, hit the Fire button to launch the ball. It depends on the table. 
 2. Use the left/right flipper buttons to hit the ball. 
 3. Most newer tables have 3 balls/game. Older tables ('70s and earlier) have 5 balls/game.  
-4. Once the game is over you will need to use the Start button again to restart it. If you are out of credits, you will need to "insert" more coins and hit the Start button again. 
+4. Once the game is over you will need to use the Start button again to restart it. If you are out of credits, you will need to "insert" more coins and hit the Start button again.
 
 Exit
 ---
@@ -545,7 +546,7 @@ Exit
 2. Repeat selecting and playing another table.
 
 ### Steam
-TODO
+- [ ] TODO how are steam games installed, configured and played 
 
 ## Startup folder
 These apps were installed and they are launched from the Windows startup folder. 
@@ -586,11 +587,11 @@ It also will backup individual tables to my NAS over the LAN. This allows me to 
 ### HDP PC Agent
 [HDP PC Agent](https://www.qnap.com/en-us/software/hdp-pc-agent) is a background app that the QNAP NAS uses for backup. The entire cabinet software (including Windows) is periodically backed up in case of catastrophic storage failure. 
 
-NVidia app settings TODO
+- [ ] TODO NVidia app settings details
 
-MAME TODO
+- [ ] TODO MAME add arcade game details
 
-vPinBackupManager TODO
+- [ ] TODO vPinBackupManager add backing up FP tables details
 
 ## Windows startup apps & scripts
 These apps and scripts are started in background by Windows when it boots up.

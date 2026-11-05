@@ -11,5 +11,11 @@
         "Subwoofer",
         "trackpad",
         "Tukkari"
-    ]
+    ],
+    "todomd.activatePattern": "**/*.md",
+    "todomd.tags": [
+        "TODO"
+    ],
+    "todomd.treeGroupBy": "none",
+    "todomd.treeNestedGroup": false
 }
