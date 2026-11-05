@@ -24,7 +24,7 @@ This virtual pinball table started as a project in Dec 2025. Parts were first or
 
 The best resources I have found on how to build a virtual pinball table are -
 - [Pinscape build guide](http://mjrnet.org/pinscape/BuildGuideV2/BuildGuide.php?sid=architecture)
-- [Way of the Wrench youtube videos](https://www.youtube.com/@wayofthewrench). Especially the [Big Budget build videos](https://www.youtube.com/playlist?list=PLrqlHbqP7FINmGgJoszVvWOOyb8shdfUn). I used a different flat pack and a different controller but there are many similarities.  
+- [Way of the Wrench youtube videos](https://www.youtube.com/@wayofthewrench). Especially the [Big Budget build videos](https://www.youtube.com/playlist?list=PLrqlHbqP7FINmGgJoszVvWOOyb8shdfUn). I used a different flat pack and a different controller, but there are many similarities.  
 
 # 2. Cabinet
 
@@ -47,6 +47,7 @@ The cabinet used for the build was a [Tukkari Widebody Virtual Pinball Cabinet](
 |  Feb 24, 2026 | [Outwater Industries 25 Foot Black 3/4 Inch Center Barb Tee Moulding](https://www.amazon.com/dp/B07M8DBTST?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) |
 |  Feb 28, 2026 | [IRWIN Marples Forstner Bit, Wood Drilling, 1-1/8-Inch](https://www.amazon.com/dp/B01JIKAIY0?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 |  Feb 28, 2026 | [Iot Relay - Enclosed High-power Power Relay](https://www.amazon.com/dp/B00WV7GMA2?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+|  Mar 21, 2026 | [Cup Holder](https://www.marcospecialties.com/pinball-parts/77-PBY-GSK45) |
 
 # 4. Construction
 
@@ -139,8 +140,8 @@ An IoT relay power strip was purchased so that when the PC is powered on, its US
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Addressable-RGB-LEDs-controller.jpg) 
-| *Addressable RGB LEDs controller on back of top of playfield angled board* 
+| ![](images/Addressable-RGB-LEDs-controller.jpg) | ![](images/Cup-holder.jpg)
+| *Addressable RGB LEDs controller on back of top of playfield angled board*  | *Cup holder*
 
 # 5. PC
 
@@ -500,11 +501,10 @@ In addition, some Future Pinball tables are used in this cabinet. They are also 
 A few Steam Pinball FX emulator based tables were bought and are used in this cabinet. They are downloaded from [Pinball FX](https://www.pinballfx.com/). The steam emulator is installed and started upon windows boot.
 
 ### Pinup Popper frontend
-[Pinup Popper](https://nailbuster.com/wikipinup/doku.php?id=start) is used as the frontend to select which table to load and run. It was installed and the cabinet software setup using [Baller Installer](https://nailbuster.com/wikipinup/doku.php?id=baller_installer).
+[Pinup Popper](https://nailbuster.com/wikipinup/doku.php?id=start) is used as the frontend to select which table to load and run. It was installed in the cabinet and setup using [Baller Installer](https://nailbuster.com/wikipinup/doku.php?id=baller_installer).
 #### PinUpMenu.exe TODO
 #### PinUpMenuSetup.exe TODO
 #### TODO how are the buttons configured?
-#### TODO how are playlists configured, managed?
 
 ## How I find and add a VPX/FP table, add Pinup Popper media, etc.
 1. Find a table on [Virtual Pinball Spreadsheet](https://virtualpinballspreadsheet.github.io/games)
@@ -515,11 +515,13 @@ A few Steam Pinball FX emulator based tables were bought and are used in this ca
 6. Drag the xxx.vpx, xxx.directb2s and rom.zip files to the Table list. VPin studio will ask if you want to add a new table. Select yes and fill out any extra data as needed.    
 7.  Use VPin Studio app on main PC (or VPin table PC) to add Pinup Popper Table Media. I usually just select a Wheel icon, Playfield video, Backglass video, Apron/FullDMD graphic or video and Help graphic/video.
 
+### TODO how are playlists configured, managed?
+
 ## How to select, add coins, start play, and exit a table
 
 Select
 ---
-1. Start Pinup Popper by booting up the cabinet PC (autostarts after windows boots) or double-clicking the TODO shortcut.  
+1. Start Pinup Popper by booting up the cabinet PC (Pinup Popper autostarts after Windows boots) or double-clicking the ***PinUP Popper FrontEnd*** shortcut from the Windows desktop.  
 2. Use the left/right flipper buttons to move left/right in the Pinup Popper scrolling menu.
 3. Use the right back (magna-save) flipper button to select (or go into) an icon
 4. Use the left back (magna-save) flipper button to exit (or go out of) a selection
@@ -545,7 +547,8 @@ Exit
 ### Steam
 TODO
 
-### Startup folder, scripts
+## Startup folder
+These apps were installed and they are launched from the Windows startup folder. 
 
 ### PinVol
 [PinVol](http://mjrnet.org/pinscape/PinVol.html) is a windows background app that adjusts the volume of a table when it starts up (since tables tend to have different volume levels). It allows you to use the CSD buttons at the bottom of the cabinet to adjust the volume of a table and it will remember it for the next time the table is run. 
@@ -590,9 +593,9 @@ MAME TODO
 vPinBackupManager TODO
 
 ## Windows startup apps & scripts
-These apps and scripts are started by windows when it boots up.
+These apps and scripts are started in background by Windows when it boots up.
 
-### Startup apps (in background)
+### Startup apps
 - DOFLinx.exe
 - JoyToKey.exe
 - PinAffinity.exe
