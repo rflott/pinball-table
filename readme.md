@@ -234,9 +234,9 @@ The [CSD PinOne Configuration documentation](https://pinball-docs.clevelandsoftw
 | Coin door tilt | 23 |
 | Plunger launch | 24 |
 
-Note: individual Magna-save buttons can be set to different colors (left vs right). The Fire button can also be set to any color. The left & right flippers must both be set to the same color. The other buttons are a static color (as defined by their plastic color) .
+Note: individual Magna-save buttons can be set to different colors (left vs right). The Fire button can also be set to any color. The left & right flippers can be set to any color, but they both have to be the same color. The other buttons are a static color (as defined by their plastic color) .
 
-Note: the power button is lit though a port but its button switch is sent to the PC power-on motherboard connector.
+Note: the power button is lit though a port but its button switch is sent to the PC power-on motherboard connector not to the PinOne controller.
 
 | Button outputs (LEDs) | Port |
 |---|---|
@@ -370,7 +370,7 @@ For the backglass monitor, a [Samsung 32-Inch Gaming Monitor](https://www.amazon
 
 ![](images/Backglass-monitor.png)
 
-The backglass monitor is mounted in the backbox using the Tukkari mount and is set to 1080P, 60Hz and 100% scaling in windows display settings. The monitor has an unusually thick rear cover, so much so that it pushes the monitor forward and you are unable to use the Tukkari supplied plexiglass cover in front of the monitor. Someday I may try the trick of mounting the brackets backwards so that the monitor shift back and the plexiglass may be installed. It is connected to a Display Port on the GPU.
+The backglass monitor is mounted in the backbox using the Tukkari mount and is set to 1080P, 60Hz and 100% scaling in windows display settings. The monitor has an unusually thick rear cover, so much so that it pushes the monitor forward and you are unable to use the Tukkari supplied plexiglass cover in front of the monitor. Someday I may try the trick of mounting the brackets backwards so that the monitor shifts back and the plexiglass may be installed. It is connected to a Display Port on the GPU.
 
 | Date ordered | Part |
 |---|---|
@@ -398,7 +398,7 @@ The DMD monitor is set to 1080P 60Hz in windows and is mounted to the Tukkari me
 
 Addressable LEDs were added to three different parts of the table -
 - Playfield side lights (on both sides of the playfield display). It uses 137 LEDs for each side. The wires run out of the top of playfield to the controller. These LEDs were placed inside a smoke black LED strip panel to soften the lights.
-- RGB matrix (at the top of the playfield display). 6-16x16 CSD RGB panels were used for a total display matrix of 96x16 RGB LEDs. A Matrix Display Board and Plexiglass was ordered but the slotted backing board part was not used. The Tukkari backboard was used instead to mount the matrix panels. Portions of the [Matrix Display Board and Plexi glass kit](https://pinballcabinet.com/products/matrix-display-board-and-plexi-glass?_pos=1&_psq=Matrix+Display+Board+and+Plexi+glass+%C3%97+1&_psid=175819946&_ss=e&_su_rec=_LF1zME-2TKjNRA2qCVkx76eoBRy1DQVqyRocdSSjbh_dNJZRK7G9QU9ZUUBw1F4msSCpbx28rpIwXdamk-ZNus4tzgtUHHnVmoETgvqy5kameCwqw4HYOEzQx-cde56WJhI68bPAgros-TAn5lOhsiW5g8r0wZiRcbyGf-VRXMd6J0vVkWpw1LuLyNKSjtfM2guT5dObopG7d4GNDChhwEFKnRBLqxAi_OsVz1cTjYo7X3Ee8b9WjaeitRhIZaNUis_QedeYdFG4ACb4vPgapZgnT1CqQ2btk_Wr73zGG-0QluqQKCTXzqo5_PxSfQg3lcIdR3r9vrNhpOtw6e0Q0xe-BsR58oK0wBqAIUFGKBGDnNFYHTF9i5wIH46tl0t4k5cv5PKz9lg_gB2DTdumGSie7tItcU&_su_rec_id=09b31051-c94a-442a-bfe6-7143a7d115ed-1793803758) were used to mount the matrix panels (the two 1/2" mounting boards are on the top and bottom of the matrix panels and the smoked plexiglass cover). The smoked plexiglass panel was used to cover the panels and soften the lights. It is attached with velcro "dots" so that it can easily be removed. 
+- RGB matrix (at the top of the playfield display). 6-16x16 CSD RGB panels were used for a total display matrix of 96x16 RGB LEDs. A Matrix Display Board and Plexiglass was ordered but the slotted backing board part was not used. The Tukkari backboard was used instead to mount the matrix panels. Portions of the [Matrix Display Board and Plexiglass kit](https://pinballcabinet.com/products/matrix-display-board-and-plexi-glass?_pos=1&_psq=Matrix+Display+Board+and+Plexi+glass+%C3%97+1&_psid=175819946&_ss=e&_su_rec=_LF1zME-2TKjNRA2qCVkx76eoBRy1DQVqyRocdSSjbh_dNJZRK7G9QU9ZUUBw1F4msSCpbx28rpIwXdamk-ZNus4tzgtUHHnVmoETgvqy5kameCwqw4HYOEzQx-cde56WJhI68bPAgros-TAn5lOhsiW5g8r0wZiRcbyGf-VRXMd6J0vVkWpw1LuLyNKSjtfM2guT5dObopG7d4GNDChhwEFKnRBLqxAi_OsVz1cTjYo7X3Ee8b9WjaeitRhIZaNUis_QedeYdFG4ACb4vPgapZgnT1CqQ2btk_Wr73zGG-0QluqQKCTXzqo5_PxSfQg3lcIdR3r9vrNhpOtw6e0Q0xe-BsR58oK0wBqAIUFGKBGDnNFYHTF9i5wIH46tl0t4k5cv5PKz9lg_gB2DTdumGSie7tItcU&_su_rec_id=09b31051-c94a-442a-bfe6-7143a7d115ed-1793803758) were used to mount the matrix panels (the two 1/2" mounting boards are on the top and bottom of the matrix panels and the smoked plexiglass cover). The smoked plexiglass panel was used to cover the panels and soften the lights. It is attached with velcro "dots" so that it can easily be removed. 
 - Speaker ring lights (left and right speakers in the backbox). It uses 57 LEDs for each speaker. The LEDs were mounted inside the pre-routed Tukkari slots around each speaker.
 
 The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-controller) connected with USB (COM port 5) to the PC. This controller is mounted to the backside of the playfield backboard and is configured using this documentation [CSD Addressable LEDs configuration](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/). A hole was drilled through the backboard to connect to the matrix panels on the other side. `The [DOF software](https://configtool.vpuniverse.com/app/home) uses this controller to manage the LEDs. The main CSD PinOne controller is not used for the LEDs.
@@ -410,7 +410,7 @@ The [CSD cabinet file generator](https://pinball-docs.clevelandsoftwaredesign.co
 | Date ordered | Part |
 |---|---|
 | Jun  2, 2026 | [Cleveland Software Designs Addressable LEDs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit?utm_medium=email&utm_source=customer_notification) |
-| Jun  2, 2026 | [Matrix Display Board and Plexi glass](https://pinballcabinet.com/products/matrix-display-board-and-plexi-glass?_pos=1&_psq=Matrix+Display+Board+and+Plexi+glass+%C3%97+1&_psid=175819946&_ss=e&_su_rec=_LF1zME-2TKjNRA2qCVkx76eoBRy1DQVqyRocdSSjbh_dNJZRK7G9QU9ZUUBw1F4msSCpbx28rpIwXdamk-ZNus4tzgtUHHnVmoETgvqy5kameCwqw4HYOEzQx-cde56WJhI68bPAgros-TAn5lOhsiW5g8r0wZiRcbyGf-VRXMd6J0vVkWpw1LuLyNKSjtfM2guT5dObopG7d4GNDChhwEFKnRBLqxAi_OsVz1cTjYo7X3Ee8b9WjaeitRhIZaNUis_QedeYdFG4ACb4vPgapZgnT1CqQ2btk_Wr73zGG-0QluqQKCTXzqo5_PxSfQg3lcIdR3r9vrNhpOtw6e0Q0xe-BsR58oK0wBqAIUFGKBGDnNFYHTF9i5wIH46tl0t4k5cv5PKz9lg_gB2DTdumGSie7tItcU&_su_rec_id=09b31051-c94a-442a-bfe6-7143a7d115ed-1793803758)
+| Jun  2, 2026 | [Matrix Display Board and Plexiglass](https://pinballcabinet.com/products/matrix-display-board-and-plexi-glass?_pos=1&_psq=Matrix+Display+Board+and+Plexi+glass+%C3%97+1&_psid=175819946&_ss=e&_su_rec=_LF1zME-2TKjNRA2qCVkx76eoBRy1DQVqyRocdSSjbh_dNJZRK7G9QU9ZUUBw1F4msSCpbx28rpIwXdamk-ZNus4tzgtUHHnVmoETgvqy5kameCwqw4HYOEzQx-cde56WJhI68bPAgros-TAn5lOhsiW5g8r0wZiRcbyGf-VRXMd6J0vVkWpw1LuLyNKSjtfM2guT5dObopG7d4GNDChhwEFKnRBLqxAi_OsVz1cTjYo7X3Ee8b9WjaeitRhIZaNUis_QedeYdFG4ACb4vPgapZgnT1CqQ2btk_Wr73zGG-0QluqQKCTXzqo5_PxSfQg3lcIdR3r9vrNhpOtw6e0Q0xe-BsR58oK0wBqAIUFGKBGDnNFYHTF9i5wIH46tl0t4k5cv5PKz9lg_gB2DTdumGSie7tItcU&_su_rec_id=09b31051-c94a-442a-bfe6-7143a7d115ed-1793803758)
 | Jun 12, 2026 | [BTF-LIGHTING WS2812B IC RGB LED Strip](https://www.amazon.com/dp/B01CDTEJR0) |
 | Jun 11, 2026 | [Muzata 6Pack 3.3FT Black LED Strip Channel with Smoky Cover](https://www.amazon.com/dp/B07KBYQ3JR) |
 
@@ -446,9 +446,17 @@ For the coin door, the [Williams/Bally Coin Door with wiring harness](https://ww
 
 ![](./images/Williams-Coin-Door-With-Wiring-Harness.png)
 
-This is a coin door used in real pinball Williams-style tables. It mounts in the pre-cut hole in the front of the cabinet using supplied bolts. The coin insert slots are fully functional since they have switches connected to the coin door harness. In addition, micro-switches were epoxied glued to the *coin reject* buttons and wired in parallel with the coin insert switches in order to use the reject buttons as coin insert buttons.
+This is a coin door used in real pinball Williams-style tables. It mounts in the pre-cut hole in the front of the cabinet using supplied bolts. The coin insert slots are fully functional since they have switches connected to the coin door harness. 
 
-In addition another microswitch was mounted to the cabinet to be used as a custom coin door open (tilt) switch. 
+In addition, micro-switches were epoxied glued to the *coin reject* buttons and wired in parallel with the coin insert switches in order to use the reject buttons as coin insert buttons and another microswitch was mounted to the cabinet to be used as a custom coin door open (tilt) switch. 
+
+TODO Add a 3rd image of the internal coin door switch
+
+| | | |
+| :---: | :---: | :---: |
+| ![](images/Coin-reject-switch-custom.jpg) | ![](images/Coin-door%20switch-custom.jpg)
+| *Coin reject switch (custom)*  | *Coin door switch (custom)* |
+ 
 
 | Date ordered | Part |
 |---|---|
@@ -533,7 +541,7 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 | Mar 19, 2026 | [Black 2 Pack PC Fan Grill](https://www.amazon.com/dp/B0CYHB7J9H?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### Playfield glass
-Glass to cover the playfield was sourced from a local Miller's Glass & Glazing. It is a 43"x23-3/4" 3/16" tempered glass panel, no logo.
+Glass to cover the playfield was sourced from a local vendor - Miller's Glass & Glazing. It is a 43"x23-3/4" 3/16" tempered glass panel, no logo.
 
 | Date ordered | Part |
 |---|---|
