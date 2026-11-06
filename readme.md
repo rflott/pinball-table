@@ -341,6 +341,12 @@ An audio file called "40 Hz Tone.wav" (on the desktop) is used to test the subwo
 
 # 8. Video subsystem
 
+### Graphics card
+
+A [GIGABYTE GeForce RTX 5070 ](https://www.amazon.com/dp/B0DTR3JK3Y?th=1) graphics card is used to drive all three monitors. 3 of the 4 ports are used (DPI, HDMI, HDMI). It is made for a more recent motherboard, but it works great in the older one that I am using.
+
+![](./images/Graphics-card.png)
+
 ### Playfield monitor
 
 For the playfield monitor, a [LG 42-Inch Class 4K OLED C4 TV](https://www.amazon.com/dp/B0CVRXN6XZ?ref=ppx_yo2ov_dt_b_fed_asin_title) is used. 
@@ -349,7 +355,7 @@ For the playfield monitor, a [LG 42-Inch Class 4K OLED C4 TV](https://www.amazon
 
 It is set to 4K, 120Hz, 100% scaling and HDR in windows display settings. The monitor is mounted to the Tukkari playfield mount and angled down in the "classic" (not flat) position. A 4K certified cable was used to connect it to the GPU using an HDMI port.
 
-The TV itself was configured for gaming mode. It also goes into standby mode when the pinball table PC is shutdown so that it stays as the primary windows desktop and the pinball table software doesn't get confused about which monitor is used for what in the game.   
+The TV itself was configured for gaming mode. It also goes into standby mode when the pinball table PC is shutdown so that it stays as the primary windows desktop and the pinball table software doesn't get confused about which monitor is used for what in the tables when the PC starts up.   
 
 !["Classic" lowered position"](images/Playfield-monitor-position.jpg)
 
