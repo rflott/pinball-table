@@ -499,6 +499,8 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 
 # 12. Software
 
+[BallerInstaller](https://www.nailbuster.com/wikipinup/doku.php?id=baller_installer) was the first software run in order to configure windows, install table emulators, PinupPopper front end and a couple of demo games. It is the software starting point.   
+
 ### DOF
 
 *Installation folder: c:\DirectOutput\\*
@@ -543,24 +545,42 @@ A few Steam Pinball FX emulator based tables were bought and are used in this ca
 
 *Installation folder: c:\vPinball\PinUPSystem\\*
 
-[Pinup Popper](https://nailbuster.com/wikipinup/doku.php?id=start) is used as the frontend to select which table to load and run. It was installed in the cabinet and setup using [Baller Installer](https://nailbuster.com/wikipinup/doku.php?id=baller_installer).
-- [ ] TODO Add PinUpMenu.exe, PinUpMenuSetup.exe details
-- [ ] TODO How are the buttons configured?
+- Install/manage/remove tables and playlists, graphic front end to load and run tables
 
-## How I find and add a VPX/FP table, add Pinup Popper media, etc.
+[Pinup Popper frontend](https://www.nailbuster.com/wikipinup/doku.php?id=popper_themes) is used as the frontend to allow the user to select which table to load and run. It was installed in the cabinet and setup using [Baller Installer](https://nailbuster.com/wikipinup/doku.php?id=baller_installer).
+
+PinUpMenu.exe is the main frontend executable file for PinUP Popper. PinUpMenuSetup.exe is the configuration app to install table, create playlists, etc. Shortcuts to both of these app are placed on the desktop since the are used quite often.
+
+### VPin Studio
+
+*Installation folder on cabinet: C:\vPinball\Vpin-Studio\\*
+
+- Alternative to Pinup Popper used for installing/managing/removing tables and playlists
+
+[VPin Studio](https://github.com/syd711/vpin-studio) is used to intelligently manage the pinball table emulators, software, associated files and settings over the LAN. It is a client/server design where the pinball cabinet has a server running in background and my main PC has the client running that talks to that server. The client is also installed on the pinball cabinet itself so that you can use it there too with the wireless keypad/trackpad. I normally use it remotely since I can do that from my office and I have a better keyboard/mouse/monitor setup there.      
+
+- Backup/Restore tables
+
+It also will backup individual tables to my NAS over the LAN. This allows me to experiment with a new version of a table and, if needed, delete the table and restore it from a good backup on the NAS. It also allows me to experiment with a table to see if I want to keep it or not and if I decide not to keep it, it is backed up and I can restore it later.  
+
+## How to find and add a VPX/FP table, add Pinup Popper media, etc.
+
 1. Find a table on [Virtual Pinball Spreadsheet](https://virtualpinballspreadsheet.github.io/games)
 2. Download the table xxx.vpx file (and perhaps others). Follow the directions.
 3. Download the backglass .directb2s file (I usually prefer the 3 Screen or FullDMD versions by authors such as HauntFreaks) 
-4. Download the rom xxx.zip file (if the table has a rom file). Usually late '70s/80s/90s/2000s tables have ROM files/ Older EM (electromechanical) tables do not (as they didn't have a microprocessor in them.) Also newer, original tables (not a recreation of a physical table) do not either. Leave the ROM file in .zip form.
-5. Run the VPin Studio app on main PC (or Vpin table PC) and open the main Tables list window.
-6. Drag the xxx.vpx, xxx.directb2s and rom.zip files to the Table list. VPin studio will ask if you want to add a new table. Select yes and fill out any extra data as needed.    
-7.  Use VPin Studio app on main PC (or VPin table PC) to add Pinup Popper Table Media. I usually just select a Wheel icon, Playfield video, Backglass video, Apron/FullDMD graphic or video and Help graphic/video.
+4. Download the rom xxx.zip file (if the table has a rom file). Usually late '70s/80s/90s/2000s tables have ROM files/ Older EM (electromechanical) tables do not (as they didn't have a microprocessor in them.) Also newer, original tables (not a recreation of a physical table) usually don't have a ROM either. Leave the ROM file in .zip form.
+5. Run the VPin Studio client app on the main PC (or Vpin cabinet PC)
+6. Connect to the cabinet VPinStudio server by IP address and open the main Tables list window.
+7. Drag the xxx.vpx, xxx.directb2s and rom.zip files to the Table list. VPin studio will ask if you want to add a new table. Select yes and fill out any extra data as needed.    
+8.  Use VPin Studio app on main PC (or VPin table PC) to add Pinup Popper Table Media. I usually just add a Wheel icon, Playfield video, Backglass video, Apron/FullDMD graphic or video and Help graphic or video.
 
-- [ ] TODO how are playlists configured, managed?
+## How playlists are created/managed/deleted, etc.
 
-## How to select, add coins, start play, and exit a table
+Playlists are like a folder of games in the frontend UI that can be created and managed by either VPinStudio or Pinup Popper config app. Refer to their documentation for managing the playlists. This allows playlists to contain Kid's tables or Sports tables, etc. 
 
-Select
+## How to select, add coins, start, play and exit a table
+
+Select a table
 ---
 1. Start Pinup Popper by booting up the cabinet PC (Pinup Popper autostarts after Windows boots) or double-clicking the ***PinUP Popper FrontEnd*** shortcut from the Windows desktop.  
 2. Use the left/right flipper buttons to move left/right in the Pinup Popper scrolling menu.
@@ -568,19 +588,19 @@ Select
 4. Use the left back (magna-save) flipper button to exit (or go out of) a selection
 5. Once you have scrolled to the table you want to play, use the right back (magna-save) flipper button to select it and then again to play it. OR you can use the Start button to start it. 
 
-Start
+Start a table
 ---
 1. Once the table is loaded, use the Coin Reject buttons to "Insert" coins. Both buttons work, but the right one simulates a single coin and always works. The left one simulates inserting a dollar/multiple coins which some games support and others do not (especially the older tables). You should hear the sound of coins dropping into the machine to determine if it is working or not.  
 2. Use the Start button to start playing the table 
 
-Play
+Play a table
 ---
 1. Once a pinball has been loaded in front of the video plunger, either pull back and release the physical plunger or, if the Fire button is lit or blinking, hit the Fire button to launch the ball. It depends on the table. 
 2. Use the left/right flipper buttons to hit the ball. 
 3. Most newer tables have 3 balls/game. Older tables ('70s and earlier) have 5 balls/game.  
 4. Once the game is over you will need to use the Start button again to restart it. If you are out of credits, you will need to "insert" more coins and hit the Start button again.
 
-Exit
+Exit a table
 ---
 1. Once the game is over, you can use the Exit button (located at the far left under the cabinet) to exit the game. This will take you back to the Pinup Popper scroll bar. 
 2. Repeat selecting and playing another table.
@@ -614,18 +634,6 @@ These apps were installed and they are launched from the Windows startup folder.
 ### RustDesk
 [RustDesk](https://rustdesk.com/) is used as a remote desktop app so that I can use my PC to remotely control the cabinet (in Windows, in an emulator, etc.). It can remotely show all three displays (playfield, backglass, DMD). 
 
-### VPin Studio
-
-*Installation folder on cabinet: C:\vPinball\Vpin-Studio\\*
-
-- Install/Manage/Remove tables
-
-[VPin Studio](https://github.com/syd711/vpin-studio) is used to intelligently manage the pinball table emulators, software, associated files and settings over the LAN. It is a client/server design where the pinball cabinet has a server running in background and my main PC has the client running that talks to that server. The client is also installed on the pinball cabinet itself so that you can use it there too with the wireless keypad/trackpad. I normally use it remotely since I can do that from my office and I have a better keyboard/mouse/monitor setup there.      
-
-- Backup/Restore tables
-
-It also will backup individual tables to my NAS over the LAN. This allows me to experiment with a new version of a table and, if needed, delete the table and restore it from a good backup on the NAS. It also allows me to experiment with a table to see if I want to keep it or not and if I decide not to keep it, it is backed up and I can restore it later.  
-
 ### HDP PC Agent
 
 [HDP PC Agent](https://www.qnap.com/en-us/software/hdp-pc-agent) is a background app that the QNAP NAS uses for backup. The entire cabinet software (including Windows) is periodically backed up with this app in case of catastrophic storage failure. 
@@ -645,10 +653,18 @@ Individual pinball emulator Windows executables were configured to modify variou
 |  | Power management modeMax | Prefer maximum performance |
 |  | Vertical sync | Use the 3D application setting |
 
-- [ ] TODO MAME add arcade game details
+### MAME (v0.287)
 
-- [ ] TODO vPinBackupManager add backing up FP tables details
+*Installation folder on cabinet: C:\MAME\\*
+
+[MAME](https://www.mamedev.org/) is a multi-arcade game emulator used to run old video arcade games. The games are played using the [AceGamer Aurora II 2.4G Wireless Bluetooth Controller for PC](https://www.amazon.com/dp/B0FJRTNTHQ?th=1) joystick controller. The arcade monitor is configured the same as the pinball table's such that it is turned 90 degrees (portrait mode). PinupPopper is configured to have a playlist for running installed arcade games. 
+
+### vPinBackManager
+
 *Installation folder on cabinet: C:\vPinball\vPinBackupManager\\*
+
+[vPinBackupManager](https://vpuniverse.com/files/file/19155-virtual-pinball-backup-manager-vpbm-v21/) is used for backing up pinball tables. Since VPinStudio already backs up VPX tables to the NAS and it doesn't backup FuturePinball (FP) tables, vPinBackupManager is only for backing up FP tables.
+
 
 ## Windows startup apps & scripts
 These apps and scripts are started in background by Windows when it boots up.
