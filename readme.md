@@ -167,6 +167,8 @@ The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specificat
 # 6. Cabinet electronics
 
 #### [Cleveland Software Designs Virtual Pinball Builders Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit)
+![](./images/CSD-Builders-Kit.png)
+
 As the main controller, the Cleveland Software Designs PinOne is used along with its accessories. The virtual pinball builders kit includes this controller along with its accessories. It includes the following: 
 
 | Part | Usage |
@@ -232,7 +234,7 @@ The [CSD PinOne Configuration documentation](https://pinball-docs.clevelandsoftw
 
 Note: individual Magna-save buttons can be set to different colors (left vs right). The Fire button can also be set to any color. The left & right flippers must both be set to the same color. The other buttons are a static color (as defined by their plastic color) .
 
-Note: the power button is lit though a port but its input is sent to the PC power-on motherboard connector.
+Note: the power button is lit though a port but its button switch is sent to the PC power-on motherboard connector.
 
 | Button outputs (LEDs) | Port |
 |---|---|
@@ -275,6 +277,8 @@ The CSD plunger was installed and configured per the [documentation](https://pin
 # 7. Audio subsystem
 
  ### [Cleveland Software Designs SSF Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-power-ssf-kit) 
+![](./images/CSD-SSF-Kit.png)
+
  For the audio subsystem, the Cleveland Software Designs SSF Kit is used. It includes the following: 
 - [Amplifier](https://www.clevelandsoftwaredesign.com/pinball-parts/p/ssf-extra-amplifier)
 - [Bass shaker](https://www.clevelandsoftwaredesign.com/pinball-parts/p/bass-shaker-speaker)
@@ -328,31 +332,48 @@ The subwoofer speaker is a standard 6 1/2" car stereo subwoofer and is connected
 ### Testing the audio subsystem 
 
 #### Testing 7.1 audio
-A VLC.exe file called "LPCM 7.1.wav" (on the desktop) is used to test the 7.1 audio subsystem. 
+An audio file called "LPCM 7.1.wav" (on the desktop) is used to test the 7.1 audio subsystem. 
 
 #### Testing the subwoofer 
-A VLC.exe file called "40 Hz Tone.wav" (on the desktop) is used to test the subwoofer. 
+An audio file called "40 Hz Tone.wav" (on the desktop) is used to test the subwoofer. 
 
 # 8. Video subsystem
 
 ### Playfield monitor
-The playfield monitor is set to 4K, 120Hz, 100% scaling and HDR in windows display settings. The monitor is mounted to the Tukkari playfield mount and angled down in the "classic" (not flat) position. A 4K certified cable was used to connect it to the GPU using an HDMI port. 
+
+For the playfield monitor, a [LG 42-Inch Class 4K OLED C4 TV](https://www.amazon.com/dp/B0CVRXN6XZ?ref=ppx_yo2ov_dt_b_fed_asin_title) is used. 
+
+![](images/Playfield-monitor.png)
+
+It is set to 4K, 120Hz, 100% scaling and HDR in windows display settings. The monitor is mounted to the Tukkari playfield mount and angled down in the "classic" (not flat) position. A 4K certified cable was used to connect it to the GPU using an HDMI port.
+
+The TV itself was configured for gaming mode. It also goes into standby mode when the pinball table PC is shutdown so that it stays as the primary windows desktop and the pinball table software doesn't get confused about which monitor is used for what in the game.   
 
 !["Classic" lowered position"](images/Playfield-monitor-position.jpg)
 
 | Date ordered | Part |
 |---|---|
-| Dec 13, 2025 | [LG 42-Inch Class 4K OLED C4 TV from Amazon](https://www.amazon.com/dp/B0CVRXN6XZ?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+| Dec 13, 2025 | [LG 42-Inch Class 4K OLED C4 TV](https://www.amazon.com/dp/B0CVRXN6XZ?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 | Dec 25, 2025 | [Highwings 8K@60 HDMI Cable 10FT](https://www.amazon.com/dp/B08KSY32VR?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
-### Backfield monitor
-The backfield monitor is mounted in the backbox using the Tukkari mount and is set to 1080P, 60Hz and 100% scaling in windows display settings. The monitor has an unusually thick rear cover, so much so that it pushes the monitor forward and you are unable to use the Tukkari supplied plexiglass cover in front of the monitor. Someday I may try the trick of mounting the brackets backwards so that the monitor shift back and the plexiglass may be installed. It is connected to a Display Port on the GPU.
+### Backglass monitor
+
+For the backglass monitor, a [Samsung 32-Inch Gaming Monitor](https://www.amazon.com/dp/B0D5Z565D5?ref=ppx_yo2ov_dt_b_fed_asin_title) is used. 
+
+![](images/Backglass-monitor.png)
+
+The backglass monitor is mounted in the backbox using the Tukkari mount and is set to 1080P, 60Hz and 100% scaling in windows display settings. The monitor has an unusually thick rear cover, so much so that it pushes the monitor forward and you are unable to use the Tukkari supplied plexiglass cover in front of the monitor. Someday I may try the trick of mounting the brackets backwards so that the monitor shift back and the plexiglass may be installed. It is connected to a Display Port on the GPU.
 
 | Date ordered | Part |
 |---|---|
 | Dec 18, 2025 | [Samsung 32-Inch Odyssey G3 (G30D) Series FHD Gaming Monitor](https://www.amazon.com/dp/B0D5Z565D5?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### DMD monitor
+
+For the DMD monitor, a [KYY Portable Monitor 15.6" 1080P Computer Monitor](https://www.amazon.com/dp/B088D8JG3L?ref=ppx_yo2ov_dt_b_fed_asin_titlehttps://www.amazon.com/dp/B088D8JG3L?ref=ppx_yo2ov_dt_b_fed_asin_titlehttps://www.amazon.com/dp/B088D8JG3L?ref=ppx_yo2ov_dt_b_fed_asin_title) is used. 
+
+![](images/DMD-monitor.png)
+
 The DMD monitor is set to 1080P 60Hz in windows and is mounted to the Tukkari metal speaker panel. Two pieces of aluminum strap were bent and tapped so that they can be used as mounting brackets. Two 90 degree angled adapters (one mini-HDMI and one USB-C) were used to provide power and signal to the monitor in the very tight space. It is connected to an HDMI port on the GPU.
 
 | Date ordered | Part |
@@ -363,17 +384,20 @@ The DMD monitor is set to 1080P 60Hz in windows and is mounted to the Tukkari me
 
 # 9. Addressable LEDs
 
+ For the LEDs, the [Cleveland Software Designs Addressable LED Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-plug-and-play-kit) is used. 
+
+ ![](./images/CSD-Addressable-LED-Kit.png)
+
 Addressable LEDs were added to three different parts of the table -
 - Playfield side lights (on both sides of the playfield display). It uses 137 LEDs for each side. The wires run out of the top of playfield to the controller. These LEDs were placed inside a smoke black LED strip panel to soften the lights.
 - RGB matrix (at the top of the playfield display). 6-16x16 CSD RGB panels were used for a total display matrix of 96x16 RGB LEDs. A Matrix Display Board and Plexiglass was ordered but the slotted backing board part was not used. The Tukkari backboard was used instead to mount the matrix panels. The smoked plexiglass panel was used to cover the panels and soften the lights. The plexiglass panel uses velcro buttons to attach it so that it can be easily removed.
 - Speaker ring lights (left and right speakers in the backbox). It uses 57 LEDs for each speaker. The LEDs were mounted inside the pre-routed Tukkari slots around each speaker.
 
-The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-controller) connected with USB (COM port 5) to the PC. This controller is mounted to the backside of the playfield backboard and is configured using this documentation [CSD Addressable LEDs configuration](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/). A hole was drilled through the backboard to connect to the matrix panels on the other side. `The [DOF software](https://configtool.vpuniverse.com/app/home) uses this controller to manage the LEDs. The CSD PinOne controller is not used for the LEDs.
+The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-controller) connected with USB (COM port 5) to the PC. This controller is mounted to the backside of the playfield backboard and is configured using this documentation [CSD Addressable LEDs configuration](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/). A hole was drilled through the backboard to connect to the matrix panels on the other side. `The [DOF software](https://configtool.vpuniverse.com/app/home) uses this controller to manage the LEDs. The main CSD PinOne controller is not used for the LEDs.
 
 The [CSDAddressableControllerTool.exe app](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/configuring) was initially used to test the LEDs.
 
 The [CSD cabinet file generator](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator) was used to create the c:\DirectOutput\config.cabinet.xml file to configure the lights for the cabinet.
-
 
 | Date ordered | Part |
 |---|---|
@@ -385,6 +409,11 @@ The [CSD cabinet file generator](https://pinball-docs.clevelandsoftwaredesign.co
 # 10. Miscellaneous
 
 ### Knocker
+
+For the knocker, the [Cleveland Software Designs Knocker kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/12v-to-24v-knocker-circuit-conversion-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name) is used. 
+
+![](./images/CSD-Knocker-Kit.png)
+
 The knocker is used to make a loud "knock" noise when a player has won a game. It is mounted on the left inside wall of the backbox at the top (so it can have a loud knock). It is connected to the PinOne controller's Knocker terminals.  
 
 | Date ordered | Part |
@@ -392,14 +421,24 @@ The knocker is used to make a loud "knock" noise when a player has won a game. I
 | May 4, 2026 | [Cleveland Software Designs 12v to 24v knocker circuit conversion kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/12v-to-24v-knocker-circuit-conversion-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
 
 ### Shaker motor
-The [shaker motor](https://www.clevelandsoftwaredesign.com/pinball-parts/p/ultimate-pinball-shaker-motor) was bolted through the cabinet floor since it needs a very secure mount so that it doesn't shake itself apart and cause damage. It is connected to the CSD PinOne using the shaker connector.
+
+For the shaker motor, the [Cleveland Software Designs Shaker motor](https://www.clevelandsoftwaredesign.com/pinball-parts/p/ultimate-pinball-shaker-motor) is used. 
+
+![](./images/CSD-Shaker-Motor.png)
+
+It is bolted through the cabinet floor since it needs a very secure mount so that it doesn't shake itself apart and cause damage. It is connected to the CSD PinOne using the shaker connector pins.
 
 | Date ordered | Part |
 |---|---|
 | Feb 20, 2026 | [Virtual Pinball Builders Kit (medium/large) from Cleveland Software Designs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
 
 ### Coin door
-This is a coin door used in real pinball Williams-style tables. It mounts in the pre-cut hole in the front of the cabinet using supplied bolts. The coin insert slots are fully functional since the have switches connected to the coin door harness. In addition, micro-switches were epoxied glued to the *coin reject* buttons and wired in parallel with the coin insert switches in order to use the reject buttons as coin insert buttons.
+
+For the coin door, the [Williams/Bally Coin Door with wiring harness](https://www.pinballlife.com/williamsbally-coin-door.html?) is used. 
+
+![](./images/Williams-Coin-Door-With-Wiring-Harness.png)
+
+This is a coin door used in real pinball Williams-style tables. It mounts in the pre-cut hole in the front of the cabinet using supplied bolts. The coin insert slots are fully functional since they have switches connected to the coin door harness. In addition, micro-switches were epoxied glued to the *coin reject* buttons and wired in parallel with the coin insert switches in order to use the reject buttons as coin insert buttons.
 
 In addition another microswitch was mounted to the cabinet to be used as a custom coin door open (tilt) switch. 
 
@@ -418,6 +457,10 @@ This allows you to use the service board connector on the CSD PinOne board to di
 | Feb 22, 2026 | [Cleveland Software Designs Williams Coin Door Adapter](https://www.clevelandsoftwaredesign.com/pinball-parts/p/williams-coin-door-adapter?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
 
 ### Chime box
+For the chime box, the [Intense Arcade Three Note Chime box](https://intensearcade.com/three-note-chime-unit) is used. 
+
+![](./images/Intense-Arcade-Three-Note-Chime-Unit.png)
+
 A 3-note chime box was added inside the pinball table box. Since the chime coils require a high current, high current controller outputs must be used. One of the note coils uses the CSD PinOne controller high current output (since it was the last one) and the other two are interfaced to the PinOne through a [CSD Simple two output board](https://www.clevelandsoftwaredesign.com/pinball-parts/p/simple-two-output-board) to convert two CSD PinOne low current (signal) outputs to high current. Those two coils are powered by the PC's power supply (12V) not the CSD PinOne. This is done by attaching the PC power to the CSD Simple two output board.
 
 In addition, 3 diodes are used across the coil terminals to keep the coil flyback voltage from damaging the controller circuits.
@@ -586,7 +629,7 @@ Select a table
 2. Use the left/right flipper buttons to move left/right in the Pinup Popper scrolling menu.
 3. Use the right back (magna-save) flipper button to select (or go into) an icon
 4. Use the left back (magna-save) flipper button to exit (or go out of) a selection
-5. Once you have scrolled to the table you want to play, use the right back (magna-save) flipper button to select it and then again to play it. OR you can use the Start button to start it. 
+5. Once you have scrolled to the table you want to play, use the right back (magna-save) flipper button to select it and then again to play it. Or you can use the Start button to start it. 
 
 Start a table
 ---
