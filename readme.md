@@ -465,8 +465,6 @@ This is a coin door used in real pinball Williams-style tables. It mounts in the
 
 In addition, micro-switches were epoxied glued to the *coin reject* buttons and wired in parallel with the coin insert switches in order to use the reject buttons as coin insert buttons and another microswitch was mounted to the cabinet to be used as a custom coin door open (tilt) switch. 
 
-TODO Add a 3rd image of the internal coin door switch
-
 | | | |
 | :---: | :---: | :---: |
 | ![](images/Coin-reject-switch-custom.jpg) | ![](images/Coin-door%20switch-custom.jpg) |![](images/Coin-door-switch-custom-internal.jpg) |
