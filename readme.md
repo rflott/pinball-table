@@ -144,8 +144,9 @@ An IoT relay power strip was purchased so that when the PC is powered on, its US
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Addressable-RGB-LEDs-controller.jpg) | ![](images/Cup-holder.jpg)
-| *Addressable RGB LEDs controller on back of top of playfield angled board*  | *Cup holder*
+| ![](images/Addressable-RGB-LEDs-controller.jpg) | ![](images/Cup-holder.jpg) | ![](images/Lockdown-bar--latches-flipper-button-board-installed.jpg)
+| *Addressable RGB LEDs controller on back of top of playfield angled board*  | *Cup holder* | *Lockdown-bar latches, flipper button boards installed* |
+
 
 # 5. PC
 
@@ -159,6 +160,9 @@ The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specificat
 - Audio: Realtek 7.1 High Definition Audio
 - [Manual](diagrams/PC.pdf)
 
+<img src="./images/PC-installed.jpg" alt="Description" width="40%" height="40%">\
+*PC installed*
+
 | Date ordered | Part |
 |---|---|
 | Dec 10, 2025 | [GIGABYTE GeForce RTX 5070 Gaming OC 12G Graphics Card](https://www.amazon.com/dp/B0DTR3JK3Y?th=1) |
@@ -171,8 +175,16 @@ The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specificat
 #### [Cleveland Software Designs Virtual Pinball Builders Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit)
 ![](./images/CSD-Builders-Kit.png)
 
-As the main controller, the Cleveland Software Designs PinOne is used along with its accessories. The virtual pinball builders kit includes this controller along with its accessories. It includes the following: 
+As the main controller, the Cleveland Software Designs PinOne is used along with its accessories. The virtual pinball builders kit includes this controller along with its accessories.
 
+| | | |
+| :---: | :---: | :---: |
+| ![](images/CSD-PinOne-installed.jpg) | ![](images/CSD-left-flippers.jpg) | ![](images/CSD-right-flippers.jpg)
+| *PinOne installed* | *Left flippers* | *Right flippers* 
+
+
+It includes the following: 
+ 
 | Part | Usage |
 |---|---|
 | [PinOne Controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/pinone-main-virtual-pinball-connection-board) | Main controller |
@@ -194,51 +206,56 @@ The various devices in the kit were connected based on this [CSD documentation](
 
 The [CSD PinOne Configuration documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/) was used to configure the PinOne board and the devices (inputs, outputs, etc.). The [CSD PinOne Configuration app](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/) is left installed on the cabinet desktop to make it easy to reconfigure the PinOne board. 
 
-| Outputs | Port |
-|---|---|
-| Solenoid front left | 1 |
-| Solenoid rear left | 2 |
-| Solenoid middle bar right | 3 |
-| Solenoid middle bar middle | 4|
-| Solenoid middle bar left | 5 |
-| Solenoid back right | 6|
-| Solenoid front right | 7 |
-| Solenoid back bar right | 8 |
-| Solenoid back bar middle | 9 |
-| Solenoid back bar left | 10 |
-| Chime low | 11 |
-| Shaker motor | 12 |
-| Knocker | 13 |
-| Chime high | 14 |
-| Chime middle | 15 |
+<img src="./images/CSD-button-board-installed.jpg" alt="Description" width="40%" height="40%">\
+*Button board installed*
 
-| Button inputs | Port |
-|---|---|
-| Flipper right | 1 |
-| Magna-save right | 2 |
-| Flipper left | 3 |
-| Magna-save left | 4 |
-| Night mode | 5 | 
-| Pause | 7 |
-| Fire | 9 |
-| Vol+ | 10 |
-| Vol- | 11 |
-| Exit | 12 |
-| Start | 13 |
-| Coin left | 17 |
-| Coin right | 18 |
-| Escape | 19 |
-| Test mode | 20 |
-| Function | 21 |
-| Enter | 22 |
-| Coin door tilt | 23 |
-| Plunger launch | 24 |
+| Outputs | Port | Connector |
+|---|---|---|
+| Solenoid front left | 1 | + 1 2 |
+| Solenoid rear left | 2 | + 1 2 |
+| Solenoid middle bar right | 3 | + 3 4 5 |
+| Solenoid middle bar middle | 4 | + 3 4 5 |
+| Solenoid middle bar left | 5 |  + 3 4 5 |
+| Solenoid back right |6 | + 6 7 |
+| Solenoid front right | 7 | + 6 7 |
+| Solenoid back bar right | 8 | + 8 9 10 |
+| Solenoid back bar middle | 9 | + 8 9 10 |
+| Solenoid back bar left | 10 | + 8 9 10 |
+| Chime low | 11 | 11 (Beacon) |
+| Shaker motor | 12 | 12 (Shaker) |
+| Knocker | 13 | 13 ( Knocker) |
+| Chime high | 14 | 14 |
+| Chime middle | 15 | 15 |
+| IR emitter (?) | 24 | 24 |
+
+| Button inputs | Port | Button board |
+|---|---|---|
+| Flipper right | 1 | (right flipper board) B1 |
+| Magna-save right | 2 | (right flipper board) B2 |
+| Flipper left | 3 | (left flipper board) B1 |
+| Magna-save left | 4 | (left flipper board) B2|
+| Night mode | 5 | B5 |
+| Pause | 7 | B7 |
+| (unused) | 8 | B8 |
+| Fire | 9 | Fire |
+| Vol+ | 10 | B10 |
+| Vol- | 11 | B11 |
+| Exit | 12 | B12 |
+| Start | 13 | B13 |
+| Coin left | 17 | (coin door adapter) |
+| Coin right | 18 | (coin door adapter) |
+| Escape | 19 | (coin door adapter) |
+| Test mode | 20 | (coin door adapter) |
+| Function | 21 | (coin door adapter) |
+| Enter | 22 | (coin door adapter) |
+| Coin door tilt | 23 | B14 |
+| Plunger launch | 24 | (plunger) |
 
 Note: individual Magna-save buttons can be set to different colors (left vs right). The Fire button can also be set to any color. The left & right flippers can be set to any color, but they both have to be the same color. The other buttons are a static color (as defined by their plastic color) .
 
 Note: the power button is lit though a port but its button switch is sent to the PC power-on motherboard connector not to the PinOne controller.
 
-| Button outputs (LEDs) | Port |
+| Button outputs (LEDs) | Port | Button board |
 |---|---|
 | Flippers red | 16 |
 | Flippers green | 17 |
@@ -249,9 +266,14 @@ Note: the power button is lit though a port but its button switch is sent to the
 | Magna left red | 22 |
 | Magna left green | 23 |
 | Magna left blue | 24 |
-| Night Mode| 25 |
-| Power | 26 |
-| Pause | 27 |
+| Night Mode| 25 | B5 |
+| Power | 26 | B6 |
+| Pause | 27 | B7 |
+| Vol+ | (always on) | B10 |
+| Vol- | (always on)  | B11  |
+| Exit | (always on)  | B12  |
+| Start | (always on)  | B13  |
+| Coin door | (no led)  | (no led)  |
 | Fire red | 29 |
 | Fire green | 30 |
 | Fire blue | 31 |
@@ -287,6 +309,8 @@ The CSD plunger was installed and configured per the [documentation](https://pin
 - [4x Exciter speakers](https://www.clevelandsoftwaredesign.com/pinball-parts/p/replacement-exciter-speaker)
 
 ### Amplifier
+<img src="./images/CSD-audio-amplifer-cabinet.jpg" width="40%" height="40%">
+
 The CSD amplifier is set to 7.1 mode and is connected to the PC's 7.1 audio output jacks using 3-3.5mm multi-channel audio wires. 
 
 | PC audio output | CSD amplifier input |
@@ -401,7 +425,8 @@ Addressable LEDs were added to three different parts of the table -
 - RGB matrix (at the top of the playfield display). 6-16x16 CSD RGB panels were used for a total display matrix of 96x16 RGB LEDs. A [Matrix Display Board and Plexiglass kit](https://pinballcabinet.com/products/matrix-display-board-and-plexi-glass?_pos=1&_psq=Matrix+Display+Board+and+Plexi+glass+%C3%97+1&_psid=175819946&_ss=e&_su_rec=_LF1zME-2TKjNRA2qCVkx76eoBRy1DQVqyRocdSSjbh_dNJZRK7G9QU9ZUUBw1F4msSCpbx28rpIwXdamk-ZNus4tzgtUHHnVmoETgvqy5kameCwqw4HYOEzQx-cde56WJhI68bPAgros-TAn5lOhsiW5g8r0wZiRcbyGf-VRXMd6J0vVkWpw1LuLyNKSjtfM2guT5dObopG7d4GNDChhwEFKnRBLqxAi_OsVz1cTjYo7X3Ee8b9WjaeitRhIZaNUis_QedeYdFG4ACb4vPgapZgnT1CqQ2btk_Wr73zGG-0QluqQKCTXzqo5_PxSfQg3lcIdR3r9vrNhpOtw6e0Q0xe-BsR58oK0wBqAIUFGKBGDnNFYHTF9i5wIH46tl0t4k5cv5PKz9lg_gB2DTdumGSie7tItcU&_su_rec_id=09b31051-c94a-442a-bfe6-7143a7d115ed-1793803758) was ordered but the slotted backing board part was not used. The Tukkari backboard was used instead to mount the matrix panels. But portions of the Matrix Display Board and Plexiglass kit were used to mount the matrix panels - the two 1/2" mounting boards are on the top and bottom of the matrix panels and the smoked plexiglass cover was used to cover the panels and soften the lights. It is attached with velcro "dots" so that it can easily be removed. 
 - Speaker ring lights (left and right speakers in the backbox). The LEDs were mounted inside the pre-routed Tukkari slots around each speaker.
 
- ![](./images/Speaker-lights.jpg)
+ <img src="./images/Addressable-RGB-LEDs.jpg" width="40%">
+
 
 The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-controller) connected with USB (COM port 5) to the PC. This controller is mounted to the backside of the playfield backboard and is configured using this documentation [CSD Addressable LEDs configuration](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/). A hole was drilled through the backboard to connect to the matrix panels on the other side. `The [DOF software](https://configtool.vpuniverse.com/app/home) uses this controller to manage the LEDs. The main CSD PinOne controller is not used for the LEDs.
 
@@ -418,7 +443,11 @@ The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www
 | Speaker left | 57 | 9 |
 | Speaker left | 57 | 10 |
 
-The [CSDAddressableControllerTool.exe app](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/configuring) was initially used to test the LEDs. The online [CSD cabinet file generator](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator) was used to create the c:\DirectOutput\config.cabinet.xml file to configure the lights for the cabinet.
+The [CSDAddressableControllerTool.exe app](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/configuring) was initially used to test the LEDs. 
+
+![](./images/CSDAddressableControllerTool.exe.png)
+ 
+ The online [CSD cabinet file generator](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator) was used to create the c:\DirectOutput\config.cabinet.xml file to configure the lights for the cabinet.
 
 | Date ordered | Part |
 |---|---|
@@ -437,7 +466,11 @@ For the knocker, the [Cleveland Software Designs Knocker kit](https://www.clevel
 
 The knocker is used to make a loud "knock" noise when a player has won a game. It is mounted on the left inside wall of the backbox at the top (so it can have a loud knock). It is connected to the PinOne controller's Knocker terminals.  
 
-![](./images/Knocker-installed.jpg)
+<img src="./images/Knocker-installed.jpg" alt="Description" width="40%" height="40%">\
+*Knocker installed*
+
+<img src="./images/CSD-knocker-adapter-installed.jpg" alt="Description" width="40%" height="40%">\
+*Knocker adapter installed*
 
 | Date ordered | Part |
 |---|---|
@@ -450,6 +483,10 @@ For the shaker motor, the [Cleveland Software Designs Shaker motor](https://www.
 ![](./images/CSD-Shaker-Motor.png)
 
 It is bolted through the cabinet floor since it needs a very secure mount so that it doesn't shake itself apart and cause damage. It is connected to the CSD PinOne using the shaker connector pins.
+
+<img src="./images/CSD-shaker-motor-installed.jpg" alt="Description" width="40%" height="40%">\
+*Shaker motor installed*
+
 
 | Date ordered | Part |
 |---|---|
@@ -488,11 +525,15 @@ This allows you to use the service board connector on the CSD PinOne board to di
 ### Chime box
 For the chime box, the [Intense Arcade Three Note Chime box](https://intensearcade.com/three-note-chime-unit) is used. 
 
-![](./images/Intense-Arcade-Three-Note-Chime-Unit.png)
+<img src="./images/Intense-Arcade-Three-Note-Chime-Unit.png" alt="Description" width="40%" height="40%">\
+*Chime unit*
 
-A 3-note chime box was added inside the pinball table box. Since the chime coils require a high current, high current controller outputs must be used. One of the note coils uses the CSD PinOne controller high current output (since it was the last one) and the other two are interfaced to the PinOne through a [CSD Simple two output board](https://www.clevelandsoftwaredesign.com/pinball-parts/p/simple-two-output-board) to convert two CSD PinOne low current (signal) outputs to high current. Those two coils are powered by the PC's power supply (12V) not the CSD PinOne. This is done by attaching the PC power to the CSD Simple two output board.
+A 3-note chime box was added inside the pinball table box. Since the chime coils require a high current, high current controller outputs must be used. One of the note coils uses the CSD PinOne controller high current output (since it was the last one) and the other two are interfaced to the PinOne through a [CSD Simple two output board](https://www.clevelandsoftwaredesign.com/pinball-parts/p/simple-two-output-board) to convert two CSD PinOne low current (signal) outputs to high current outputs. Those two coils are powered by the PC's power supply (12V) not the CSD PinOne. This is done by attaching a PC power connector to the CSD Simple two output board.
 
 In addition, 3 diodes are used across the coil terminals to keep the coil flyback voltage from damaging the controller circuits.
+
+<img src="./images/Chime-unit-installed.jpg" alt="Description" width="40%" height="40%">\
+*Chime unit installed*
 
 | Date ordered | Part |
 |---|---|
@@ -526,6 +567,10 @@ A wireless game controller is used to play arcade games on the pinball table. Th
 
 ### Ground strap
 A flat braid cable was wrapped around the inside of the cabinet and is used to ground all of electronics and the exposed metal surfaces in case someone walked up to the cabinet and had a static discharge though an exposed metal surface.
+
+<img src="./images/Ground-strap-installed.jpg" alt="Description" width="40%" height="40%">\
+*Ground strap installed*
+
 
 | Date ordered | Part |
 |---|---|
