@@ -397,15 +397,28 @@ The DMD monitor is set to 1080P 60Hz in windows and is mounted to the Tukkari me
  ![](./images/CSD-Addressable-LED-Kit.png)
 
 Addressable LEDs were added to three different parts of the table -
-- Playfield side lights (on both sides of the playfield display). It uses 137 LEDs for each side. The wires run out of the top of playfield to the controller. These LEDs were placed inside a smoke black LED strip panel to soften the lights.
-- RGB matrix (at the top of the playfield display). 6-16x16 CSD RGB panels were used for a total display matrix of 96x16 RGB LEDs. A Matrix Display Board and Plexiglass was ordered but the slotted backing board part was not used. The Tukkari backboard was used instead to mount the matrix panels. Portions of the [Matrix Display Board and Plexiglass kit](https://pinballcabinet.com/products/matrix-display-board-and-plexi-glass?_pos=1&_psq=Matrix+Display+Board+and+Plexi+glass+%C3%97+1&_psid=175819946&_ss=e&_su_rec=_LF1zME-2TKjNRA2qCVkx76eoBRy1DQVqyRocdSSjbh_dNJZRK7G9QU9ZUUBw1F4msSCpbx28rpIwXdamk-ZNus4tzgtUHHnVmoETgvqy5kameCwqw4HYOEzQx-cde56WJhI68bPAgros-TAn5lOhsiW5g8r0wZiRcbyGf-VRXMd6J0vVkWpw1LuLyNKSjtfM2guT5dObopG7d4GNDChhwEFKnRBLqxAi_OsVz1cTjYo7X3Ee8b9WjaeitRhIZaNUis_QedeYdFG4ACb4vPgapZgnT1CqQ2btk_Wr73zGG-0QluqQKCTXzqo5_PxSfQg3lcIdR3r9vrNhpOtw6e0Q0xe-BsR58oK0wBqAIUFGKBGDnNFYHTF9i5wIH46tl0t4k5cv5PKz9lg_gB2DTdumGSie7tItcU&_su_rec_id=09b31051-c94a-442a-bfe6-7143a7d115ed-1793803758) were used to mount the matrix panels (the two 1/2" mounting boards are on the top and bottom of the matrix panels and the smoked plexiglass cover). The smoked plexiglass panel was used to cover the panels and soften the lights. It is attached with velcro "dots" so that it can easily be removed. 
-- Speaker ring lights (left and right speakers in the backbox). It uses 57 LEDs for each speaker. The LEDs were mounted inside the pre-routed Tukkari slots around each speaker.
+- Playfield side lights (on both sides of the playfield display). The wires run out of the top of playfield to the controller. These LEDs were placed inside a smoke black LED strip panel to soften the lights.
+- RGB matrix (at the top of the playfield display). 6-16x16 CSD RGB panels were used for a total display matrix of 96x16 RGB LEDs. A [Matrix Display Board and Plexiglass kit](https://pinballcabinet.com/products/matrix-display-board-and-plexi-glass?_pos=1&_psq=Matrix+Display+Board+and+Plexi+glass+%C3%97+1&_psid=175819946&_ss=e&_su_rec=_LF1zME-2TKjNRA2qCVkx76eoBRy1DQVqyRocdSSjbh_dNJZRK7G9QU9ZUUBw1F4msSCpbx28rpIwXdamk-ZNus4tzgtUHHnVmoETgvqy5kameCwqw4HYOEzQx-cde56WJhI68bPAgros-TAn5lOhsiW5g8r0wZiRcbyGf-VRXMd6J0vVkWpw1LuLyNKSjtfM2guT5dObopG7d4GNDChhwEFKnRBLqxAi_OsVz1cTjYo7X3Ee8b9WjaeitRhIZaNUis_QedeYdFG4ACb4vPgapZgnT1CqQ2btk_Wr73zGG-0QluqQKCTXzqo5_PxSfQg3lcIdR3r9vrNhpOtw6e0Q0xe-BsR58oK0wBqAIUFGKBGDnNFYHTF9i5wIH46tl0t4k5cv5PKz9lg_gB2DTdumGSie7tItcU&_su_rec_id=09b31051-c94a-442a-bfe6-7143a7d115ed-1793803758) was ordered but the slotted backing board part was not used. The Tukkari backboard was used instead to mount the matrix panels. But portions of the Matrix Display Board and Plexiglass kit were used to mount the matrix panels - the two 1/2" mounting boards are on the top and bottom of the matrix panels and the smoked plexiglass cover was used to cover the panels and soften the lights. It is attached with velcro "dots" so that it can easily be removed. 
+- Speaker ring lights (left and right speakers in the backbox). The LEDs were mounted inside the pre-routed Tukkari slots around each speaker.
+
+ ![](./images/Speaker-lights.jpg)
 
 The LEDs are controlled by a separate [CSD WEMOS S2 mini controller](https://www.clevelandsoftwaredesign.com/pinball-parts/p/addressable-led-controller) connected with USB (COM port 5) to the PC. This controller is mounted to the backside of the playfield backboard and is configured using this documentation [CSD Addressable LEDs configuration](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/). A hole was drilled through the backboard to connect to the matrix panels on the other side. `The [DOF software](https://configtool.vpuniverse.com/app/home) uses this controller to manage the LEDs. The main CSD PinOne controller is not used for the LEDs.
 
-The [CSDAddressableControllerTool.exe app](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/configuring) was initially used to test the LEDs.
+| Location | #LEDs | WEMOS S2 port |
+|---|---|---|
+| RGB Matrix right right  | 256 | 1 |
+| RGB Matrix right center  | 256 | 2 |
+| RGB Matrix right left  | 256 | 3 |
+| RGB Matrix left right  | 256 | 4 |
+| RGB Matrix left center  | 256 | 5 |
+| RGB Matrix left left  | 256 | 6 |
+| Playfield left | 137 | 7 |
+| Playfield right | 137 | 8 |
+| Speaker left | 57 | 9 |
+| Speaker left | 57 | 10 |
 
-The [CSD cabinet file generator](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator) was used to create the c:\DirectOutput\config.cabinet.xml file to configure the lights for the cabinet.
+The [CSDAddressableControllerTool.exe app](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/configuring) was initially used to test the LEDs. The online [CSD cabinet file generator](https://pinball-docs.clevelandsoftwaredesign.com/docs/AddressableLED/cabinetGenerator) was used to create the c:\DirectOutput\config.cabinet.xml file to configure the lights for the cabinet.
 
 | Date ordered | Part |
 |---|---|
@@ -423,6 +436,8 @@ For the knocker, the [Cleveland Software Designs Knocker kit](https://www.clevel
 ![](./images/CSD-Knocker-Kit.png)
 
 The knocker is used to make a loud "knock" noise when a player has won a game. It is mounted on the left inside wall of the backbox at the top (so it can have a loud knock). It is connected to the PinOne controller's Knocker terminals.  
+
+![](./images/Knocker-installed.jpg)
 
 | Date ordered | Part |
 |---|---|
@@ -454,8 +469,8 @@ TODO Add a 3rd image of the internal coin door switch
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Coin-reject-switch-custom.jpg) | ![](images/Coin-door%20switch-custom.jpg)
-| *Coin reject switch (custom)*  | *Coin door switch (custom)* |
+| ![](images/Coin-reject-switch-custom.jpg) | ![](images/Coin-door%20switch-custom.jpg) |![](images/Coin-door-switch-custom-internal.jpg) |
+| *Coin reject switch (custom)*  | *Coin door switch (custom)* | *Coin door switch internal (custom)* |
  
 
 | Date ordered | Part |
