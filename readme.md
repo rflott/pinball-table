@@ -147,6 +147,9 @@ An IoT relay power strip was purchased so that when the PC is powered on, its US
 | ![](images/Addressable-RGB-LEDs-controller.jpg) | ![](images/Cup-holder.jpg) | ![](images/Lockdown-bar--latches-flipper-button-board-installed.jpg)
 | *Addressable RGB LEDs controller on back of top of playfield angled board*  | *Cup holder* | *Lockdown-bar latches, flipper button boards installed* |
 
+<img src="./images/Cabinet-bottom.jpg" alt="Description" width="40%" height="40%">\
+*Cabinet bottom*
+
 
 # 5. PC
 
@@ -206,8 +209,13 @@ The various devices in the kit were connected based on this [CSD documentation](
 
 The [CSD PinOne Configuration documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/) was used to configure the PinOne board and the devices (inputs, outputs, etc.). The [CSD PinOne Configuration app](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/) is left installed on the cabinet desktop to make it easy to reconfigure the PinOne board. 
 
-<img src="./images/CSD-button-board-installed.jpg" alt="Description" width="40%" height="40%">\
-*Button board installed*
+| | | |
+| :---: | :---: | :---: |
+| ![](images/CSD-button-board-installed.jpg) | ![](images/Left-flipper-button-board-installed.jpg) | ![](images/Right-flipper-button-board-installed.jpg)
+| *CSD button board installed* | *Left flipper button board installed* | *Right flipper button board installed* 
+
+<img src="./images/CSD-bottom-buttons-installed.jpg" alt="Description" width="40%" height="40%">\
+*CSD bottom buttons installed*
 
 | Outputs | Port | Connector |
 |---|---|---|
@@ -256,16 +264,16 @@ Note: individual Magna-save buttons can be set to different colors (left vs righ
 Note: the power button is lit though a port but its button switch is sent to the PC power-on motherboard connector not to the PinOne controller.
 
 | Button outputs (LEDs) | Port | Button board |
-|---|---|
-| Flippers red | 16 |
-| Flippers green | 17 |
-| Flippers blue | 18 |
-| Magna right red | 19 |
-| Magna right green | 20 |
-| Magna right blue | 21 |
-| Magna left red | 22 |
-| Magna left green | 23 |
-| Magna left blue | 24 |
+|---|---|---|
+| Flippers red | 16 | (left/right flipper board) B1 |
+| Flippers green | 17 | (left/right flipper board) B1 |
+| Flippers blue | 18 | (left/right flipper board) B1 |
+| Magna right red | 19 | (right flipper board) B2 |
+| Magna right green | 20 | right flipper board) B2 |
+| Magna right blue | 21 | (right flipper board) B2 |
+| Magna left red | 22 | (left flipper board) B2 |
+| Magna left green | 23 | (left flipper board) B2 |
+| Magna left blue | 24 | (left flipper board) B2 |
 | Night Mode| 25 | B5 |
 | Power | 26 | B6 |
 | Pause | 27 | B7 |
@@ -273,12 +281,14 @@ Note: the power button is lit though a port but its button switch is sent to the
 | Vol- | (always on)  | B11  |
 | Exit | (always on)  | B12  |
 | Start | (always on)  | B13  |
-| Coin door | (no led)  | (no led)  |
-| Fire red | 29 |
-| Fire green | 30 |
-| Fire blue | 31 |
+| Coin door tilt | (no led)  | (no led)  |
+| Fire red | 29 | Fire LED |
+| Fire green | 30 | Fire LED |
+| Fire blue | 31 | Fire LED |
 
 The CSD plunger was installed and configured per the [documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/plunger). 
+
+<img src="./images/CSD-plunger-installed.jpg" width="40%" height="40%">
 
 | Plunger setting | Value |
 |---|---|
@@ -330,6 +340,9 @@ The amplifier's physical volume is turned up to the max and the table volumes ar
 
 ### Bass Shaker
 The CSD Bass Shaker is connected to the amplifier on its Shaker connector. It is mounted to the floor of the cabinet so that it can shake the whole cabinet.
+
+ <img src="./images/Bass-shaker-installed.jpg" width="40%">
+
 | Date ordered | Part |
 |---|---|
 | Feb 20, 2026 | [Cleveland Software Designs SSF Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-power-ssf-kit) |
@@ -343,6 +356,12 @@ Four CSD exciter speakers are connected to the amplifier on its Front Left/Front
 ### Backbox speakers
 The backbox speakers are standard 5 1/4" car stereo speakers connected to the amplifier on its Speaker Left and Speaker Right connectors. 
 
+| | |
+| :---: | :---: |
+| ![](images/Left-speaker-installed.jpg) | ![](images/Right-speaker-installed.jpg) 
+| *Backbox speaker left installed* | *Backbox speaker right installed* |  
+
+
 | Date ordered | Part |
 |---|---|
 | Feb 21, 2026 | [Pioneer TS-501M 5.25" 4-Way Coaxial Car Speakers](https://www.amazon.com/dp/B0DYLCVGQ7) |
@@ -350,10 +369,12 @@ The backbox speakers are standard 5 1/4" car stereo speakers connected to the am
 ### Subwoofer
 The subwoofer speaker is a standard 6 1/2" car stereo subwoofer and is connected to the amplifier on its Sub connector. It is mounted to the cabinet's floor in the subwoofer hole. A speaker grill is mounted on the outside bottom of the cabinet to protect the subwoofer.
 
+ <img src="./images/Subwoofer-installed.jpg" width="40%">
+
 | Date ordered | Part |
 |---|---|
 | Feb 27, 2026 | [Skar Audio EVL-65 D4 6.5" 400 Watt Max Power Dual 4 Ohm Car Subwoofer](https://www.amazon.com/dp/B019WYPLIA) |
-| MAr  1, 2026 | [DS18 PRO-GRILL6MS/BK PRO 6.5" Slim Metal Mesh Speaker Grill](https://www.amazon.com/dp/B0CFYSX56H?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+| Mar  1, 2026 | [DS18 PRO-GRILL6MS/BK PRO 6.5" Slim Metal Mesh Speaker Grill](https://www.amazon.com/dp/B0CFYSX56H?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### Testing the audio subsystem 
 
@@ -518,6 +539,8 @@ In addition, micro-switches were epoxied glued to the *coin reject* buttons and 
 ### Coin door adapter
 This allows you to use the service board connector on the CSD PinOne board to directly plug into a Williams coin door. This will map the slam tilt, both coin switches and the 4 service buttons to the CSD inputs and the 5v outputs will power the coin lights built into the door.
 
+<img src="./images/Coin-door-adapter-installed.jpg" width="40%" height="40%">
+
 | Date ordered | Part |
 |---|---|
 | Feb 22, 2026 | [Cleveland Software Designs Williams Coin Door Adapter](https://www.clevelandsoftwaredesign.com/pinball-parts/p/williams-coin-door-adapter?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
@@ -542,12 +565,20 @@ In addition, 3 diodes are used across the coil terminals to keep the coil flybac
 
 ### External HDMI & USB connector
 An external HDMI and USB connector was installed in the left rear hole of the bottom cabinet panel and plugged into the PC. This allows the user to connect a monitor and a keyboard physically to the PC in order to change BIOS settings (since wireless connections won't work with this PC's BIOS).
+
+<img src="./images/External-hdmi-usb-installed.jpg" alt="Description" width="40%" height="40%">\
+*External HDMI/USB port installed*
+
 | Date ordered | Part |
 |---|---|
 | Feb 28, 2026 | [USB 3.0 & HDMI Male to Female AUX Dash Car Flush Mount Cable 3ft](https://www.amazon.com/dp/B073HZ4STM) |
 
 ### External LAN connector
 An external LAN connector was installed in the right rear hole of the bottom cabinet panel and plugged into the PC's ethernet port. This allows the user to much higher LAN speeds when transferring files or backing up the PC.
+
+<img src="./images/External-LAN-installed.jpg" alt="Description" width="40%" height="40%">\
+*External LAN port installed*
+
 | Date ordered | Part |
 |---|---|
 | Jun 21, 2026 | [RJ45 CAT6 Panel Mount Adapter Female-Female Ethernet Pass-Through Connector](https://www.amazon.com/dp/B0CPZX5B3G) |
@@ -571,13 +602,14 @@ A flat braid cable was wrapped around the inside of the cabinet and is used to g
 <img src="./images/Ground-strap-installed.jpg" alt="Description" width="40%" height="40%">\
 *Ground strap installed*
 
-
 | Date ordered | Part |
 |---|---|
 | Feb 16, 2026 | [Tinned Flat Copper Braid Cable,4mm Flat Copper Braided Ground Strap Wire ](https://www.amazon.com/dp/B0CB3Z86HV?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### Cabinet button labels
 The under cabinet buttons were labeled on the outside front of the cabinet so the user knows which button to press. In addition, buttons themselves were labeled on the inside using 1 1/2" circular cut regular printer paper. The buttons were disassembled and the circular paper placed inside and reassembled. 
+
+<img src="./images/Button-labels.jpg" width="40%" height="40%">
 
 | Date ordered | Part |
 |---|---|
