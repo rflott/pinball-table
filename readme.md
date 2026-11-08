@@ -648,8 +648,8 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 Glass to cover the playfield was sourced from a local vendor - Miller's Glass & Glazing. It is a 43"x23-3/4" 3/16" tempered glass panel, no logo.
 
 | Date ordered | Part |
-|---|---|F
-| Mar 10, 2026 | [Glass panel] |
+|---|---|
+| Mar 10, 2026 | Glass panel |
 
 # 11. Wiring diagrams 
 
