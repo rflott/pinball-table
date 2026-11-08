@@ -243,9 +243,10 @@ The [CSD PinOne Configuration documentation](https://pinball-docs.clevelandsoftw
 | Flipper left | 3 | (left flipper board) B1 |
 | Magna-save left | 4 | (left flipper board) B2|
 | Night mode | 5 | B5 |
+| (unused) | 6 | B6 |
 | Pause | 7 | B7 |
 | (unused) | 8 | B8 |
-| Fire | 9 | Fire |
+| Fire | 9 | B9 (Fire) |
 | Vol+ | 10 | B10 |
 | Vol- | 11 | B11 |
 | Exit | 12 | B12 |
@@ -269,7 +270,7 @@ Note: the power button is lit though a port but its button switch is sent to the
 | Flippers green | 17 | (left/right flipper board) B1 |
 | Flippers blue | 18 | (left/right flipper board) B1 |
 | Magna right red | 19 | (right flipper board) B2 |
-| Magna right green | 20 | right flipper board) B2 |
+| Magna right green | 20 | (right flipper board) B2 |
 | Magna right blue | 21 | (right flipper board) B2 |
 | Magna left red | 22 | (left flipper board) B2 |
 | Magna left green | 23 | (left flipper board) B2 |
@@ -277,10 +278,13 @@ Note: the power button is lit though a port but its button switch is sent to the
 | Night Mode| 25 | B5 |
 | Power | 26 | B6 |
 | Pause | 27 | B7 |
+| (unused) | 28 | B8 |
+| (unused) | | B9 |
 | Vol+ | (always on) | B10 |
 | Vol- | (always on)  | B11  |
 | Exit | (always on)  | B12  |
 | Start | (always on)  | B13  |
+| (unused) | (always on) | B14 |
 | Coin door tilt | (no led)  | (no led)  |
 | Fire red | 29 | Fire LED |
 | Fire green | 30 | Fire LED |
@@ -638,8 +642,6 @@ Glass to cover the playfield was sourced from a local vendor - Miller's Glass & 
 | Mar 10, 2026 | [Glass panel] |
 
 # 11. Wiring diagrams 
-
-- [ ] TODO double check wiring diagrams with real cabinet
 
 ###  Inputs
 ![Inputs](./images/Pinball-cabinet-Inputs.png)
