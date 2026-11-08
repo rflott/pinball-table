@@ -677,8 +677,6 @@ Direct Output Framework (DOF) controls the various toys (buttons, solenoids, sha
 
 [DOF Wiki](https://github.com/dekay/vpinball-wiki/wiki/DOF-%E2%80%90-The-Direct-Output-Framework)
 
-TODO add dof output files
-
 ### DOFLinx
 
 *Installation folder: c:\DOFLinx\\*
@@ -804,7 +802,7 @@ Exit back to windows
 1. Once you are back to the scrolling Pinup Popper menu, use the Exit button, then the right magna-save twice to back to windows. 
 
 ## Steam
-Steam (Pinball FX) tables are configured using the [CSD documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/steam). Pinball FX tables are purchased and downloaded from [here](https://store.steampowered.com/app/2328760/Pinball_FX/). I bought a few just to try them out.  
+Steam (Pinball FX) tables are configured using the [CSD documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/steam). Pinball FX tables are purchased and downloaded from [here](https://store.steampowered.com/app/2328760/Pinball_FX/). I bought a few just to try them out. There is a shortcut to this app on the desktop.
 
 ## Startup folder
 These apps were installed and they are launched from the Windows startup folder. 
@@ -834,7 +832,7 @@ These apps were installed and they are launched from the Windows startup folder.
 
 ### HDP PC Agent
 
-[HDP PC Agent](https://www.qnap.com/en-us/software/hdp-pc-agent) is a background app that the QNAP NAS uses for backup. The entire cabinet software (including Windows) is periodically backed up with this app in case of catastrophic storage failure. 
+[HDP PC Agent](https://www.qnap.com/en-us/software/hdp-pc-agent) is a background app that the QNAP NAS uses for backup. The entire cabinet software (including Windows) is periodically backed up with this app in case of catastrophic storage failure. There is a shortcut to this app on the desktop.
 
 ### NVidia control panel 3d settings
 
@@ -864,6 +862,8 @@ Individual pinball emulator Windows executables were configured to modify variou
 [vPinBackupManager](https://vpuniverse.com/files/file/19155-virtual-pinball-backup-manager-vpbm-v21/) is used for backing up pinball tables. Since VPinStudio already backs up VPX tables to the NAS and it doesn't backup FuturePinball (FP) tables, vPinBackupManager is only for backing up FP tables.
 
 ## Windows desktop apps & scripts
+- _Restore ScreenRes.bat_, _ScreenRes.txt_: restore the screenres.txt file so the monitors are displaying the correct screens again
+- _Restore VPinballX.ini.bat_, _VPinballX.ini_": restore the VPinballX.ini file for experimental VPX 10.8/1 emulator
 TODO
 
 ## Windows startup apps & scripts
