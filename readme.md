@@ -753,7 +753,7 @@ Playlists are like a folder of games in the frontend UI that can be created and 
 Turning on the pinball machine
 ---
 
-<img src="images/Power-switch.jpg" width="200" alt="First Image"> <img src="images/Power-button.jpg" width="200" alt="Second Image"> <img src="images/Pinup-popper-controls.png" width="400" alt="Third Image"> 
+<img src="images/Power-switch.jpg" width="200" alt="First Image"> <img src="images/Power-button.jpg" width="200" alt="Second Image"> <img src="images/Pinup-popper-all-tables.png" alt="Third Image"> 
 
 1. Make sure the back power switch is turned on 
 2. Use the front Power button (located at the far right under the cabinet) to turn the machine.
@@ -767,8 +767,8 @@ Select a table
 
 1. Start Pinup Popper by booting up the cabinet PC (Pinup Popper autostarts after Windows boots) or double-clicking the ***PinUP Popper FrontEnd*** shortcut from the Windows desktop.  
 2. Use the left/right flipper buttons to move left/right in the Pinup Popper scrolling menu.
-3. Use the right back (magna-save) flipper button to select (or go into) an icon
-4. Use the left back (magna-save) flipper button to exit (or go out of) a selection
+3. Use the right **back** flipper button to select (or go into) an icon
+4. Use the left **back** flipper button to exit (or go out of) a selection
 5. Once you have scrolled to the table you want to play, use the right back (magna-save) flipper button to select it and then again to play it. Or you can use the Start button to start it. 
 
 Start a table
