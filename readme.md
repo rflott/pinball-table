@@ -60,8 +60,6 @@ A T-moulding with a 3/32" barb had to be used with the Tukkari cabinet backbox. 
 
 An IoT relay power strip was purchased so that when the PC is powered on, its USB port signals this power strip to turn on other devices (or keep them powered at all times). It currently is not in use as it wasn't determined what to make switched/non-switched until it was too late to be able to reach in the back of the cabinet (the playfield monitor is in the way). Perhaps it will be used later.
 
-- [ ] TODO disperse images to correct section? take new pics?
-
 | | | |
 | :---: | :---: | :---: |
 | ![](images/Flat-pack-delivery-in-garage.jpg) | ![](images/Flat-pack-delivery-in-garage2.jpg) | ![](images/Unboxing-in-media-room.jpg) |
@@ -638,7 +636,7 @@ One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. 
 Glass to cover the playfield was sourced from a local vendor - Miller's Glass & Glazing. It is a 43"x23-3/4" 3/16" tempered glass panel, no logo.
 
 | Date ordered | Part |
-|---|---|
+|---|---|F
 | Mar 10, 2026 | [Glass panel] |
 
 # 11. Wiring diagrams 
