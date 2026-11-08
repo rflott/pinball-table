@@ -677,6 +677,8 @@ Direct Output Framework (DOF) controls the various toys (buttons, solenoids, sha
 
 [DOF Wiki](https://github.com/dekay/vpinball-wiki/wiki/DOF-%E2%80%90-The-Direct-Output-Framework)
 
+TODO add dof output files
+
 ### DOFLinx
 
 *Installation folder: c:\DOFLinx\\*
@@ -748,8 +750,21 @@ Playlists are like a folder of games in the frontend UI that can be created and 
 
 ## How to select, add coins, start, play and exit a table
 
+Turning on the pinball machine
+---
+
+<img src="images/Power-switch.jpg" width="200" alt="First Image"> <img src="images/Power-button.jpg" width="200" alt="Second Image"> <img src="images/Pinup-popper-controls.png" width="400" alt="Third Image"> 
+
+1. Make sure the back power switch is turned on 
+2. Use the front Power button (located at the far right under the cabinet) to turn the machine.
+3. Wait until the Pinup Popper menu is showing 
+
 Select a table
 ---
+
+<img src="./images/Pinup-popper-controls.png" alt="Description" width="60%" height="60%">\
+*PinupPopper controls*
+
 1. Start Pinup Popper by booting up the cabinet PC (Pinup Popper autostarts after Windows boots) or double-clicking the ***PinUP Popper FrontEnd*** shortcut from the Windows desktop.  
 2. Use the left/right flipper buttons to move left/right in the Pinup Popper scrolling menu.
 3. Use the right back (magna-save) flipper button to select (or go into) an icon
@@ -758,20 +773,35 @@ Select a table
 
 Start a table
 ---
+
+<img src="images/Coin-reject-buttons.jpg" width="200" alt="First Image"> <img src="images/Start-button.jpg" width="200" alt="Second Image">
+
 1. Once the table is loaded, use the Coin Reject buttons to "Insert" coins. Both buttons work, but the right one simulates a single coin and always works. The left one simulates inserting a dollar/multiple coins which some games support and others do not (especially the older tables). You should hear the sound of coins dropping into the machine to determine if it is working or not.  
 2. Use the Start button to start playing the table 
 
 Play a table
 ---
-1. Once a pinball has been loaded in front of the video plunger, either pull back and release the physical plunger or, if the Fire button is lit or blinking, hit the Fire button to launch the ball. It depends on the table. 
+
+<img src="images/Plunger-pull.jpg" width="200" alt="First Image"> <img src="images/Fire-button.jpg" width="200" alt="Second Image">
+
+1. Once a pinball table has been loaded, either pull back and release the physical plunger or, if the Fire button is lit or blinking, hit the Fire button to launch the ball. It depends on the table. 
 2. Use the left/right flipper buttons to hit the ball. 
 3. Most newer tables have 3 balls/game. Older tables ('70s and earlier) have 5 balls/game.  
 4. Once the game is over you will need to use the Start button again to restart it. If you are out of credits, you will need to "insert" more coins and hit the Start button again.
 
 Exit a table
 ---
+
+<img src="images/Exit-button.jpg" width="200" alt="First Image"> 
+
 1. Once the game is over, you can use the Exit button (located at the far left under the cabinet) to exit the game. This will take you back to the Pinup Popper scroll bar. 
 2. Repeat selecting and playing another table.
+
+Exit back to windows
+---
+<img src="images/Exit-button.jpg" width="200" alt="First Image"> <img src="images//System_exit.png" width="200" alt="First Image"> 
+
+1. Once you are back to the scrolling Pinup Popper menu, use the Exit button, then the right magna-save twice to back to windows. 
 
 ## Steam
 Steam (Pinball FX) tables are configured using the [CSD documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/steam). Pinball FX tables are purchased and downloaded from [here](https://store.steampowered.com/app/2328760/Pinball_FX/). I bought a few just to try them out.  
@@ -833,6 +863,8 @@ Individual pinball emulator Windows executables were configured to modify variou
 
 [vPinBackupManager](https://vpuniverse.com/files/file/19155-virtual-pinball-backup-manager-vpbm-v21/) is used for backing up pinball tables. Since VPinStudio already backs up VPX tables to the NAS and it doesn't backup FuturePinball (FP) tables, vPinBackupManager is only for backing up FP tables.
 
+## Windows desktop apps & scripts
+TODO
 
 ## Windows startup apps & scripts
 These apps and scripts are started in background by Windows when it boots up.
