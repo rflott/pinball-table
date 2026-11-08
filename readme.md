@@ -207,13 +207,12 @@ The various devices in the kit were connected based on this [CSD documentation](
 
 The [CSD PinOne Configuration documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/) was used to configure the PinOne board and the devices (inputs, outputs, etc.). The [CSD PinOne Configuration app](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/) is left installed on the cabinet desktop to make it easy to reconfigure the PinOne board. 
 
-| | | |
-| :---: | :---: | :---: |
-| ![](images/CSD-button-board-installed.jpg) | ![](images/Left-flipper-button-board-installed.jpg) | ![](images/Right-flipper-button-board-installed.jpg)
-| *CSD button board installed* | *Left flipper button board installed* | *Right flipper button board installed* 
+### Solenoids, outputs
 
-<img src="./images/CSD-bottom-buttons-installed.jpg" alt="Description" width="40%" height="40%">\
-*CSD bottom buttons installed*
+| | | | |
+| :---: | :---: | :---: | :---: |
+| ![](images/Right-front-solenoid-installed.jpg) | ![](images/Left-front-solenoid-installed.jpg) | ![](images/Middle-bar-solenoids-installed.jpg) | ![](/images/Back-bar-solenoids-installed.jpg)
+| *Right front solenoid installed* | *Left front solenoid installed* | *Middle bar solenoids installed* | *Back-bar-solenoids-installed*
 
 | Outputs | Port | Connector |
 |---|---|---|
@@ -233,6 +232,13 @@ The [CSD PinOne Configuration documentation](https://pinball-docs.clevelandsoftw
 | Chime high | 14 | 14 |
 | Chime middle | 15 | 15 |
 | IR emitter (?) | 24 | 24 |
+
+### Buttons, inputs
+
+| | | | |
+| :---: | :---: | :---: | :---: |
+| ![](images/CSD-button-board-installed.jpg) | ![](images/Left-flipper-button-board-installed.jpg) | ![](images/Right-flipper-button-board-installed.jpg) | ![](/images/CSD-bottom-buttons-installed.jpg)
+| *CSD button board installed* | *Left flipper button board installed* | *Right flipper button board installed* | *Bottom buttons installed*
 
 | Button inputs | Port | Button board |
 |---|---|---|
@@ -351,6 +357,12 @@ The CSD Bass Shaker is connected to the amplifier on its Shaker connector. It is
 
 ### Exciter Speakers
 Four CSD exciter speakers are connected to the amplifier on its Front Left/Front Right and Back Left/Back Right connectors. They are mounted on the side walls of the cabinet with the front exciters near the front of the cabinet and the back exciters nearer the middle/back of the cabinet.
+
+| | | | |
+| :---: | :---: | :---: | :---: |
+| ![](images/Left-front-exciter-speaker.jpg) | ![](images/Right-front-exciter-speaker.jpg) | ![](images/Left-rear-exciter-speaker.jpg) | ![](images/Right-rear-exciter-speaker.jpg) 
+| *Exciter speaker left front installed* | *Exciter speaker right front installed* |  *Exciter speaker left rear installed* | *Exciter speaker right rear installed* |  
+
 | Date ordered | Part |
 |---|---|
 | Feb 20, 2026 | [Cleveland Software Designs SSF Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/high-power-ssf-kit) |
