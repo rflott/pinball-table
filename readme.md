@@ -756,7 +756,7 @@ Turning on the pinball machine
 <img src="images/Power-switch.jpg" width="200" alt="First Image"> <img src="images/Power-button.jpg" width="200" alt="Second Image"> <img src="images/Pinup-popper-all-tables.png" alt="Third Image"> 
 
 1. Make sure the back power switch is turned on 
-2. Use the front Power button (located at the far right under the cabinet) to turn the machine.
+2. Use the front Power button (located at the far right under the cabinet) to turn on the machine.
 3. Wait until the Pinup Popper menu is showing 
 
 Select a table
