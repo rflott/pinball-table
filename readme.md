@@ -245,7 +245,7 @@ Night mode is enabled when the Night Mode button is pressed (button on the botto
 | ![](images/CSD-button-board-installed.jpg) | ![](images/Left-flipper-button-board-installed.jpg) | ![](images/Right-flipper-button-board-installed.jpg) | ![](/images/CSD-bottom-buttons-installed.jpg)
 | *CSD button board installed* | *Left flipper button board installed* | *Right flipper button board installed* | *Bottom buttons installed*
 
-### CSD Input config
+### CSD Inputs config
 <img src="./images/CSD inputs config.png">
 
 | Button inputs | Port | Button board |
@@ -271,6 +271,9 @@ Night mode is enabled when the Night Mode button is pressed (button on the botto
 | Enter | 22 | (coin door adapter) |
 | Coin door tilt | 23 | B14 |
 | Plunger launch | 24 | (plunger) |
+
+### CSD Button outputs config
+<img src="./images/CSD button outputs config.png">
 
 Note: individual Magna-save buttons can be set to different colors (left vs right). The Fire button can also be set to any color. The left & right flippers can be set to any color, but they both have to be the same color. The other buttons are a static color (as defined by their plastic color) .
 
