@@ -632,10 +632,10 @@ A wireless keyboard/trackpad combo is used to locally configure the PC & pinball
 
 ### Wireless game controller
 
+A wireless game controller is used to play arcade games on the pinball table. The controller's adapter is plugged into a PC USB port. To observe its properties, type **(Windows key)-R joy.cpl** and then click on **Properties**. This should show the windows joystick properties. Clicking on buttons and moving the joystick on the controller should highlight various buttons and joystick movements on the Test screen. 
+
 <img src="./images/Wireless-game-controller.png" alt="Description" width="40%" height="40%">\
 *Wireless game controller*
-
-A wireless game controller is used to play arcade games on the pinball table. The controller's adapter is plugged into a PC USB port. To observe its properties, type **(Windows key)-R joy.cpl** and then click on **Properties**. This should show the windows joystick properties. Clicking on buttons and moving the joystick on the controller should highlight various buttons and joystick movements on the Test screen. 
 
 <img src="./images/Joystick properties.png" alt="Description" width="40%" height="40%">\
 *Wireless game controller properties*
