@@ -207,12 +207,17 @@ The various devices in the kit were connected based on this [CSD documentation](
 
 The [CSD PinOne Configuration documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/) was used to configure the PinOne board and the devices (inputs, outputs, etc.). The [CSD PinOne Configuration app](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/) is left installed on the cabinet desktop to make it easy to reconfigure the PinOne board. 
 
+Night mode is enabled when the Night Mode button is pressed (button on the bottom of the cabinet behind right front leg). It works as an on/off toggle. The CSD PinOne board is configured to turn off solenoids, knocker and chimes when night mode is on.   
+
 ### Solenoids, outputs
 
 | | | | |
 | :---: | :---: | :---: | :---: |
 | ![](images/Right-front-solenoid-installed.jpg) | ![](images/Left-front-solenoid-installed.jpg) | ![](images/Middle-bar-solenoids-installed.jpg) | ![](/images/Back-bar-solenoids-installed.jpg)
 | *Right front solenoid installed* | *Left front solenoid installed* | *Middle bar solenoids installed* | *Back-bar-solenoids-installed*
+
+### CSD Outputs config
+<img src="./images/CSD outputs config.png">
 
 | Outputs | Port | Connector |
 |---|---|---|
@@ -239,6 +244,9 @@ The [CSD PinOne Configuration documentation](https://pinball-docs.clevelandsoftw
 | :---: | :---: | :---: | :---: |
 | ![](images/CSD-button-board-installed.jpg) | ![](images/Left-flipper-button-board-installed.jpg) | ![](images/Right-flipper-button-board-installed.jpg) | ![](/images/CSD-bottom-buttons-installed.jpg)
 | *CSD button board installed* | *Left flipper button board installed* | *Right flipper button board installed* | *Bottom buttons installed*
+
+### CSD Input config
+<img src="./images/CSD inputs config.png">
 
 | Button inputs | Port | Button board |
 |---|---|---|
@@ -298,6 +306,9 @@ The CSD plunger was installed and configured per the [documentation](https://pin
 
 <img src="./images/CSD-plunger-installed.jpg" width="40%" height="40%">
 
+### CSD Plunger config
+<img src="./images/CSD plunger config.png">
+
 | Plunger setting | Value |
 |---|---|
 | Average Readings | 10 |
@@ -312,9 +323,18 @@ The CSD plunger was installed and configured per the [documentation](https://pin
 | Disable Plunger When Not Moving | off |
 | Disable Accelerometer On Plunger Move | on |
 
+The CSD PinOne has an internal accelerometer that is used for nudging. It is configured per the [documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/accelerometer). 
+
+### CSD Accelerometer config
+<img src="./images/CSD accelerometer config.png">
+
 | Date ordered | Part |
 |---|---|
 | Feb 20, 2026 | [Virtual Pinball Builders Kit (medium/large) from Cleveland Software Designs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
+
+### CSD Settings config
+<img src="./images/CSD settings config.png">
+
 
 # 7. Audio subsystem
 
@@ -754,7 +774,7 @@ Turning on the pinball machine
 <img src="images/Power-switch.jpg" width="200" alt="First Image"> <img src="images/Power-button.jpg" width="200" alt="Second Image"> <img src="images/Pinup-popper-all-tables.png" alt="Third Image"> 
 
 1. Make sure the back power switch is turned on 
-2. Use the front Power button (located at the far right under the cabinet) to turn on the machine.
+2. Use the front Power button (located at the far right under the front of the cabinet) to turn on the machine.
 3. Wait until the Pinup Popper menu is showing 
 
 Select a table
@@ -792,14 +812,14 @@ Exit a table
 
 <img src="images/Exit-button.jpg" width="200" alt="First Image"> 
 
-1. Once the game is over, you can use the Exit button (located at the far left under the cabinet) to exit the game. This will take you back to the Pinup Popper scroll bar. 
+1. Once the game is over, you can use the Exit button (located at the far left under the front of the cabinet) to exit the game. This will take you back to the Pinup Popper scroll bar. 
 2. Repeat selecting and playing another table.
 
 Exit back to windows
 ---
 <img src="images/Exit-button.jpg" width="200" alt="First Image"> <img src="images//System_exit.png" width="200" alt="First Image"> 
 
-1. Once you are back to the scrolling Pinup Popper menu, use the Exit button, then the right magna-save twice to back to windows. 
+1. Once you are back to the scrolling Pinup Popper menu, use the right under cabinet Exit button, then the right magna-save twice to go back to windows. 
 
 ## Steam
 Steam (Pinball FX) tables are configured using the [CSD documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/steam). Pinball FX tables are purchased and downloaded from [here](https://store.steampowered.com/app/2328760/Pinball_FX/). I bought a few just to try them out. There is a shortcut to this app on the desktop.
