@@ -666,12 +666,16 @@ The under cabinet buttons were labeled on the outside front of the cabinet so th
 ### Cable management
 Cables inside the cabinet were placed inside raceways to cover the cables and keep them neat.  
 
+<img src="./images/Cable-raceway.png" width="40%" height="40%">
+
 | Date ordered | Part |
 |---|---|
 | Mar 5, 2026 | [Cable Raceway 77in Wire Covers Under Desk Cable Management 5-Pack](https://www.amazon.com/dp/B08R75RMQT?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### Fans
-One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. The incoming fan was mounted on the bottom of the cabinet to bring in cool air and the outgoing fans were mounted on the back panel of the cabinet to exhaust hot air.
+One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. The incoming fan was mounted on the bottom of the cabinet to bring in cool air and the outgoing fans were mounted on the back panel of the cabinet to exhaust hot air. The outgoing fans wiring is daisy chained. 
+
+<img src="./images/Fans.png" width="40%" height="40%">
 
 | Date ordered | Part |
 |---|---|
