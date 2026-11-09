@@ -1,6 +1,6 @@
 <mxfile host="Electron" pages="5">
   <diagram name="Inputs" id="tLUNTl5Q_a9GUdZSUF2c">
-    <mxGraphModel dx="1273" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
+    <mxGraphModel dx="606" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,18 +76,6 @@
             </Array>
             <mxPoint x="640" y="334" as="sourcePoint" />
             <mxPoint x="720.0010000000002" y="333.96799999999996" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ITK7_PTURf_nkGHIkjme-3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;endArrow=none;endFill=0;strokeColor=#FF0000;jumpStyle=arc;labelBackgroundColor=default;" value="">
-          <mxGeometry relative="1" width="80" x="0.5271" as="geometry">
-            <Array as="points">
-              <mxPoint x="591.7" y="365.3" />
-              <mxPoint x="610.2" y="365.3" />
-              <mxPoint x="654" y="365" />
-              <mxPoint x="654" y="481" />
-            </Array>
-            <mxPoint x="591.65" y="367.06" as="sourcePoint" />
-            <mxPoint x="450" y="481" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ITK7_PTURf_nkGHIkjme-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=default;" value="CSD PinOne controller" vertex="1">

@@ -621,13 +621,17 @@ An external LAN connector was installed in the right rear hole of the bottom cab
 | Jun 21, 2026 | [RJ45 CAT6 Panel Mount Adapter Female-Female Ethernet Pass-Through Connector](https://www.amazon.com/dp/B0CPZX5B3G) |
 
 ### Wireless keyboard/trackpad
-A wireless keyboard/trackpad combo is used to configure the PC & pinball tables as needed. 
+A wireless keyboard/trackpad combo is used to locally configure the PC & pinball tables as needed. It includes a USB adapter plugged into the PC.
+
 | Date ordered | Part |
 |---|---|
 |  Mar 18, 2026 | [Logitech K400 Plus Wireless Touch TV Keyboard](https://www.amazon.com/dp/B014EUQOGK?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### Wireless game controller
-A wireless game controller is used to play arcade games on the pinball table. The controller's adapter is plugged into a PC USB port. 
+A wireless game controller is used to play arcade games on the pinball table. The controller's adapter is plugged into a PC USB port. To observe its properties, type **(Windows key)-R joy.cpl** and then click on **Properties**. This should show the windows joystick properties. Clicking on buttons and moving the joystick on the controller should highlight various buttons and joystick movements on the Test screen. 
+
+<img src="./images/Joystick properties.png" alt="Description" width="40%" height="40%">\
+*Wireless game controller properties*
 
 | Date ordered | Part |
 |---|---|
