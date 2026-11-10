@@ -49,6 +49,8 @@ The cabinet used for the build was a [Tukkari Widebody Virtual Pinball Cabinet](
 |  Feb 24, 2026 | [Outwater Industries 25 Foot Black 3/4 Inch Center Barb Tee Moulding](https://www.amazon.com/dp/B07M8DBTST?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1) |
 |  Feb 28, 2026 | [IRWIN Marples Forstner Bit, Wood Drilling, 1-1/8-Inch](https://www.amazon.com/dp/B01JIKAIY0?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 |  Feb 28, 2026 | [Iot Relay - Enclosed High-power Power Relay](https://www.amazon.com/dp/B00WV7GMA2?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+|  Mar  4, 2026 | [WIDEBODY Playfield Glass Rear Plastic Channel](https://www.pinballlife.com/widebody-playfield-glass-rear-plastic-channel.html) |
+|  Mar  4, 2026 | [Playfield Glass Side Rail Plastic Channel](https://www.pinballlife.com/stern-extrusion-playfield-glass-sides-all-game.html) |
 |  Mar 21, 2026 | [Cup Holder](https://www.marcospecialties.com/pinball-parts/77-PBY-GSK45) |
 
 # 4. Construction
@@ -147,6 +149,15 @@ An IoT relay power strip was purchased so that when the PC is powered on, its US
 
 <img src="./images/Cabinet-bottom.jpg" alt="Description" width="40%" height="40%">\
 *Cabinet bottom*
+
+### Cabinet bolt sizes
+
+| Part | Bolt size |
+|---|---|
+| PC board | M6x25mm |
+| Upright braces | M6x10mm |
+| Upright braces support board | M6x25mm |
+| Backbox attachment | M6x35mm |
 
 
 # 5. PC
@@ -332,6 +343,8 @@ The CSD plunger was installed and configured per the [documentation](https://pin
 | Disable Plunger When Not Moving | off |
 | Disable Accelerometer On Plunger Move | on |
 
+### CSD Accelerometer
+
 The CSD PinOne has an internal accelerometer that is used for nudging. It is configured per the [documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/accelerometer). 
 
 ### CSD Accelerometer config
@@ -342,8 +355,10 @@ The CSD PinOne has an internal accelerometer that is used for nudging. It is con
 | Feb 20, 2026 | [Virtual Pinball Builders Kit (medium/large) from Cleveland Software Designs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
 
 ### CSD Settings config
-<img src="./images/CSD settings config.png">
 
+Miscellaneous CSD PinOne board settings. 
+
+<img src="./images/CSD settings config.png">
 
 # 7. Audio subsystem
 
@@ -650,6 +665,27 @@ A wireless game controller is used to play arcade games on the pinball table. Th
 <img src="./images/Joystick properties.png" alt="Description" width="40%" height="40%">\
 *Wireless game controller properties*
 
+### Wireless game controller config
+| Input  | Description |
+|---|---|
+| Stick 1 | left analog stick |
+| Stick 2 | right analog stick |
+| POV | dpad
+| Button 1 | A |
+| Button 2 | B |
+| Button 3 | X |
+| Button 4 | Y |
+| Button 5 | LB |
+| Button 6 | RB |
+| Button 7 | back |
+| Button 8 | start |
+| Button 9 | left analog stick center pushed in |
+| Button 10 | right analog stick center pushed in |
+| Button 11 | left trigger |
+| Button 12 | right trigger |
+| Button 13 | X silver guide button |
+
+
 | Date ordered | Part |
 |---|---|
 | Mar 18, 2026 | [AceGamer Aurora II 2.4G Wireless Bluetooth Controller for PC ](https://www.amazon.com/dp/B0FJRTNTHQ?th=1) |
@@ -683,7 +719,7 @@ Cables inside the cabinet were placed inside raceways to cover the cables and ke
 | Mar 5, 2026 | [Cable Raceway 77in Wire Covers Under Desk Cable Management 5-Pack](https://www.amazon.com/dp/B08R75RMQT?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ### Fans
-One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. The incoming fan was mounted on the bottom of the cabinet to bring in cool air and the outgoing fans were mounted on the back panel of the cabinet to exhaust hot air. The outgoing fans wiring is daisy chained. 
+One incoming PC fan and two outgoing PC fans are used to keep the cabinet cool. The incoming fan was mounted on the bottom of the cabinet to bring in cool air and the outgoing fans were mounted on the back panel of the cabinet to exhaust hot air. The outgoing fans are daisy chained together and connected to one of the PC's fan connector.
 
 <img src="./images/Fans.png" width="40%" height="40%">
 
@@ -927,3 +963,42 @@ These apps and scripts are started in background by Windows when it boots up.
 ### Startup scripts
 - [vpx-monitor-config.bat](scripts/vpx-monitor-config.bat)
 
+# Notes/fixes
+
+Tables being displayed on wrong screens
+---
+Use pixel position instead of device id position
+
+1) Run B2S_ScreenResIdentifier.exe
+2) Select 3 monitor
+3) 100% full screen, set coordinates
+
+Performance
+---
+Run Backglass as .EXE solves most problems
+
+VPX 10.8.1 DMD fix
+---
+1) Display Settings > ScoreViewVPX 10.8.1 Display > B2S Backglass & FullDMD = 1  (global setting) 
+2) Plugin Settings > B2S > Modify Backglass Edit xxx.directb2s >  Add DMD Display > Show on ScoreView, then click on Detect Position (per table setting)
+3) Save (with F12 menu)
+
+Fire button not working in tables, but CSD config app sees it
+---
+In VPinballX.ini, set JoyPlungerKey = 9
+
+### Common Default Keyboard Assignments (VPX/Pinscape)
+| Pinball | Keyboard |
+|---|---|
+| Left Flipper | Left Shift |
+| Right Flipper | Right Shift |
+| Left Nudge | Z |
+| Right Nudge | / |
+| Center Nudge | Spacebar |
+| Plunger/Ball Launch | Enter |
+| Start Game | 1 |
+| Insert Coin | 3 or 5 |
+| Exit | Esc |
+| Left MagnaSave | Left Control |
+| Right MagnaSave | Right Control |
+| Service Menu (Inside Coin Door) | 7, 8, 9, 0 |
