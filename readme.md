@@ -307,7 +307,7 @@ Note: the power button is lit though a port but its button switch is sent to the
 
 **VPX 10.8 Button/key config**
 
-<img src="./images/VPX10.8-button-config.png" width="40%" height="40%">
+<img src="./images/VPX10.8-button-config.png" width="100%" height="100%">
 
 ### CSD Plunger
 
@@ -480,7 +480,7 @@ The DMD monitor is set to 1080P 60Hz in windows and is mounted to the Tukkari me
 
 **VPX 10.8 Video/graphics config**
 
-<img src="./images/VPX10.8-video-graphics-options.png" width="40%" height="40%">
+<img src="./images/VPX10.8-video-graphics-options.png" width="100%" height="100%">
 
 # 9. Addressable LEDs
 
