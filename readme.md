@@ -305,6 +305,12 @@ Note: the power button is lit though a port but its button switch is sent to the
 | Fire green | 30 | Fire LED |
 | Fire blue | 31 | Fire LED |
 
+**VPX 10.8 Button/key config**
+
+<img src="./images/VPX10.8-button-config.png" width="40%" height="40%">
+
+### CSD Plunger
+
 The CSD plunger was installed and configured per the [documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/plunger). 
 
 <img src="./images/CSD-plunger-installed.jpg" width="40%" height="40%">
@@ -471,6 +477,10 @@ The DMD monitor is set to 1080P 60Hz in windows and is mounted to the Tukkari me
 | Dec 18, 2025 | [KYY Portable Monitor 15.6" 1080P Computer Monitor](https://www.amazon.com/dp/B088D8JG3L?ref=ppx_yo2ov_dt_b_fed_asin_titlehttps://www.amazon.com/dp/B088D8JG3L?ref=ppx_yo2ov_dt_b_fed_asin_titlehttps://www.amazon.com/dp/B088D8JG3L?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 | Feb 25, 2026 | [AreMe 90 Degree USB-C Male to Female Adapter 2 Pack](https://www.amazon.com/dp/B0B2NJ3P3L)
 | Feb 25, 2026 | [90 Degree Mini HDMI to HDMI Adapter 2 Pack](https://www.amazon.com/dp/B0DXP8G1M7)
+
+**VPX 10.8 Video/graphics config**
+
+<img src="./images/VPX10.8-video-graphics-options.png" width="40%" height="40%">
 
 # 9. Addressable LEDs
 
