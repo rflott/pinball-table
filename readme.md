@@ -811,9 +811,10 @@ PinUpMenu.exe is the main frontend executable file for PinUP Popper. PinUpMenuSe
 
 [VPin Studio](https://github.com/syd711/vpin-studio) is used to intelligently manage the pinball table emulators, software, associated files and settings over the LAN. It is a client/server design where the pinball cabinet has a server running in background and my main PC has the client running that talks to that server. The client is also installed on the pinball cabinet itself so that you can use it there too with the wireless keypad/trackpad. I normally use it remotely since I can do that from my office and I have a better keyboard/mouse/monitor setup there.      
 
-- Backup/Restore tables
+It also will backup individual tables to the NAS over the LAN. This allows me to experiment with a new version of a table and, if needed, delete the table and restore it from a good backup on the NAS. It also allows me to experiment with a table to see if I want to keep it or not and if I decide not to keep it, it is backed up and I can restore it later.  
 
-It also will backup individual tables to my NAS over the LAN. This allows me to experiment with a new version of a table and, if needed, delete the table and restore it from a good backup on the NAS. It also allows me to experiment with a table to see if I want to keep it or not and if I decide not to keep it, it is backed up and I can restore it later.  
+[Vpin Studio Wiki](https://github.com/syd711/vpin-studio/wiki)
+
 
 ## How to find and add a VPX/FP table, add Pinup Popper media, etc.
 
@@ -821,10 +822,10 @@ It also will backup individual tables to my NAS over the LAN. This allows me to 
 2. Download the table xxx.vpx file (and perhaps others). Follow the directions.
 3. Download the backglass .directb2s file (I usually prefer the 3 Screen or FullDMD versions by authors such as HauntFreaks) 
 4. Download the rom xxx.zip file (if the table has a rom file). Usually late '70s/80s/90s/2000s tables have ROM files/ Older EM (electromechanical) tables do not (as they didn't have a microprocessor in them.) Also newer, original tables (not a recreation of a physical table) usually don't have a ROM either. Leave the ROM file in .zip form.
-5. Run the VPin Studio client app on the main PC (or Vpin cabinet PC)
-6. Connect to the cabinet VPinStudio server by IP address and open the main Tables list window.
+5. Run the VPin Studio client app on the your PC and connect to the cabinet by IP address and open the main Tables list window. Or use the cabinet PC by exiting to windows and running the VPin Studio client app using the wireless keyboard.
+6. 
 7. Drag the xxx.vpx, xxx.directb2s and rom.zip files to the Table list. VPin studio will ask if you want to add a new table. Select yes and fill out any extra data as needed.    
-8.  Use VPin Studio app on main PC (or VPin table PC) to add Pinup Popper Table Media. I usually just add a Wheel icon, Playfield video, Backglass video, Apron/FullDMD graphic or video and Help graphic or video.
+8.  Use VPin Studio app on your PC (or cabinet PC) to add Pinup Popper Table Media. I usually just add a Wheel icon, Playfield video, Backglass video, Apron/FullDMD graphic or video and Help graphic or video.
 
 ## How playlists are created/managed/deleted, etc.
 
@@ -832,7 +833,7 @@ Playlists are like a folder of games in the frontend UI that can be created and 
 
 ## How to select, add coins, start, play and exit a table
 
-Turning on the pinball machine
+### Turning on the pinball machine
 ---
 
 <img src="images/Power-switch.jpg" width="200" alt="First Image"> <img src="images/Power-button.jpg" width="200" alt="Second Image"> <img src="images/Pinup-popper-all-tables.png" alt="Third Image"> 
@@ -841,7 +842,7 @@ Turning on the pinball machine
 2. Use the front Power button (located at the far right under the front of the cabinet) to turn on the machine.
 3. Wait until the Pinup Popper menu is showing 
 
-Select a table
+### Select a table
 ---
 
 <img src="./images/Pinup-popper-controls.png" alt="Description" width="60%" height="60%">\
@@ -853,7 +854,7 @@ Select a table
 4. Use the left **back** flipper button to exit (or go out of) a selection
 5. Once you have scrolled to the table you want to play, use the right back (magna-save) flipper button to select it and then again to play it. Or you can use the Start button to start it. 
 
-Start a table
+### Start a table
 ---
 
 <img src="images/Coin-reject-buttons.jpg" width="200" alt="First Image"> <img src="images/Start-button.jpg" width="200" alt="Second Image">
@@ -861,7 +862,7 @@ Start a table
 1. Once the table is loaded, use the Coin Reject buttons to "Insert" coins. Both buttons work, but the right one simulates a single coin and always works. The left one simulates inserting a dollar/multiple coins which some games support and others do not (especially the older tables). You should hear the sound of coins dropping into the machine to determine if it is working or not.  
 2. Use the Start button to start playing the table 
 
-Play a table
+### Play a table
 ---
 
 <img src="images/Plunger-pull.jpg" width="200" alt="First Image"> <img src="images/Fire-button.jpg" width="200" alt="Second Image">
@@ -871,7 +872,7 @@ Play a table
 3. Most newer tables have 3 balls/game. Older tables ('70s and earlier) have 5 balls/game.  
 4. Once the game is over you will need to use the Start button again to restart it. If you are out of credits, you will need to "insert" more coins and hit the Start button again.
 
-Exit a table
+### Exit a table
 ---
 
 <img src="images/Exit-button.jpg" width="200" alt="First Image"> 
@@ -879,7 +880,7 @@ Exit a table
 1. Once the game is over, you can use the Exit button (located at the far left under the front of the cabinet) to exit the game. This will take you back to the Pinup Popper scroll bar. 
 2. Repeat selecting and playing another table.
 
-Exit back to windows
+### Exit back to windows (usually not needed)
 ---
 <img src="images/Exit-button.jpg" width="200" alt="First Image"> <img src="images//System_exit.png" width="200" alt="First Image"> 
 
