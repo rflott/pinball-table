@@ -313,7 +313,6 @@ Note: the power button is lit though a port but its button switch is sent to the
 | Exit | (always on)  | B12  |
 | Start | (always on)  | B13  |
 | (unused) | (always on) | B14 |
-| Coin door tilt | (no led)  | (no led)  |
 | Fire red | 29 | Fire LED |
 | Fire green | 30 | Fire LED |
 | Fire blue | 31 | Fire LED |
