@@ -184,10 +184,10 @@ The PC ([MSI® Z370-A PRO](https://www.msi.com/Motherboard/z370-a-pro/Specificat
 
 # 6. Cabinet electronics
 
-#### [Cleveland Software Designs Virtual Pinball Builders Kit](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit)
+#### [Cleveland Software Designs Virtual Pinball Builders Kit (medium/large)](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit)
 ![](./images/CSD-Builders-Kit.png)
 
-As the main controller, the Cleveland Software Designs PinOne is used along with its accessories. The virtual pinball builders kit includes this controller along with its accessories.
+As the main controller, the Cleveland Software Designs PinOne is used along with its accessories. It is part of a virtual pinball builders kit.
 
 | | | |
 | :---: | :---: | :---: |
@@ -274,13 +274,15 @@ Night mode is enabled when the Night Mode button is pressed (button on the botto
 | Vol- | 11 | B11 |
 | Exit | 12 | B12 |
 | Start | 13 | B13 |
+| Coin door open | 14 | B14 |
+| Tilt | 16 | (accelerometer) |
 | Coin left | 17 | (coin door adapter) |
 | Coin right | 18 | (coin door adapter) |
 | Escape | 19 | (coin door adapter) |
 | Test mode | 20 | (coin door adapter) |
 | Function | 21 | (coin door adapter) |
 | Enter | 22 | (coin door adapter) |
-| Coin door tilt | 23 | B14 |
+| Coin door tilt | 23 | (coin door adapter) |
 | Plunger launch | 24 | (plunger) |
 
 ### CSD Button outputs config
