@@ -584,7 +584,7 @@ For the coin door, the [Williams/Bally Coin Door with wiring harness](https://ww
 
 This is a coin door used in real pinball Williams-style tables. It mounts in the pre-cut hole in the front of the cabinet using supplied bolts. The coin insert slots are fully functional since they have switches connected to the coin door harness. 
 
-In addition, micro-switches were epoxied glued to the *coin reject* buttons and wired in parallel with the coin insert switches in order to use the reject buttons as coin insert buttons. Another microswitch was mounted to the inside of the front panel of the cabinet to be used as a custom coin door open (tilt) switch. 
+In addition, micro-switches were epoxied glued to the *coin reject* buttons and wired in parallel with the coin insert switches in order to use the reject buttons as coin insert buttons. Another microswitch was mounted to the inside of the front panel of the cabinet to be used as a custom coin door open switch. 
 
 | | | |
 | :---: | :---: | :---: |
@@ -600,7 +600,7 @@ In addition, micro-switches were epoxied glued to the *coin reject* buttons and 
 | Mar  9, 2026 | [Micro Limit Switch 3 Pin SPDT 1NO 1NC Snap Action](https://www.amazon.com/dp/B09SWCJ8FF)
 
 ### Coin door adapter
-This allows you to use the service board connector on the CSD PinOne board to directly plug into a Williams coin door. This will map the slam tilt, both coin switches and the 4 service buttons to the CSD inputs and the 5v outputs will power the coin lights built into the door.
+This allows you to use the service board connector on the CSD PinOne board to directly plug into a Williams coin door. This will map the coin door slam tilt, both coin switches and the 4 service buttons to the CSD inputs and the 5v outputs will power the coin lights built into the door.
 
 <img src="./images/Coin-door-adapter-installed.jpg" width="40%" height="40%">
 
