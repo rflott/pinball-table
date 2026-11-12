@@ -969,7 +969,6 @@ Individual pinball emulator Windows executables were configured to modify variou
 ## Windows desktop apps & scripts
 - _Restore ScreenRes.bat_, _ScreenRes.txt_: restore the screenres.txt file so the monitors are displaying the correct screens again
 - _Restore VPinballX.ini.bat_, _VPinballX.ini_": restore the VPinballX.ini file for experimental VPX 10.8/1 emulator
-TODO
 
 ## Windows startup apps & scripts
 These apps and scripts are started in background by Windows when it boots up.
