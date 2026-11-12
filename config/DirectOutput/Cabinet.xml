@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<Cabinet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>AddressableLEDSetup</Name>
+  <OutputControllers>
+    <WemosD1MPStripController>
+      <Name>LED Strips 0</Name>
+      <NumberOfLedsStrip1>256</NumberOfLedsStrip1>
+      <NumberOfLedsStrip2>256</NumberOfLedsStrip2>
+      <NumberOfLedsStrip3>256</NumberOfLedsStrip3>
+      <NumberOfLedsStrip4>256</NumberOfLedsStrip4>
+      <NumberOfLedsStrip5>256</NumberOfLedsStrip5>
+      <NumberOfLedsStrip6>256</NumberOfLedsStrip6>
+      <NumberOfLedsStrip7>137</NumberOfLedsStrip7>
+      <NumberOfLedsStrip8>137</NumberOfLedsStrip8>
+      <NumberOfLedsStrip9>57</NumberOfLedsStrip9>
+      <NumberOfLedsStrip10>57</NumberOfLedsStrip10>
+      <ComPortName>COM5</ComPortName>
+      <ComPortTimeOutMs>300</ComPortTimeOutMs>
+      <ComPortBaudRate>2000000</ComPortBaudRate>
+      <ComPortOpenWaitMs>300</ComPortOpenWaitMs>
+      <ComPortHandshakeStartWaitMs>100</ComPortHandshakeStartWaitMs>
+      <ComPortHandshakeEndWaitMs>100</ComPortHandshakeEndWaitMs>
+      <SendPerLedstripLength>true</SendPerLedstripLength>
+      <UseCompression>true</UseCompression>
+      <ComPortDtrEnable>true</ComPortDtrEnable>
+      <TestOnConnect>false</TestOnConnect>
+    </WemosD1MPStripController>
+  </OutputControllers>
+  <Toys>
+    <LedStrip>
+      <Name>Back Panel</Name>
+      <Width>96</Width>
+      <Height>16</Height>
+      <LedStripArrangement>TopDownAlternateRightLeft</LedStripArrangement>
+      <ColorOrder>RGB</ColorOrder>
+      <FirstLedNumber>1</FirstLedNumber>
+      <FadingCurveName>SwissLizardsLedCurve</FadingCurveName>
+      <Brightness>15</Brightness>
+      <OutputControllerName>LED Strips 0</OutputControllerName>
+    </LedStrip>
+    <LedStrip>
+      <Name>Left Side</Name>
+      <Width>1</Width>
+      <Height>137</Height>
+      <LedStripArrangement>RightLeftTopDown</LedStripArrangement>
+      <ColorOrder>RGB</ColorOrder>
+      <FirstLedNumber>1537</FirstLedNumber>
+      <FadingCurveName>SwissLizardsLedCurve</FadingCurveName>
+      <Brightness>15</Brightness>
+      <OutputControllerName>LED Strips 0</OutputControllerName>
+    </LedStrip>
+    <LedStrip>
+      <Name>Right Side</Name>
+      <Width>1</Width>
+      <Height>137</Height>
+      <LedStripArrangement>LeftRightTopDown</LedStripArrangement>
+      <ColorOrder>RGB</ColorOrder>
+      <FirstLedNumber>1674</FirstLedNumber>
+      <FadingCurveName>SwissLizardsLedCurve</FadingCurveName>
+      <Brightness>15</Brightness>
+      <OutputControllerName>LED Strips 0</OutputControllerName>
+    </LedStrip>
+    <LedStrip>
+      <Name>Left Speaker</Name>
+      <Width>1</Width>
+      <Height>57</Height>
+      <LedStripArrangement>RightLeftTopDown</LedStripArrangement>
+      <ColorOrder>RGB</ColorOrder>
+      <FirstLedNumber>1811</FirstLedNumber>
+      <FadingCurveName>SwissLizardsLedCurve</FadingCurveName>
+      <Brightness>70</Brightness>
+      <OutputControllerName>LED Strips 0</OutputControllerName>
+    </LedStrip>
+    <LedStrip>
+      <Name>Right Speaker</Name>
+      <Width>1</Width>
+      <Height>57</Height>
+      <LedStripArrangement>LeftRightTopDown</LedStripArrangement>
+      <ColorOrder>RGB</ColorOrder>
+      <FirstLedNumber>1868</FirstLedNumber>
+      <FadingCurveName>SwissLizardsLedCurve</FadingCurveName>
+      <Brightness>70</Brightness>
+      <OutputControllerName>LED Strips 0</OutputControllerName>
+    </LedStrip>
+    <LedWizEquivalent>
+      <Name>LedWizEquivalent 30</Name>
+      <LedWizNumber>30</LedWizNumber>
+      <Outputs>
+        <LedWizEquivalentOutput>
+          <OutputName>Back Panel</OutputName>
+          <LedWizEquivalentOutputNumber>1</LedWizEquivalentOutputNumber>
+        </LedWizEquivalentOutput>
+        <LedWizEquivalentOutput>
+          <OutputName>Left Side</OutputName>
+          <LedWizEquivalentOutputNumber>19</LedWizEquivalentOutputNumber>
+        </LedWizEquivalentOutput>
+        <LedWizEquivalentOutput>
+          <OutputName>Right Side</OutputName>
+          <LedWizEquivalentOutputNumber>22</LedWizEquivalentOutputNumber>
+        </LedWizEquivalentOutput>
+        <LedWizEquivalentOutput>
+          <OutputName>Left Speaker</OutputName>
+          <LedWizEquivalentOutputNumber>25</LedWizEquivalentOutputNumber>
+        </LedWizEquivalentOutput>
+        <LedWizEquivalentOutput>
+          <OutputName>Right Speaker</OutputName>
+          <LedWizEquivalentOutputNumber>28</LedWizEquivalentOutputNumber>
+        </LedWizEquivalentOutput>
+      </Outputs>
+    </LedWizEquivalent>
+  </Toys>
+</Cabinet>
