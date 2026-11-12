@@ -65,9 +65,6 @@
             <mxPoint x="720.0010000000002" y="333.96799999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ITK7_PTURf_nkGHIkjme-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=default;" value="CSD PinOne controller" vertex="1">
-          <mxGeometry height="11" width="160" x="354" y="464" as="geometry" />
-        </mxCell>
         <mxCell id="ITK7_PTURf_nkGHIkjme-7" parent="1" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.4_line_bus;labelPerimeter=1;rotation=-90;" value="" vertex="1">
           <mxGeometry height="25" width="11" x="107.25" y="645" as="geometry" />
         </mxCell>
@@ -1435,6 +1432,9 @@
         </mxCell>
         <mxCell id="QOQd9v2kvfvUCyVZZsOi-1" parent="1" style="fontColor=#000000;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;labelPerimeter=1;labelBackgroundColor=default;" value="PC" vertex="1">
           <mxGeometry height="60" width="30" x="615.25" y="468.55" as="geometry" />
+        </mxCell>
+        <mxCell id="ITK7_PTURf_nkGHIkjme-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;labelBackgroundColor=default;" value="CSD PinOne controller" vertex="1">
+          <mxGeometry height="11" width="160" x="354" y="464" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
