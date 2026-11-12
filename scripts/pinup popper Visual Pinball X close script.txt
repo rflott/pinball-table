@@ -1,0 +1,20 @@
+[ECHO] Closing Emulator
+
+rem --- ADD A 2-SECOND DELAY TO FREE THE COM PORT ---
+timeout /t 2 /nobreak > NUL
+
+"[STARTDIR]LAUNCH\PUPCLOSER.EXE" WINTIT "Visual Pinball" 10 1 2
+
+curl -X POST --data-urlencode "table=[GAMEFULLNAME]" --data-urlencode "emu=[DIREMU]" http://localhost:8089/service/gameExit
+[ECHO] Closing Emulator
+
+rem --- ADD A 2-SECOND DELAY TO FREE THE COM PORT ---
+timeout /t 2 /nobreak > NUL
+
+"[STARTDIR]LAUNCH\PUPCLOSER.EXE" WINTIT "Visual Pinball" 10 1 2
+
+: tell vpin studio that the game has stopped
+curl -X POST --data-urlencode "table=[GAMEFULLNAME]" --data-urlencode "emu=[DIREMU]" http://localhost:8089/service/gameExit
+
+taskkill /F /IM B2SBackglassServer.exe
+

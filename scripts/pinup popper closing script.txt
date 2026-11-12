@@ -1,0 +1,3 @@
+@echo off
+:: Force DOF/DOFLinx to send an all-clear command to the COM ports to clear the LEDs
+taskkill /F /IM DOFLinx.exe

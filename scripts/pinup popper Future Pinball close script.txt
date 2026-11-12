@@ -1,0 +1,11 @@
+"[STARTDIR]LAUNCH\PUPCLOSER.EXE" WINTIT "Future Pinball" 2 1
+
+REG ADD "HKCU\Software\Future Pinball\GamePlayer" /v "ArcadeMode" /t REG_DWORD /d 1 /f
+REG ADD "HKCU\Software\Future Pinball\GamePlayer" /v "SecondMonitorEnable" /t REG_DWORD /d 1 /f
+
+if "[custom2]"=="FP_DMDExt" (taskkill /f /im "dmdext.exe")
+
+taskkill /f /im "DOFLinx.exe"
+
+curl -X POST --data-urlencode "table=[GAMEFULLNAME]" --data-urlencode "emu=[DIREMU]" http://localhost:8089/service/gameExit
+

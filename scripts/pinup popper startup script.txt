@@ -1,0 +1,3 @@
+curl -X POST --data-urlencode "system=" http://localhost:8089/service/popperLaunch
+START "" /d C:\DOFLinx "C:\DOFLinx\DOFLinx.exe"
+

@@ -1,0 +1,7 @@
+START "" "[STARTDIR]Launch\VPXSTARTER.exe" 2 2 10 "Multiple Arcade Machine Emulator"
+
+c:
+
+cd "C:\MAME"
+
+START "" "[diremu]\mame.exe" "[GAMEFULLNAME]"

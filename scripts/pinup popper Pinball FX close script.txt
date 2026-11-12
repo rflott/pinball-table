@@ -1,0 +1,5 @@
+"[STARTDIR]LAUNCH\PUPCLOSER.EXE" WINTIT "PinballFX" 4 1
+
+taskkill /f /im "DOFLinx.exe"
+
+:: curl -X POST --data-urlencode "table=[GAMEFULLNAME]" --data-urlencode "emu=[DIREMU]" http://localhost:8089/service/gameExit

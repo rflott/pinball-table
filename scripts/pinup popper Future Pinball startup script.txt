@@ -1,0 +1,24 @@
+START "" /d C:\DOFLinx "C:\DOFLinx\DOFLinx.exe"
+
+rem Enable FP Backglass and Arcade Mode
+
+REG ADD "HKCU\Software\Future Pinball\GamePlayer" /v "ArcadeMode" /t REG_DWORD /d 1 /f
+REG ADD "HKCU\Software\Future Pinball\GamePlayer" /v "SecondMonitorEnable" /t REG_DWORD /d 1 /f
+
+rem Disable FP Backglass and Arcade Mode if "Custom Launch Param" = PinEvent
+
+if "[custom1]"=="PinEvent" (REG ADD "HKCU\Software\Future Pinball\GamePlayer" /v "ArcadeMode" /t REG_DWORD /d 0 /f)
+if "[custom1]"=="PinEvent" (REG ADD "HKCU\Software\Future Pinball\GamePlayer" /v "SecondMonitorEnable" /t REG_DWORD /d 0 /f)
+
+rem Run DMDExt from the FP folder only if "Custom Var #2" = "FP_DMDExt"
+
+if "[custom2]"=="FP_DMDExt" (CD /d "[DIREMU]")
+if "[custom2]"=="FP_DMDExt" (start /min "" "dmdext.exe" mirror --source=futurepinball -q --virtual-stay-on-top --fps 60 -g "[GAMENAME]" --use-ini="DmdDevice.ini")
+if "[custom2]"=="FP_DMDExt" (timeout /t 1)
+
+rem Launch Future Pinball
+
+START "" "[STARTDIR]Launch\VPXSTARTER.exe" 10 5 60 "BSP Software*"
+START "" "[DIREMU]\BAM\FPLoader.exe" /open "[GAMEFULLNAME]" /play /exit /arcaderender /STAYINRAM
+
+curl -X POST --data-urlencode "table=[GAMEFULLNAME]" --data-urlencode "emu=[DIREMU]" http://localhost:8089/service/gameLaunch

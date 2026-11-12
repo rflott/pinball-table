@@ -1,0 +1,20 @@
+@echo off
+
+: Put in a delay so thecom port handoff between vpx .exe and popper is clean and the LEDs keep working
+timeout /t 2 /nobreak
+
+START "" "[STARTDIR]Launch\VPXSTARTER.exe" 30 10 60 "Visual Pinball Player" 2
+cd /d "[DIREMU]"
+
+IF "[ALTEXE]"=="" (
+    rem Default launch (VPX 10.8.0) WITH -minimized
+    timeout /t 1 /nobreak
+    START "" VPinballX64.exe -DisableTrueFullScreen -primary -LessCPUthreads -minimized -play "[GAMEFULLNAME]"
+) 
+ELSE (
+    rem Alternate Launcher (i.e. VPX 10.8.1) WITHOUT -minimized
+    START /min "" [ALTEXE] "[DIREMU]" -play "[GAMEFULLNAME]"
+)
+
+: tell vpin studio that the game has launched
+curl -X POST --data-urlencode "table=[GAMEFULLNAME]" --data-urlencode "emu=[DIREMU]" http://localhost:8089/service/gameLaunch

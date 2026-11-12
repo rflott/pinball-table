@@ -686,7 +686,6 @@ A wireless game controller is used to play arcade games on the pinball table. Th
 | Button 12 | right trigger |
 | Button 13 | X silver guide button |
 
-
 | Date ordered | Part |
 |---|---|
 | Mar 18, 2026 | [AceGamer Aurora II 2.4G Wireless Bluetooth Controller for PC ](https://www.amazon.com/dp/B0FJRTNTHQ?th=1) |
@@ -803,6 +802,26 @@ A few Steam Pinball FX emulator based tables were bought and are used in this ca
 [Pinup Popper frontend](https://www.nailbuster.com/wikipinup/doku.php?id=popper_themes) is used as the frontend to allow the user to select which table to load and run. It was installed in the cabinet and setup using [Baller Installer](https://nailbuster.com/wikipinup/doku.php?id=baller_installer).
 
 PinUpMenu.exe is the main frontend executable file for PinUP Popper. PinUpMenuSetup.exe is the configuration app to install table, create playlists, etc. Shortcuts to both of these app are placed on the desktop since the are used quite often.
+
+#### Pinup Popper emulator scripts
+
+These are the scripts that Pinup Popper uses to start/stop itself and various emulators.
+
+- [Pinup Popper startup script](scripts/pinup%20popper%20startup%20script.txt)
+- [Pinup Popper closing script](scripts/pinup%20popper%20closing%20script.txt)
+- [Pinup Popper custom options](scripts/pinup%20popper%20custom%20options.txt)
+- [Pinup Popper Future Pinball startup script](scripts/pinup%20popper%20Future%20Pinball%20startup%20script.txt)
+- [Pinup Popper Future Pinball closing script](scripts/pinup%20popper%20Future%20Pinball%20close%20script.txt)
+- [Pinup Popper MAME startup script](scripts/pinup%20popper%20MAME%20startup%20script.txt)
+- [Pinup Popper MAME closing script](scripts/pinup%20popper%20MAME%20close%20script.txt)
+- [Pinup Popper Pinball FX startup script](scripts/pinup%20popper%20Pinball%20FX%20startup%20script.txt)
+- [Pinup Popper Pinball FX closing script](scripts/pinup%20popper%20Pinball%20FX%20close%20script.txt)
+- [Pinup Popper Visual Pinball startup script](scripts/pinup%20popper%20Visual%20Pinball%20X%20startup%20script.txt)
+- [Pinup Popper Visual Pinball closing script](scripts/pinup%20popper%20Visual%20Pinball%20X%20close%20script.txt)
+
+#### Pinup Popper screen settings
+
+<img src="./images/Pinup Popper screen settings.png" alt="Description" width="60%" height="60%">\
 
 ### VPin Studio
 
