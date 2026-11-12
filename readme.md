@@ -16,7 +16,7 @@
 8. [Video subsystem](#8-video-subsystem)
 9. [Addressable LEDs](#9-addressable-leds)
 10. [Miscellaneous](#10-miscellaneous)
-11. [Wiring](#11-wiring)
+11. [Wiring](#11-wiring-diagrams)
 12. [Software](#12-software)
 
 # 1. Introduction
