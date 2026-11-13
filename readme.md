@@ -6,18 +6,31 @@
 
 ## Contents
 
-1. [Introduction](#1-introduction)
-2. [Cabinet](#2-cabinet)
-3. [Cabinet parts](#3-cabinet-parts)
-4. [Construction](#4-construction)
-5. [PC](#5-pc)
-6. [Cabinet electronics](#6-cabinet-electronics)
-7. [Audio subsystem](#7-audio-subsystem)
-8. [Video subsystem](#8-video-subsystem)
-9. [Addressable LEDs](#9-addressable-leds)
-10. [Miscellaneous](#10-miscellaneous)
-11. [Wiring](#11-wiring-diagrams)
-12. [Software](#12-software)
+- [1. Introduction](#1-introduction)
+- [2. Cabinet](#2-cabinet)
+- [3. Cabinet parts](#3-cabinet-parts)
+- [4. Construction](#4-construction)
+- [5. PC](#5-pc)
+- [6. Cabinet electronics](#6-cabinet-electronics)
+  - [6.1 Solenoids, outputs](#61-solenoids-outputs)
+  - [6.2 Buttons, inputs](#62-buttons-inputs)
+- [7. Audio subsystem](#7-audio-subsystem)
+- [8. Video subsystem](#8-video-subsystem)
+- [9. Addressable LEDs](#9-addressable-leds)
+- [10. Miscellaneous](#10-miscellaneous)
+- [11. Wiring diagrams](#11-wiring-diagrams)
+  - [11.1 Inputs](#111-inputs)
+  - [11.2 Outputs](#112-outputs)
+  - [11.3 Audio/Video](#113-audiovideo)
+  - [11.4 Lights](#114--lights)
+- [12. Software](#12-software)
+  - [12.1 Virtual pinball emulator apps](#121-virtual-pinball-emulator-apps)
+  - [12.2 Pinup Popper frontend](#122-pinup-popper-frontend)
+  - [12.3 VPin Studio](#123-vpin-studio)
+  - [12.4 How to find and add a table, add front end media, etc.](#124-how-to-find-and-add-a-vpxfp-table-add-pinup-popper-media-etc)
+  - [12.5 How to select, add coins, start, play and exit a table](#125-how-to-select-add-coins-start-play-and-exit-a-table)
+  - [12.6 Misc software](#126-misc-software)
+- [13. Notes/fixes](#13-notesfixes)
 
 # 1. Introduction
 This virtual pinball table started as a project in Dec 2025. Parts were first ordered then for the cabinet.
@@ -220,7 +233,7 @@ The [CSD PinOne Configuration documentation](https://pinball-docs.clevelandsoftw
 
 Night mode is enabled when the Night Mode button is pressed (button on the bottom of the cabinet behind right front leg). It works as an on/off toggle. The CSD PinOne board is configured to turn off solenoids, knocker and chimes when night mode is on.   
 
-### Solenoids, outputs
+## 6.1 Solenoids, outputs
 
 | | | | |
 | :---: | :---: | :---: | :---: |
@@ -249,7 +262,7 @@ Night mode is enabled when the Night Mode button is pressed (button on the botto
 | Chime middle | 15 | 15 |
 | IR emitter (?) | 24 | 24 |
 
-### Buttons, inputs
+## 6.2 Buttons, inputs
 
 | | | | |
 | :---: | :---: | :---: | :---: |
@@ -320,6 +333,10 @@ Note: the power button is lit though a port but its button switch is sent to the
 **VPX 10.8 Button/key config**
 
 <img src="./images/VPX10.8-button-config.png" width="100%" height="100%">
+
+**Future Pinball Button/key config**
+
+<img src="./images/Future-Pinball-buttons-config.png" width="100%" height="100%">
 
 ### CSD Plunger
 
@@ -497,6 +514,10 @@ The DMD monitor is set to 1080P 60Hz in windows and is mounted to the Tukkari me
 **VPX 10.8 Video/graphics config**
 
 <img src="./images/VPX10.8-video-graphics-options.png" width="100%" height="100%">
+
+**Future Pinball Video/graphics config**
+
+<img src="./images/Future-Pinball-video-graphics-config.png" width="100%" height="100%">
 
 # 9. Addressable LEDs
 
@@ -737,16 +758,16 @@ Glass to cover the playfield was sourced from a local vendor - Miller's Glass & 
 
 # 11. Wiring diagrams 
 
-###  Inputs
+## 11.1 Inputs
 ![Inputs](./images/Pinball-cabinet-Inputs.png)
 
-###  Outputs
+## 11.2 Outputs
 ![Outputs](./images/Pinball-cabinet-Outputs.png)
 
-###  Audio/Video
+## 11.3 Audio/Video
 ![Audio/Video](./images/Pinball-cabinet-Audio-Video.png)
 
-###  Lights
+## 11.4  Lights
 ![Lights](./images/Pinball-cabinet-Lights.png)
 
 # 12. Software
@@ -767,7 +788,7 @@ Direct Output Framework (DOF) controls the various toys (buttons, solenoids, sha
 
 DOFLinx controls the various toys (buttons, solenoids, shaker, coins, LEDs, etc.) for non-VPX (i.e. FuturePinball, Steams's Pinball FX, etc) tables. It was installed and configured per [CSD DOFLink documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/DOFLinx/). 
 
-## Virtual pinball emulator apps
+## 12.1 Virtual pinball emulator apps
 
 The root of the virtual pinball software is located in *c:\vPinball\\*. 
 
@@ -793,7 +814,7 @@ In addition, some Future Pinball tables are used in this cabinet. They are also 
 
 A few Steam Pinball FX emulator based tables were bought and are used in this cabinet. They are downloaded from [Pinball FX](https://www.pinballfx.com/). The steam emulator is installed and started upon windows boot.
 
-### Pinup Popper frontend
+## 12.2 Pinup Popper frontend
 
 *Installation folder: c:\vPinball\PinUPSystem\\*
 
@@ -823,7 +844,7 @@ These are the scripts that Pinup Popper uses to start/stop itself and various em
 
 <img src="./images/Pinup Popper screen settings.png" alt="Description" width="60%" height="60%">\
 
-### VPin Studio
+## 12.3 VPin Studio
 
 *Installation folder on cabinet: C:\vPinball\Vpin-Studio\\*
 
@@ -835,8 +856,7 @@ It also will backup individual tables to the NAS over the LAN. This allows me to
 
 [Vpin Studio Wiki](https://github.com/syd711/vpin-studio/wiki)
 
-
-## How to find and add a VPX/FP table, add Pinup Popper media, etc.
+## 12.4 How to find and add a VPX/FP table, add Pinup Popper media, etc.
 
 1. Find a table on [Virtual Pinball Spreadsheet](https://virtualpinballspreadsheet.github.io/games)
 2. Download the table xxx.vpx file (and perhaps others). Follow the directions.
@@ -851,7 +871,7 @@ It also will backup individual tables to the NAS over the LAN. This allows me to
 
 Playlists are like a folder of games in the frontend UI that can be created and managed by either VPinStudio or Pinup Popper config app. Refer to their documentation for managing the playlists. This allows playlists to contain Kid's tables or Sports tables, etc. 
 
-## How to select, add coins, start, play and exit a table
+## 12.5 How to select, add coins, start, play and exit a table
 
 ### Turning on the pinball machine
 ---
@@ -930,7 +950,7 @@ These apps were installed and they are launched from the Windows startup folder.
 ### FanControl
 [FanControl](https://getfancontrol.com/) is a windows background app that adjusts the fan speed better than the PC BIOS does, thus producing less fan noise while keeping the electronics cooler. 
 
-## Misc software
+## 12.6 Misc software
 
 ### RustDesk
 [RustDesk](https://rustdesk.com/) is used as a remote desktop app so that I can use my PC to remotely control the cabinet (in Windows, in an emulator, etc.). It can remotely show all three displays (playfield, backglass, DMD). 
@@ -983,7 +1003,7 @@ These apps and scripts are started in background by Windows when it boots up.
 ### Startup scripts
 - [vpx-monitor-config.bat](scripts/vpx-monitor-config.bat)
 
-# Notes/fixes
+# 13. Notes/fixes
 
 Tables being displayed on wrong screens
 ---
