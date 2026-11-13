@@ -944,6 +944,8 @@ These apps were installed and they are launched from the Windows startup folder.
 | Pause | VPX emulator | Pause the table (enter the 'P' key) |
 | ??? | Pinball FX (Steam) emulator | ??? |
 
+[JoyToKey config files](config/JoyToKey/)  
+
 ### PinAffinity
 [PinAffinity](http://mjrnet.org/pinscape/PinAffinity.html) is a windows background app that adjusts the Windows process affinity executables to give the pinball emulators higher priority (and other processes lower) hence making the emulator run smoother. 
 

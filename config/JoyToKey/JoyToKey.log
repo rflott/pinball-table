@@ -1,0 +1,121 @@
+2026/11/13 17:12:36.277 Info   Starting JoyToKey v7.3.2
+2026/11/13 17:12:36.277 Info   ExeFile = C:\Program Files (x86)\JoyToKey\JoyToKey.exe
+2026/11/13 17:12:36.277 Info   Args = C:\Program Files (x86)\JoyToKey\JoyToKey.exe
+2026/11/13 17:12:36.277 Info   DataDirectory = C:\Users\Rick\OneDrive\Documents\JoyToKey\
+2026/11/13 17:12:36.277 Info   Profile = 
+2026/11/13 17:12:36.277 Info   IniFile = C:\Users\Rick\OneDrive\Documents\JoyToKey\JoyToKey.ini
+2026/11/13 17:12:36.277 Info   Loading ini file: C:\Users\Rick\OneDrive\Documents\JoyToKey\JoyToKey.ini (AppInfo.cpp#263)
+2026/11/13 17:12:36.278 Info   LicenseKey "" is not valid
+2026/11/13 17:12:36.341 Info   Windows 10 or later (Main.cpp#106)
+2026/11/13 17:12:36.341 Info   Loading hid.dll (ProcessingHID.h#58)
+2026/11/13 17:12:36.342 Info   Initialized HID (Processing.cpp#178)
+2026/11/13 17:12:36.342 Info   Loading XInput1_4.dll (Processing.cpp#188)
+2026/11/13 17:12:36.343 Info   Initialized XInput (Processing.cpp#217)
+2026/11/13 17:12:36.400 Info   Initialized DirectInput (Processing.cpp#230)
+2026/11/13 17:12:36.400 Info   Detected a HID controller[2]: VendorId=0x045E, ProductId=0x028E, UsagePage=1, Usage=5, Path=\\?\HID#VID_045E&PID_028E&IG_00#7&2eea0de7&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+2026/11/13 17:12:36.400 Info   Vendor = Microsoft
+2026/11/13 17:12:36.401 Info   Product = Controller (USB Controller)
+2026/11/13 17:12:36.401 Info   DeviceName = Xbox 360 Controller
+2026/11/13 17:12:36.401 Info   numAxis = 5 [1,1,1,1,1,0,0,0]
+2026/11/13 17:12:36.401 Info   numPOVs = 1
+2026/11/13 17:12:36.401 Info   numButtons = 10
+2026/11/13 17:12:36.401 Info   Detected a HID controller[3]: VendorId=0x0E8F, ProductId=0x9207, UsagePage=1, Usage=4, Path=\\?\HID#VID_0E8F&PID_9207&MI_02#7&32b3b109&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+2026/11/13 17:12:36.401 Info   Vendor = 0x0e8f
+2026/11/13 17:12:36.401 Info   Product = Clev Soft PinOne
+2026/11/13 17:12:36.401 Info   DeviceName = Clev Soft PinOne
+2026/11/13 17:12:36.401 Info   numAxis = 6 [1,1,1,1,1,1,0,0]
+2026/11/13 17:12:36.401 Info   numPOVs = 2
+2026/11/13 17:12:36.401 Info   numButtons = 32
+2026/11/13 17:12:36.406 Info   Detected XI device[0]
+2026/11/13 17:12:36.406 Info   VendorId=045E, ProductId=028E
+2026/11/13 17:12:36.406 Info   GUID=045E028E-1, Name=XInput Device #1
+2026/11/13 17:12:36.408 Info   DetectJoysticks: Detected 1 XI joystick(s)
+2026/11/13 17:12:36.488 Info   Detected a DI joystick: Clev Soft PinOne, Clev Soft PinOne, 92070E8F, {6D4D6DD0-1EB9-11F1-8001-444553540000}
+2026/11/13 17:12:36.489 Info   numAxis = 6
+2026/11/13 17:12:36.489 Info   numPOVs = 2
+2026/11/13 17:12:36.489 Info   numButtons = 32
+2026/11/13 17:12:36.489 Info   EnumDeviceObject: Axis offset=0 type=402 name=Y Rotation
+2026/11/13 17:12:36.489 Info   EnumDeviceObject: Axis offset=4 type=302 name=X Rotation
+2026/11/13 17:12:36.489 Info   EnumDeviceObject: Axis offset=8 type=102 name=Y Axis
+2026/11/13 17:12:36.489 Info   EnumDeviceObject: Axis offset=12 type=2 name=X Axis
+2026/11/13 17:12:36.489 Info   EnumDeviceObject: Axis offset=16 type=502 name=Z Rotation
+2026/11/13 17:12:36.489 Info   EnumDeviceObject: Axis offset=20 type=202 name=Z Axis
+2026/11/13 17:12:36.492 Info   Detected a DI joystick: Controller (USB Controller), Controller (USB Controller), 028E045E, {BDA2A580-2F9D-11F1-8003-444553540000}
+2026/11/13 17:12:36.507 Info   DetectJoysticks: Detected 1 DI joystick(s)
+2026/11/13 17:12:36.510 Info   Assign Xbox 360 Controller to Joystick[1] (045E028E-1)
+2026/11/13 17:12:36.510 Info   Assign Clev Soft PinOne to Joystick[2] ({6D4D6DD0-1EB9-11F1-8001-444553540000})
+2026/11/13 17:12:36.510 Info   2 joystick(s) are detected (Processing.cpp#317)
+2026/11/13 17:12:36.510 Info   ConfigDir=C:\Users\Rick\OneDrive\Documents\JoyToKey\*.cfg (ConfigFileManager.cpp#41)
+2026/11/13 17:12:36.512 Info   --- Loading "AppLink.dat" --- (AppLinkManager.cpp#33)
+2026/11/13 17:12:36.512 Info   --- Total 3 record(s) loaded ---
+2026/11/13 17:12:36.562 Info   Application is running with standard user privileges (Main.cpp#184)
+2026/11/13 17:12:36.566 Info   TimerInit: Initializing timer at 1 msec (with x16 speed mode)
+2026/11/13 17:12:36.566 Info   TimerInit: Timer initialized (Processing.cpp#1040)
+2026/11/13 17:12:36.576 Info   Starting in a minimized mode (JoyToKey.cpp#39)
+2026/11/13 17:12:36.624 Info   Detected a HID controller[2]: VendorId=0x045E, ProductId=0x028E, UsagePage=1, Usage=5, Path=\\?\HID#VID_045E&PID_028E&IG_00#7&2eea0de7&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+2026/11/13 17:12:36.624 Info   Vendor = Microsoft
+2026/11/13 17:12:36.624 Info   Product = Controller (USB Controller)
+2026/11/13 17:12:36.624 Info   DeviceName = Xbox 360 Controller
+2026/11/13 17:12:36.624 Info   numAxis = 5 [1,1,1,1,1,0,0,0]
+2026/11/13 17:12:36.624 Info   numPOVs = 1
+2026/11/13 17:12:36.624 Info   numButtons = 10
+2026/11/13 17:12:36.624 Info   Detected a HID controller[3]: VendorId=0x0E8F, ProductId=0x9207, UsagePage=1, Usage=4, Path=\\?\HID#VID_0E8F&PID_9207&MI_02#7&32b3b109&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+2026/11/13 17:12:36.625 Info   Vendor = 0x0e8f
+2026/11/13 17:12:36.625 Info   Product = Clev Soft PinOne
+2026/11/13 17:12:36.625 Info   DeviceName = Clev Soft PinOne
+2026/11/13 17:12:36.625 Info   numAxis = 6 [1,1,1,1,1,1,0,0]
+2026/11/13 17:12:36.625 Info   numPOVs = 2
+2026/11/13 17:12:36.625 Info   numButtons = 32
+2026/11/13 17:12:36.625 Info   Detected XI device[0]
+2026/11/13 17:12:36.625 Info   VendorId=045E, ProductId=028E
+2026/11/13 17:12:36.625 Info   GUID=045E028E-1, Name=XInput Device #1
+2026/11/13 17:12:36.629 Info   DetectJoysticks: Detected 1 XI joystick(s)
+2026/11/13 17:12:36.714 Info   Detected a DI joystick: Clev Soft PinOne, Clev Soft PinOne, 92070E8F, {6D4D6DD0-1EB9-11F1-8001-444553540000}
+2026/11/13 17:12:36.715 Info   numAxis = 6
+2026/11/13 17:12:36.715 Info   numPOVs = 2
+2026/11/13 17:12:36.715 Info   numButtons = 32
+2026/11/13 17:12:36.715 Info   EnumDeviceObject: Axis offset=0 type=402 name=Y Rotation
+2026/11/13 17:12:36.715 Info   EnumDeviceObject: Axis offset=4 type=302 name=X Rotation
+2026/11/13 17:12:36.715 Info   EnumDeviceObject: Axis offset=8 type=102 name=Y Axis
+2026/11/13 17:12:36.715 Info   EnumDeviceObject: Axis offset=12 type=2 name=X Axis
+2026/11/13 17:12:36.715 Info   EnumDeviceObject: Axis offset=16 type=502 name=Z Rotation
+2026/11/13 17:12:36.715 Info   EnumDeviceObject: Axis offset=20 type=202 name=Z Axis
+2026/11/13 17:12:36.717 Info   Detected a DI joystick: Controller (USB Controller), Controller (USB Controller), 028E045E, {BDA2A580-2F9D-11F1-8003-444553540000}
+2026/11/13 17:12:36.732 Info   DetectJoysticks: Detected 1 DI joystick(s)
+2026/11/13 17:12:36.735 Info   Assign Xbox 360 Controller to Joystick[1] (045E028E-1)
+2026/11/13 17:12:36.735 Info   Assign Clev Soft PinOne to Joystick[2] ({6D4D6DD0-1EB9-11F1-8001-444553540000})
+2026/11/13 17:12:36.735 Info   2 joystick(s) are detected (Processing.cpp#317)
+2026/11/13 17:13:29.044 Info   Detected a HID controller[2]: VendorId=0x045E, ProductId=0x028E, UsagePage=1, Usage=5, Path=\\?\HID#VID_045E&PID_028E&IG_00#7&2eea0de7&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+2026/11/13 17:13:29.044 Info   Vendor = Microsoft
+2026/11/13 17:13:29.044 Info   Product = Controller (USB Controller)
+2026/11/13 17:13:29.044 Info   DeviceName = Xbox 360 Controller
+2026/11/13 17:13:29.044 Info   numAxis = 5 [1,1,1,1,1,0,0,0]
+2026/11/13 17:13:29.044 Info   numPOVs = 1
+2026/11/13 17:13:29.044 Info   numButtons = 10
+2026/11/13 17:13:29.045 Info   Detected a HID controller[3]: VendorId=0x0E8F, ProductId=0x9207, UsagePage=1, Usage=4, Path=\\?\HID#VID_0E8F&PID_9207&MI_02#7&32b3b109&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+2026/11/13 17:13:29.045 Info   Vendor = 0x0e8f
+2026/11/13 17:13:29.045 Info   Product = Clev Soft PinOne
+2026/11/13 17:13:29.045 Info   DeviceName = Clev Soft PinOne
+2026/11/13 17:13:29.045 Info   numAxis = 6 [1,1,1,1,1,1,0,0]
+2026/11/13 17:13:29.045 Info   numPOVs = 2
+2026/11/13 17:13:29.045 Info   numButtons = 32
+2026/11/13 17:13:29.045 Info   Detected XI device[0]
+2026/11/13 17:13:29.045 Info   VendorId=045E, ProductId=028E
+2026/11/13 17:13:29.045 Info   GUID=045E028E-1, Name=XInput Device #1
+2026/11/13 17:13:29.047 Info   DetectJoysticks: Detected 1 XI joystick(s)
+2026/11/13 17:13:29.121 Info   Detected a DI joystick: Clev Soft PinOne, Clev Soft PinOne, 92070E8F, {6D4D6DD0-1EB9-11F1-8001-444553540000}
+2026/11/13 17:13:29.122 Info   numAxis = 6
+2026/11/13 17:13:29.122 Info   numPOVs = 2
+2026/11/13 17:13:29.122 Info   numButtons = 32
+2026/11/13 17:13:29.122 Info   EnumDeviceObject: Axis offset=0 type=402 name=Y Rotation
+2026/11/13 17:13:29.122 Info   EnumDeviceObject: Axis offset=4 type=302 name=X Rotation
+2026/11/13 17:13:29.122 Info   EnumDeviceObject: Axis offset=8 type=102 name=Y Axis
+2026/11/13 17:13:29.122 Info   EnumDeviceObject: Axis offset=12 type=2 name=X Axis
+2026/11/13 17:13:29.122 Info   EnumDeviceObject: Axis offset=16 type=502 name=Z Rotation
+2026/11/13 17:13:29.122 Info   EnumDeviceObject: Axis offset=20 type=202 name=Z Axis
+2026/11/13 17:13:29.124 Info   Detected a DI joystick: Controller (USB Controller), Controller (USB Controller), 028E045E, {BDA2A580-2F9D-11F1-8003-444553540000}
+2026/11/13 17:13:29.139 Info   DetectJoysticks: Detected 1 DI joystick(s)
+2026/11/13 17:13:29.142 Info   Assign Xbox 360 Controller to Joystick[1] (045E028E-1)
+2026/11/13 17:13:29.142 Info   Assign Clev Soft PinOne to Joystick[2] ({6D4D6DD0-1EB9-11F1-8001-444553540000})
+2026/11/13 17:13:29.142 Info   2 joystick(s) are detected (Processing.cpp#317)
+2026/11/13 17:15:29.922 Info   Save config file "Desktop" (ConfigFileManager.cpp#430)
