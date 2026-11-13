@@ -935,6 +935,8 @@ These apps were installed and they are launched from the Windows startup folder.
 ### PinVol
 [PinVol](http://mjrnet.org/pinscape/PinVol.html) is a windows background app that adjusts the volume of a table when it starts up (since tables tend to have different volume levels). It allows you to use the CSD buttons at the bottom of the cabinet to adjust the volume of a table and it will remember it for the next time the table is run. 
 
+[PinVol config files](config/PinVolVol.ini) are located in Windows Desktop folder
+
 ### JoyToKey
 [JoyToKey](https://joytokey.net/en/) is a windows background app that is used to enhance the CSD button usage by doing - 
 
@@ -944,13 +946,15 @@ These apps were installed and they are launched from the Windows startup folder.
 | Pause | VPX emulator | Pause the table (enter the 'P' key) |
 | ??? | Pinball FX (Steam) emulator | ??? |
 
-[JoyToKey config files](config/JoyToKey/)  
+[JoyToKey config files](config/JoyToKey/) are located in Windows Documents folder
 
 ### PinAffinity
 [PinAffinity](http://mjrnet.org/pinscape/PinAffinity.html) is a windows background app that adjusts the Windows process affinity executables to give the pinball emulators higher priority (and other processes lower) hence making the emulator run smoother. 
 
 ### FanControl
 [FanControl](https://getfancontrol.com/) is a windows background app that adjusts the fan speed better than the PC BIOS does, thus producing less fan noise while keeping the electronics cooler. 
+
+[FanControl config files](config/FanControl/Configurations/) are located in C:\Program Files (x86)\FanControl\Configurations\
 
 ## 12.6 Misc software
 

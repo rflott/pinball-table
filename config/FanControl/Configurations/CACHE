@@ -1,0 +1,23 @@
+{
+  "CurrentConfigFileName": "userConfig.json",
+  "CustomConfigFolder": "C:\\Program Files (x86)\\FanControl\\Configurations",
+  "Main": {
+    "CultureSymbol": "en",
+    "DisableDonationPopup": false,
+    "DisablePawnIoPopup": false,
+    "FirstLaunch": false,
+    "FontFamily": "Default (MaterialDesign)",
+    "Height": 1563,
+    "Left": 480,
+    "LeftDrawerOpen": true,
+    "PopupShownDateTime": "2026-11-13T17:25:46.8480683-06:00",
+    "StartMinimized": true,
+    "Top": 275,
+    "Width": 2880,
+    "WindowState": 0
+  },
+  "Updater": {
+    "CheckForUpdateAtStartup": true,
+    "DisablePopupVersionNumber": 0
+  }
+}

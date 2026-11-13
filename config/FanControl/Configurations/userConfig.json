@@ -1,0 +1,628 @@
+{
+  "__VERSION__": "285",
+  "FanControl": {
+    "Controls": [
+      {
+        "NickName": "Output fan",
+        "Identifier": "/lpc/nct6795d/control/0",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "CPU"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6795d/fan/0"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            10,
+            0,
+            false
+          ],
+          [
+            20,
+            426,
+            false
+          ],
+          [
+            30,
+            631,
+            false
+          ],
+          [
+            40,
+            840,
+            false
+          ],
+          [
+            50,
+            1040,
+            false
+          ],
+          [
+            60,
+            1263,
+            false
+          ],
+          [
+            70,
+            1461,
+            false
+          ],
+          [
+            80,
+            1674,
+            false
+          ],
+          [
+            90,
+            1879,
+            false
+          ],
+          [
+            100,
+            2093,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "Input fan",
+        "Identifier": "/lpc/nct6795d/control/1",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "CPU"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "/lpc/nct6795d/fan/1"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            10,
+            0,
+            false
+          ],
+          [
+            20,
+            426,
+            false
+          ],
+          [
+            30,
+            632,
+            false
+          ],
+          [
+            40,
+            837,
+            false
+          ],
+          [
+            50,
+            1040,
+            false
+          ],
+          [
+            60,
+            1257,
+            false
+          ],
+          [
+            70,
+            1461,
+            false
+          ],
+          [
+            80,
+            1672,
+            false
+          ],
+          [
+            90,
+            1880,
+            false
+          ],
+          [
+            100,
+            2103,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "Fan #3",
+        "Identifier": "/lpc/nct6795d/control/2",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Fan #4",
+        "Identifier": "/lpc/nct6795d/control/3",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Fan #5",
+        "Identifier": "/lpc/nct6795d/control/4",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Fan #6",
+        "Identifier": "/lpc/nct6795d/control/5",
+        "IsHidden": true,
+        "Enable": false,
+        "SelectedFanCurve": null,
+        "SelectedOffset": 0,
+        "PairedFanSensor": null,
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": null
+      },
+      {
+        "NickName": "Control 1 - NVIDIA GeForce RTX 5070",
+        "Identifier": "NVApiWrapper/0-GB205-A/control/0",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "GPU"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-GB205-A/fan/0"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            1,
+            997,
+            false
+          ],
+          [
+            10,
+            997,
+            false
+          ],
+          [
+            20,
+            997,
+            false
+          ],
+          [
+            30,
+            997,
+            false
+          ],
+          [
+            40,
+            1283,
+            false
+          ],
+          [
+            50,
+            1572,
+            false
+          ],
+          [
+            60,
+            1862,
+            false
+          ],
+          [
+            70,
+            2149,
+            false
+          ],
+          [
+            80,
+            2437,
+            false
+          ],
+          [
+            90,
+            2727,
+            false
+          ],
+          [
+            100,
+            2991,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "Control 2 - NVIDIA GeForce RTX 5070",
+        "Identifier": "NVApiWrapper/0-GB205-A/control/1",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "GPU"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-GB205-A/fan/1"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            1,
+            999,
+            false
+          ],
+          [
+            10,
+            999,
+            false
+          ],
+          [
+            20,
+            999,
+            false
+          ],
+          [
+            30,
+            1000,
+            false
+          ],
+          [
+            40,
+            1286,
+            false
+          ],
+          [
+            50,
+            1572,
+            false
+          ],
+          [
+            60,
+            1864,
+            false
+          ],
+          [
+            70,
+            2146,
+            false
+          ],
+          [
+            80,
+            2441,
+            false
+          ],
+          [
+            90,
+            2727,
+            false
+          ],
+          [
+            100,
+            2991,
+            false
+          ]
+        ]
+      },
+      {
+        "NickName": "Control 3 - NVIDIA GeForce RTX 5070",
+        "Identifier": "NVApiWrapper/0-GB205-A/control/2",
+        "IsHidden": false,
+        "Enable": true,
+        "SelectedFanCurve": {
+          "Name": "GPU"
+        },
+        "SelectedOffset": 0,
+        "PairedFanSensor": {
+          "Identifier": "NVApiWrapper/0-GB205-A/fan/2"
+        },
+        "SelectedStart": 0,
+        "SelectedStop": 0,
+        "MinimumPercent": 0,
+        "SelectedCommandStepUp": 8,
+        "SelectedCommandStepDown": 8,
+        "ManualControlValue": 50,
+        "ManualControl": false,
+        "ForceApply": false,
+        "Calibration": [
+          [
+            0,
+            0,
+            false
+          ],
+          [
+            1,
+            997,
+            false
+          ],
+          [
+            10,
+            997,
+            false
+          ],
+          [
+            20,
+            997,
+            false
+          ],
+          [
+            30,
+            997,
+            false
+          ],
+          [
+            40,
+            1285,
+            false
+          ],
+          [
+            50,
+            1573,
+            false
+          ],
+          [
+            60,
+            1863,
+            false
+          ],
+          [
+            70,
+            2147,
+            false
+          ],
+          [
+            80,
+            2438,
+            false
+          ],
+          [
+            90,
+            2726,
+            false
+          ],
+          [
+            100,
+            2984,
+            false
+          ]
+        ]
+      }
+    ],
+    "CustomSensors": [],
+    "FanCurves": [
+      {
+        "Name": "Graph",
+        "IsHidden": true,
+        "CommandMode": 0,
+        "SelectedTempSource": null,
+        "Points": [
+          "40,20",
+          "80,80"
+        ],
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 1,
+          "HysteresisValueUp": 2,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": true
+        }
+      },
+      {
+        "Name": "CPU",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "/intelcpu/0/temperature/1"
+        },
+        "Points": [
+          "40,20",
+          "80,80"
+        ],
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 1,
+          "HysteresisValueUp": 2,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": true
+        }
+      },
+      {
+        "Name": "GPU",
+        "IsHidden": false,
+        "CommandMode": 0,
+        "SelectedTempSource": {
+          "Identifier": "NVApiWrapper/0-GB205-A/sensor/0"
+        },
+        "Points": [
+          "40,20",
+          "80,80"
+        ],
+        "MaximumTemperature": 120,
+        "MinimumTemperature": 20,
+        "MaximumCommand": 100,
+        "HysteresisConfig": {
+          "ResponseTimeUp": 1,
+          "ResponseTimeDown": 1,
+          "HysteresisValueUp": 2,
+          "HysteresisValueDown": 2,
+          "IgnoreHysteresisAtLimits": true
+        }
+      }
+    ],
+    "FanSensors": [
+      {
+        "Identifier": "/lpc/nct6795d/fan/0",
+        "IsHidden": false,
+        "NickName": "Fan #1"
+      },
+      {
+        "Identifier": "/lpc/nct6795d/fan/1",
+        "IsHidden": false,
+        "NickName": "Fan #2"
+      },
+      {
+        "Identifier": "/lpc/nct6795d/fan/2",
+        "IsHidden": false,
+        "NickName": "Fan #3"
+      },
+      {
+        "Identifier": "/lpc/nct6795d/fan/3",
+        "IsHidden": false,
+        "NickName": "Fan #4"
+      },
+      {
+        "Identifier": "/lpc/nct6795d/fan/4",
+        "IsHidden": false,
+        "NickName": "Fan #5"
+      },
+      {
+        "Identifier": "/lpc/nct6795d/fan/5",
+        "IsHidden": false,
+        "NickName": "Fan #6"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GB205-A/fan/0",
+        "IsHidden": false,
+        "NickName": "Fan 1 - NVIDIA GeForce RTX 5070"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GB205-A/fan/1",
+        "IsHidden": false,
+        "NickName": "Fan 2 - NVIDIA GeForce RTX 5070"
+      },
+      {
+        "Identifier": "NVApiWrapper/0-GB205-A/fan/2",
+        "IsHidden": false,
+        "NickName": "Fan 3 - NVIDIA GeForce RTX 5070"
+      }
+    ],
+    "TemperatureSensors": []
+  },
+  "Sensors": {
+    "AdlxWrapperSettings": {
+      "Enabled": true
+    },
+    "DisabledPlugins": [],
+    "DisableStorageSensors": true,
+    "LibreHardwareMonitorSettings": {
+      "Controller": false,
+      "CPU": true,
+      "EmbeddedEC": true,
+      "GPU": true,
+      "Memory": false,
+      "Motherboard": true,
+      "PowerMonitor": false,
+      "PSU": false,
+      "Storage": false,
+      "StorageUpdateInterval": "00:01:00",
+      "ZeroRPMOverride": true,
+      "ExcludeUsbStorage": false
+    },
+    "NvAPIWrapperSettings": {
+      "Enabled": true,
+      "ZeroRPMOverride": true
+    }
+  },
+  "MainWindow": {
+    "Fahrenheit": false,
+    "HideCalibration": false,
+    "HideFanSpeedCards": true,
+    "HorizontalUIOrientation": false,
+    "PrimaryColor": "#FF607D8B",
+    "SecondaryColor": "#FFAEEA00",
+    "SelectedTheme": "",
+    "ShowHiddenCards": false,
+    "SyncThemeWithWindows": true,
+    "SyncTrayIconColorWithWindows": true,
+    "TrayIconColor": null,
+    "TrayIcons": []
+  }
+}
