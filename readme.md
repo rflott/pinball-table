@@ -951,6 +951,8 @@ These apps were installed and they are launched from the Windows startup folder.
 ### PinAffinity
 [PinAffinity](http://mjrnet.org/pinscape/PinAffinity.html) is a windows background app that adjusts the Windows process affinity executables to give the pinball emulators higher priority (and other processes lower) hence making the emulator run smoother. 
 
+[PinAffinity config files](config/PinAffinity/) are located in Windows Documents folder
+
 ### FanControl
 [FanControl](https://getfancontrol.com/) is a windows background app that adjusts the fan speed better than the PC BIOS does, thus producing less fan noise while keeping the electronics cooler. 
 
