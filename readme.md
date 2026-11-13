@@ -281,12 +281,12 @@ Night mode is enabled when the Night Mode button is pressed (button on the botto
 | Night mode | 5 | B5 |
 | (unused) | 6 | B6 |
 | Pause | 7 | B7 |
-| (unused) | 8 | B8 |
+| Start | 8 | B8 |
 | Fire | 9 | B9 (Fire) |
 | Vol+ | 10 | B10 |
 | Vol- | 11 | B11 |
 | Exit | 12 | B12 |
-| Start | 13 | B13 |
+| (unused) | 13 | B13 |
 | Coin door open | 14 | B14 |
 | Tilt | 16 | (accelerometer) |
 | Coin left | 17 | (coin door adapter) |
@@ -324,7 +324,7 @@ Note: the power button is lit though a port but its button switch is sent to the
 | Vol+ | (always on) | B10 |
 | Vol- | (always on)  | B11  |
 | Exit | (always on)  | B12  |
-| Start | (always on)  | B13  |
+| (unused) | (always on)  | B13  |
 | (unused) | (always on) | B14 |
 | Fire red | 29 | Fire LED |
 | Fire green | 30 | Fire LED |
