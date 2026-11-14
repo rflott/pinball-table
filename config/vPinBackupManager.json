@@ -1,0 +1,18 @@
+{
+  "BackupPath": "P:\\pinball games\\BACKUPS_STUDIO",
+  "ExportPath": "C:\\vPinball\\exports",
+  "Emulators": [
+    {
+      "Name": "Visual Pinball X"
+    },
+    {
+      "Name": "Future Pinball"
+    }
+  ],
+  "Pinup": {
+    "PinupDir": "C:\\vPinball\\PinUPSystem"
+  },
+  "ForceGameRescanAtStartup": true,
+  "LogLevel": "Information",
+  "LogRotationSizeMb": 20
+}

@@ -782,11 +782,15 @@ Direct Output Framework (DOF) controls the various toys (buttons, solenoids, sha
 
 [DOF Wiki](https://github.com/dekay/vpinball-wiki/wiki/DOF-%E2%80%90-The-Direct-Output-Framework)
 
+[DirectOutput config files](config/DirectOutput/) are located in C:\DirectOuptut\ folder
+
 ### DOFLinx
 
 *Installation folder: c:\DOFLinx\\*
 
 DOFLinx controls the various toys (buttons, solenoids, shaker, coins, LEDs, etc.) for non-VPX (i.e. FuturePinball, Steams's Pinball FX, etc) tables. It was installed and configured per [CSD DOFLink documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/DOFLinx/). 
+
+[DOFLinx config files](config/DOFLinx/) are located in C:\DOFLinx\ folder
 
 ## 12.1 Virtual pinball emulator apps
 
@@ -798,11 +802,15 @@ The root of the virtual pinball software is located in *c:\vPinball\\*.
 
 Mostly VPX 10.8.0 tables are used in this cabinet. They are downloaded from [VPUniverse](https://vpuniverse.com/) and [VPForums](https://www.vpforums.org/).   
 
+[VPX 10.8.0 config files](config/VPX%2010.8.0/) are located in the users C:\Users\Rick\AppData\Roaming\VPinballX\ folder
+
 ### Visual Pinball X (VPX 10.8.1) emulator
 
 *Installation folder: c:\vPinball\VPX10.8.1\\*
 
 I am experimenting with pre-releases of the new [VPX 10.8.1 emulator](https://github.com/vpinball/vpinball) using the VPX 10.8.0 tables. The current results look good.
+
+[VPX 10.8.1 config files](config/VPX%2010.8.1/) are located in the users C:\Users\Rick\AppData\Roaming\VPinballX\10.8\ folder
 
 ### Future Pinball (FP) emulator tables
 
@@ -988,11 +996,15 @@ Individual pinball emulator Windows executables were configured to modify variou
 
 [MAME](https://www.mamedev.org/) is a multi-arcade game emulator used to run old video arcade games. The games are played using the [AceGamer Aurora II 2.4G Wireless Bluetooth Controller for PC](https://www.amazon.com/dp/B0FJRTNTHQ?th=1) joystick controller. The arcade monitor is configured the same as the pinball table's such that it is turned 90 degrees (portrait mode). PinupPopper is configured to have a playlist for running installed arcade games. 
 
+[MAME config file](config/mame.ini) is located in C:\MAME folder
+
 ### vPinBackManager
 
 *Installation folder on cabinet: C:\vPinball\vPinBackupManager\\*
 
 [vPinBackupManager](https://vpuniverse.com/files/file/19155-virtual-pinball-backup-manager-vpbm-v21/) is used for backing up pinball tables. Since VPinStudio already backs up VPX tables to the NAS and it doesn't backup FuturePinball (FP) tables, vPinBackupManager is only for backing up FP tables.
+
+[vPinBackupManager config file](config/vPinBackupManager.json) is located in C:\vPinball\vPinBackupManager\ folder
 
 ## Windows desktop apps & scripts
 - _Restore ScreenRes.bat_, _ScreenRes.txt_: restore the screenres.txt file so the monitors are displaying the correct screens again
