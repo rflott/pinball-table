@@ -82,83 +82,83 @@ An IoT relay power strip was purchased so that when the PC is powered on, its US
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Base-box-glued-together.jpg) | ![](images/Backbox-assembled.jpg) | ![](images/Legs-and-backbox-attached.jpg)
-| *Base box glued together* | *Backbox assembled* | *Legs and backbox attached*
+| ![](images/Base-box-glued-together.jpg) | ![](images/Backbox-assembled.jpg) | ![](images/Legs-and-backbox-attached.jpg) |
+| *Base box glued together* | *Backbox assembled* | *Legs and backbox attached* |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Fans-and-cable-raceways-installed.jpg) | ![](images/Fans-and-cable-raceways-installed2.jpg) | ![](images/Speakers-installed.jpg)
-| *Fans and cable raceways installed* | *Fans and cable raceways installed2* | *Speakers installed*
+| ![](images/Fans-and-cable-raceways-installed.jpg) | ![](images/Fans-and-cable-raceways-installed2.jpg) | ![](images/Speakers-installed.jpg) |
+| *Fans and cable raceways installed* | *Fans and cable raceways installed2* | *Speakers installed* |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Speaker-installed2.jpg) | ![](images/Coin-door-installed.jpg) | ![](images/Power-strips-pc-mount-installed.jpg)
-| *Speakers installed2* | *Coin door, power strips, backbox monitor installed* | *Power strips, PC mount installed*
+| ![](images/Speaker-installed2.jpg) | ![](images/Coin-door-installed.jpg) | ![](images/Power-strips-pc-mount-installed.jpg) |
+| *Speakers installed2* | *Coin door, power strips, T-molding, backbox monitor installed* | *Power strips, PC mount installed* |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Power-strips-pc-mount-installed2.jpg) | ![](images/Power-switch-installed.jpg) | ![](images/Backbox-cover.jpg)
-| *Power strips, PC mount installed2* | *Power switch installed* | *Backbox cover*
+| ![](images/Power-strips-pc-mount-installed2.jpg) | ![](images/Power-switch-installed.jpg) | ![](images/Backbox-cover.jpg) |
+| *Power strips, PC mount installed2* | *Power switch installed* | *Backbox cover* |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/DMD-monitor-installed.jpg) | ![](images/DMD-monitor-installed2.jpg) | ![](images/Coin-door-internals.jpg)
-| *DMD monitor installed* | *DMD monitor installed2* | *Coin door internals*
+| ![](images/DMD-monitor-installed.jpg) | ![](images/DMD-monitor-installed2.jpg) | ![](images/Coin-door-internals.jpg) |
+| *DMD monitor installed* | *DMD monitor installed2* | *Coin door internals* |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Playfield-holder-and-cabinet-braces-installed.jpg) | ![](images/Flipper-buttons-and-plunger-installed.jpg) | ![](images/Flipper-buttons-and-plunger-installed2.jpg)
-| *Playfield holder, cabinet braces, flipper buttons and plunger installed* | *Flipper buttons and plunger installed* | *Flipper buttons and plunger installed2*
+| ![](images/Playfield-holder-and-cabinet-braces-installed.jpg) | ![](images/Flipper-buttons-and-plunger-installed.jpg) | ![](images/Flipper-buttons-and-plunger-installed2.jpg) |
+| *Playfield holder, cabinet braces, flipper buttons and plunger installed* | *Flipper buttons and plunger installed* | *Flipper buttons and plunger installed2* |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Flipper-buttons-and-plunger-installed3.jpg) | ![](images/Subwoofer-bass-shaker-installed.jpg) | ![](images/Subwoofer-bass-shaker-installed3.jpg)
-| *Flipper buttons and plunger installed3* | *Subwoofer and bass shaker installed* | *Subwoofer and bass shaker installed3*
+| ![](images/Flipper-buttons-and-plunger-installed3.jpg) | ![](images/Subwoofer-bass-shaker-installed.jpg) | ![](images/Subwoofer-bass-shaker-installed3.jpg) |
+| *Flipper buttons and plunger installed3* | *Subwoofer and bass shaker installed* | *Subwoofer and bass shaker installed3* |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Playfield-holder-up.jpg) | ![](images/Playfield-holder-up2.jpg) | ![](images/Subwoofer-bass-shaker-installed2.jpg)
-| *Playfield holder up* | *Playfield holder up2* | *Subwoofer and bass shaker installed2* 
+| ![](images/Playfield-holder-up.jpg) | ![](images/Playfield-holder-up2.jpg) | ![](images/Subwoofer-bass-shaker-installed2.jpg) |
+| *Playfield holder up* | *Playfield holder up2* | *Subwoofer and bass shaker installed2*  |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Internal-electronics-installed.jpg) | ![](images/Internal-electronics-installed2.jpg) | ![](images/Internal-electronics-installed3.jpg)
-| *Internal electronics installed* | *Internal electronics installed2* | *Internal electronics installed3* 
+| ![](images/Internal-electronics-installed.jpg) | ![](images/Internal-electronics-installed2.jpg) | ![](images/Internal-electronics-installed3.jpg) |
+| *Internal electronics installed* | *Internal electronics installed2* | *Internal electronics installed3*  |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Internal-electronics-installed4.jpg) | ![](images/Internal-electronics-installed5.jpg) | ![](images/Internal-electronics-installed6.jpg)
-| *Internal electronics installed4* | *Internal electronics installed5* | *Internal electronics installed6* 
+| ![](images/Internal-electronics-installed4.jpg) | ![](images/Internal-electronics-installed5.jpg) | ![](images/Internal-electronics-installed6.jpg) |
+| *Internal electronics installed4* | *Internal electronics installed5* | *Internal electronics installed6*  |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Internal-electronics-installed7.jpg) | ![](images/Internal-electronics-installed8.jpg) | ![](images/Internal-electronics-installed9.jpg)
-| *Internal electronics installed7* | *Internal electronics installed8* | *Internal electronics installed9* 
+| ![](images/Internal-electronics-installed7.jpg) | ![](images/Internal-electronics-installed8.jpg) | ![](images/Internal-electronics-installed9.jpg) |
+| *Internal electronics installed7* | *Internal electronics installed8* | *Internal electronics installed9*  |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Internal-electronics-installed10.jpg) | ![](images/Internal-electronics-installed11.jpg) | ![](images/Internal-electronics-installed12.jpg)
-| *Internal electronics installed10* | *Internal electronics installed11* | *Internal electronics installed12* 
+| ![](images/Internal-electronics-installed10.jpg) | ![](images/Internal-electronics-installed11.jpg) | ![](images/Internal-electronics-installed12.jpg) |
+| *Internal electronics installed10* | *Internal electronics installed11* | *Internal electronics installed12*  |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Internal-electronics-installed13.jpg) | ![](images/Internal-electronics-installed14.jpg) | ![](images/Internal-electronics-installed15.jpg)
-| *Internal electronics installed13* | *Internal electronics installed14* | *Internal electronics installed15* 
+| ![](images/Internal-electronics-installed13.jpg) | ![](images/Internal-electronics-installed14.jpg) | ![](images/Internal-electronics-installed15.jpg) |
+| *Internal electronics installed13* | *Internal electronics installed14* | *Internal electronics installed15*  |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Internal-electronics-installed16.jpg) | ![](images/Internal-electronics-installed17.jpg) | ![](images/Internal-electronics-installed18.jpg)
-| *Internal electronics installed16* | *Internal electronics installed17* | *Internal electronics installed18* 
+| ![](images/Internal-electronics-installed16.jpg) | ![](images/Internal-electronics-installed17.jpg) | ![](images/Internal-electronics-installed18.jpg) |
+| *Internal electronics installed16* | *Internal electronics installed17* | *Internal electronics installed18*  |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Backglass-monitor-mount.jpg) | ![](images/Backglass-dmd-connection.jpg) | ![](images/Rear-fans.jpg)
-| *Backglass monitor mount* | *Backglass dmd connection* | *Rear fans* 
+| ![](images/Backglass-monitor-mount.jpg) | ![](images/Backglass-dmd-connection.jpg) | ![](images/Rear-fans.jpg) |
+| *Backglass monitor mount* | *Backglass dmd connection* | *Rear fans*  |
 
 | | | |
 | :---: | :---: | :---: |
-| ![](images/Addressable-RGB-LEDs-controller.jpg) | ![](images/Cup-holder.jpg) | ![](images/Lockdown-bar--latches-flipper-button-board-installed.jpg)
-| *Addressable RGB LEDs controller on back of top of playfield angled board*  | *Cup holder* | *Lockdown-bar latches, flipper button boards installed* |
+| ![](images/Addressable-RGB-LEDs-controller.jpg) | ![](images/Lockdown-bar--latches-flipper-button-board-installed.jpg) | ![](images/Cup-holder.jpg) |
+| *Addressable RGB LEDs controller on back of top of playfield angled board*  | *Lockdown-bar latches, flipper button boards installed* | *Cup holder*  |
 
 <img src="./images/Cabinet-bottom.jpg" alt="Description" width="40%" height="40%">\
 *Cabinet bottom*
@@ -171,7 +171,6 @@ An IoT relay power strip was purchased so that when the PC is powered on, its US
 | Upright braces | M6x10mm |
 | Upright braces support board | M6x25mm |
 | Backbox attachment | M6x35mm |
-
 
 # 5. PC
 
@@ -206,7 +205,6 @@ As the main controller, the Cleveland Software Designs PinOne is used along with
 | :---: | :---: | :---: |
 | ![](images/CSD-PinOne-installed.jpg) | ![](images/CSD-left-flippers.jpg) | ![](images/CSD-right-flippers.jpg)
 | *PinOne installed* | *Left flippers* | *Right flippers* 
-
 
 It includes the following: 
  
@@ -592,7 +590,6 @@ It is bolted through the cabinet floor since it needs a very secure mount so tha
 <img src="./images/CSD-shaker-motor-installed.jpg" alt="Description" width="40%" height="40%">\
 *Shaker motor installed*
 
-
 | Date ordered | Part |
 |---|---|
 | Feb 20, 2026 | [Virtual Pinball Builders Kit (medium/large) from Cleveland Software Designs](https://www.clevelandsoftwaredesign.com/pinball-parts/p/virtual-pinball-builders-kit?utm_medium=order-summary&utm_source=order-status&utm_content=name) |
@@ -611,7 +608,6 @@ In addition, micro-switches were epoxied glued to the *coin reject* buttons and 
 | :---: | :---: | :---: |
 | ![](images/Coin-reject-switch-custom.jpg) | ![](images/Coin-door%20switch-custom.jpg) |![](images/Coin-door-switch-custom-internal.jpg) |
 | *Coin reject switch (custom)*  | *Coin door step bracket (w/extra padding)* | *Coin door switch internal (custom)* |
- 
 
 | Date ordered | Part |
 |---|---|
@@ -1005,6 +1001,10 @@ Individual pinball emulator Windows executables were configured to modify variou
 [vPinBackupManager](https://vpuniverse.com/files/file/19155-virtual-pinball-backup-manager-vpbm-v21/) is used for backing up pinball tables. Since VPinStudio already backs up VPX tables to the NAS and it doesn't backup FuturePinball (FP) tables, vPinBackupManager is only for backing up FP tables.
 
 [vPinBackupManager config file](config/vPinBackupManager.json) is located in C:\vPinball\vPinBackupManager\ folder
+
+### MSI Afterburner & RivaTuner Statistics Server
+
+[MSI Afterburner](https://www.msi.com/Landing/afterburner) & [RivaTuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) are used to measure the performance of the various tables running in the cabinet. They do not constantly run in the background but run as needed.
 
 ## Windows desktop apps & scripts
 - _Restore ScreenRes.bat_, _ScreenRes.txt_: restore the screenres.txt file so the monitors are displaying the correct screens again
