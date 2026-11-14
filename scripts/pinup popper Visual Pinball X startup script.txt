@@ -10,11 +10,10 @@ IF "[ALTEXE]"=="" (
     rem Default launch (VPX 10.8.0) WITH -minimized
     timeout /t 1 /nobreak
     START "" VPinballX64.exe -DisableTrueFullScreen -primary -LessCPUthreads -minimized -play "[GAMEFULLNAME]"
-) 
-ELSE (
+) ELSE (
     rem Alternate Launcher (i.e. VPX 10.8.1) WITHOUT -minimized
     START /min "" [ALTEXE] "[DIREMU]" -play "[GAMEFULLNAME]"
 )
 
 : tell vpin studio that the game has launched
-curl -X POST --data-urlencode "table=[GAMEFULLNAME]" --data-urlencode "emu=[DIREMU]" http://localhost:8089/service/gameLaunch
+curl -X POST --data-urlencode "table=[GAMEFULLNAME]" --data-urlencode "emu=[DIREMU]" http://localhost:8089/service/gameLaunchtable=[GAMEFULLNAME]" --data-urlencode "emu=[DIREMU]" http://localhost:8089/service/gameLaunch
