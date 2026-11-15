@@ -308,12 +308,12 @@ Note: the power button is lit though a port but its button switch is sent to the
 | Flippers red | 16 | (left/right flipper board) B1 |
 | Flippers green | 17 | (left/right flipper board) B1 |
 | Flippers blue | 18 | (left/right flipper board) B1 |
-| Magna right red | 19 | (right flipper board) B2 |
-| Magna right green | 20 | (right flipper board) B2 |
-| Magna right blue | 21 | (right flipper board) B2 |
-| Magna left red | 22 | (left flipper board) B2 |
-| Magna left green | 23 | (left flipper board) B2 |
-| Magna left blue | 24 | (left flipper board) B2 |
+| Magna-save right red | 19 | (right flipper board) B2 |
+| Magna-save right green | 20 | (right flipper board) B2 |
+| Magna-save right blue | 21 | (right flipper board) B2 |
+| Magna-save left red | 22 | (left flipper board) B2 |
+| Magna-save left green | 23 | (left flipper board) B2 |
+| Magna-save left blue | 24 | (left flipper board) B2 |
 | Night Mode| 25 | B5 |
 | Power | 26 | B6 |
 | Pause | 27 | B7 |
@@ -916,6 +916,12 @@ Playlists are like a folder of games in the frontend UI that can be created and 
 3. Most newer tables have 3 balls/game. Older tables ('70s and earlier) have 5 balls/game.  
 4. Once the game is over you will need to use the Start button again to restart it. If you are out of credits, you will need to "insert" more coins and hit the Start button again.
 
+### Adjust the volume on the table
+---
+
+1. To lower the volume on a pinball table, use the under cabinet Vol- button.
+2. To raise the volume on a pinball table, use the under cabinet Vol+ button.
+
 ### Exit a table
 ---
 
@@ -928,7 +934,7 @@ Playlists are like a folder of games in the frontend UI that can be created and 
 ---
 <img src="images/Exit-button.jpg" width="200" alt="First Image"> <img src="images//System_exit.png" width="200" alt="First Image"> 
 
-1. Once you are back to the scrolling Pinup Popper menu, use the right under cabinet Exit button, then the right magna-save twice to go back to windows. 
+1. Once you are back to the scrolling Pinup Popper menu, use the right under cabinet Exit button, then the right far (magna-save) flipper button twice to go back to windows. 
 
 ## Steam
 Steam (Pinball FX) tables are configured using the [CSD documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/steam). Pinball FX tables are purchased and downloaded from [here](https://store.steampowered.com/app/2328760/Pinball_FX/). I bought a few just to try them out. There is a shortcut to this app on the desktop.
@@ -1059,6 +1065,6 @@ In VPinballX.ini, set JoyPlungerKey = 9
 | Start Game | 1 |
 | Insert Coin | 3 or 5 |
 | Exit | Esc |
-| Left MagnaSave | Left Control |
-| Right MagnaSave | Right Control |
+| Left magna-save | Left control |
+| Right magna-save | Right control |
 | Service Menu (Inside Coin Door) | 7, 8, 9, 0 |
