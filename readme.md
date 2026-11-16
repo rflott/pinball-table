@@ -277,7 +277,7 @@ Night mode is enabled when the Night Mode button is pressed (button on the botto
 | Flipper left | 3 | (left flipper board) B1 |
 | Magna-save left | 4 | (left flipper board) B2|
 | Night mode | 5 | B5 |
-| (unused) | 6 | B6 |
+| Coin door open | 6 | B6 |
 | Pause | 7 | B7 |
 | Start | 8 | B8 |
 | Fire | 9 | B9 (Fire) |
@@ -285,7 +285,7 @@ Night mode is enabled when the Night Mode button is pressed (button on the botto
 | Vol- | 11 | B11 |
 | Exit | 12 | B12 |
 | (unused) | 13 | B13 |
-| Coin door open | 14 | B14 |
+| (unused) | 14 | B14 |
 | Tilt | 16 | (accelerometer) |
 | Coin left | 17 | (coin door adapter) |
 | Coin right | 18 | (coin door adapter) |
@@ -315,7 +315,7 @@ Note: the power button is lit though a port but its button switch is sent to the
 | Magna-save left green | 23 | (left flipper board) B2 |
 | Magna-save left blue | 24 | (left flipper board) B2 |
 | Night Mode| 25 | B5 |
-| Power | 26 | B6 |
+| Coin door open | 26 | B6 |
 | Pause | 27 | B7 |
 | (unused) | 28 | B8 |
 | (unused) | | B9 |
@@ -323,7 +323,7 @@ Note: the power button is lit though a port but its button switch is sent to the
 | Vol- | (always on)  | B11  |
 | Exit | (always on)  | B12  |
 | (unused) | (always on)  | B13  |
-| (unused) | (always on) | B14 |
+| Power | (always on) | B14 |
 | Fire red | 29 | Fire LED |
 | Fire green | 30 | Fire LED |
 | Fire blue | 31 | Fire LED |
@@ -894,9 +894,9 @@ Playlists are like a folder of games in the frontend UI that can be created and 
 
 1. Start Pinup Popper by booting up the cabinet PC (Pinup Popper autostarts after Windows boots) or double-clicking the ***PinUP Popper FrontEnd*** shortcut from the Windows desktop.  
 2. Use the left/right flipper buttons to move left/right in the Pinup Popper scrolling menu.
-3. Use the right **back** flipper button to select (or go into) an icon
-4. Use the left **back** flipper button to exit (or go out of) a selection
-5. Once you have scrolled to the table you want to play, use the right back (magna-save) flipper button to select it and then again to play it. Or you can use the Start button to start it. 
+3. Use the right **back** flipper button to select (or **go into**) an icon
+4. Use the left **back** flipper button to exit (or **go out of**) a selection
+5. Once you have scrolled to the table you want to play, use the right **back** flipper button to select it and then again to play it. Or you can use the Start button to start it. 
 
 ### Start a table
 ---
