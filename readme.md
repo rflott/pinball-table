@@ -227,7 +227,7 @@ It includes the following:
 
 The various devices in the kit were connected based on this [CSD documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/category/builders-kits).
 
-The [CSD PinOne Configuration documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/) was used to configure the PinOne board and the devices (inputs, outputs, etc.). The [CSD PinOne Configuration app](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/) is left installed on the cabinet desktop to make it easy to reconfigure the PinOne board. 
+The [CSD PinOne Configuration documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/) was used to configure the PinOne board and the devices (inputs, outputs, etc.). The [CSD PinOne Configuration app](https://pinball-docs.clevelandsoftwaredesign.com/docs/PinOne/Configuring/) is left installed on the cabinet desktop to make it easy to reconfigure the PinOne board. The PinOne is connected with USB (COM port 3) to the PC.
 
 Night mode is enabled when the Night Mode button is pressed (button on the bottom of the cabinet behind right front leg). It works as an on/off toggle. The CSD PinOne board is configured to turn off solenoids, knocker and chimes when night mode is on.   
 
@@ -784,7 +784,7 @@ Direct Output Framework (DOF) controls the various toys (buttons, solenoids, sha
 
 *Installation folder: c:\DOFLinx\\*
 
-DOFLinx controls the various toys (buttons, solenoids, shaker, coins, LEDs, etc.) for non-VPX (i.e. FuturePinball, Steams's Pinball FX, etc) tables. It was installed and configured per [CSD DOFLink documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/DOFLinx/). 
+DOFLinx controls the various toys (buttons, solenoids, shaker, coins, LEDs, etc.) for non-VPX (i.e. FuturePinball, Steams's Pinball FX, etc) tables. It was installed and configured per [CSD DOFLink documentation](https://pinball-docs.clevelandsoftwaredesign.com/docs/DOFLinx/). It is started by PinupPopper whenever a FuturePinball is launched. 
 
 [DOFLinx config files](config/DOFLinx/) are located in C:\DOFLinx\ folder
 
@@ -1020,7 +1020,6 @@ Individual pinball emulator Windows executables were configured to modify variou
 These apps and scripts are started in background by Windows when it boots up.
 
 ### Startup apps
-- DOFLinx.exe
 - JoyToKey.exe
 - PinAffinity.exe
 - PinUpPopper.exe
@@ -1041,7 +1040,9 @@ Use pixel position instead of device id position
 
 Performance
 ---
-Run Backglass as .EXE solves most problems
+- Run Backglass as .EXE solves most problems
+
+- Log out of VPinStudio client (even from a remote PC) when playing a table. 
 
 VPX 10.8.1 DMD fix
 ---
